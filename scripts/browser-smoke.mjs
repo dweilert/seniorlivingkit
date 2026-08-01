@@ -26,6 +26,20 @@ try {
   assert.match(html, /Book a free consultation with Kit/);
   assert.match(html, /data-mock-form/);
 
+  const routes = new Map([
+    ["/blog", /Senior Living Kit Blog/],
+    ["/blog/", /Senior Living Kit Blog/],
+    ["/services", /A Roadmap to Senior Living/],
+    ["/process/", /Your Stress-Free Senior Living Plan/]
+  ]);
+
+  for (const [route, pattern] of routes) {
+    const routeResponse = await fetch(`http://127.0.0.1:${port}${route}`);
+    const routeHtml = await routeResponse.text();
+    assert.equal(routeResponse.status, 200, route);
+    assert.match(routeHtml, pattern, route);
+  }
+
   const assetResponse = await fetch(`http://127.0.0.1:${port}/assets/images/wordmark-light.webp`);
   assert.equal(assetResponse.status, 200);
   assert.match(assetResponse.headers.get("content-type") || "", /image\/webp/);

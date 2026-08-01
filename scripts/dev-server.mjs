@@ -19,7 +19,10 @@ const types = new Map([
 
 createServer(async (req, res) => {
   const url = new URL(req.url || "/", `http://${req.headers.host}`);
-  const requested = normalize(url.pathname === "/" ? "/index.html" : url.pathname);
+  const pathname = url.pathname !== "/" && url.pathname.endsWith("/")
+    ? url.pathname.slice(0, -1)
+    : url.pathname;
+  const requested = normalize(pathname === "/" ? "/index.html" : pathname);
   let file = join(root, requested);
 
   if (!file.startsWith(root)) {
