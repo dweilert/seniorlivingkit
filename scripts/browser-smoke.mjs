@@ -20,11 +20,15 @@ try {
     server.on("error", reject);
   });
 
-  const response = await fetch(`http://127.0.0.1:${port}/get-started.html`);
+  const response = await fetch(`http://127.0.0.1:${port}/get-started`);
   const html = await response.text();
   assert.equal(response.status, 200);
-  assert.match(html, /Request consultation/);
-  assert.match(html, /mock lead handler/i);
+  assert.match(html, /Book a free consultation with Kit/);
+  assert.match(html, /data-mock-form/);
+
+  const assetResponse = await fetch(`http://127.0.0.1:${port}/assets/images/wordmark-light.webp`);
+  assert.equal(assetResponse.status, 200);
+  assert.match(assetResponse.headers.get("content-type") || "", /image\/webp/);
   console.log("Browser smoke checks passed.");
 } finally {
   server.kill("SIGTERM");

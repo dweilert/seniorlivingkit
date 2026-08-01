@@ -39,6 +39,7 @@ for (const file of htmlFiles) {
   if (!html.includes("<title>")) errors.push(`${file} is missing a title`);
   if (!html.includes('meta name="description"')) errors.push(`${file} is missing a meta description`);
   if (!html.includes('nav aria-label="Primary navigation"')) errors.push(`${file} is missing primary navigation`);
+  if (html.includes(".html")) errors.push(`${file} should use extensionless local routes`);
 }
 
 if (errors.length) {
