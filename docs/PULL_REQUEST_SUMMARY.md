@@ -56,7 +56,7 @@ No deployable infrastructure was added in this stage. GitHub-to-AWS OIDC design 
 
 - Blog pages are not migrated because source exports were not available.
 - Real provider integrations are intentionally disabled.
-- Repository branch protection must be configured after CI checks exist.
+- Repository branch protection could not be enabled on the current private-repository plan. GitHub returned HTTP 403 requesting a plan upgrade or public visibility, and public visibility is not authorized.
 
 ## Decisions still required
 

@@ -1,6 +1,6 @@
 # Risks and Open Decisions
 
-- Confirm whether the GitHub repository plan supports rulesets or branch protection for private repositories.
+- GitHub branch protection for private `dweilert/seniorlivingkit` returned HTTP 403 on August 1, 2026: GitHub requires upgrading the plan or making the repository public. The repository must remain private, so branch protection is not enabled yet.
 - Select the production scheduling provider and approved embed URL.
 - Confirm Mailchimp audience, tags, and consent language.
 - Confirm whether SMS will be used and complete Twilio compliance work before enabling it.
