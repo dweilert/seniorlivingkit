@@ -34,7 +34,10 @@
   --deep: #3b433b;
   --line: rgba(38, 33, 30, 0.18);
   --max: 1400px;
-  font-family: "Pontano Sans", Arial, sans-serif;
+  --heading-font: "adonis-web", Georgia, serif;
+  --body-font: "futura-pt", "Montserrat", Arial, sans-serif;
+  --meta-font: "Pontano Sans", Arial, sans-serif;
+  font-family: var(--body-font);
 }
 
 * {
@@ -50,7 +53,7 @@ body {
   color: var(--ink);
   background: var(--paper);
   font-size: 18px;
-  line-height: 1.55;
+  line-height: 1.8;
 }
 
 img {
@@ -86,7 +89,7 @@ a {
   justify-content: flex-end;
   flex-wrap: wrap;
   gap: 24px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: var(--body-font);
   font-size: 0.78rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -104,7 +107,7 @@ a {
   min-height: 48px;
   padding: 0 26px;
   border: 1px solid currentColor;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: var(--body-font);
   font-size: 0.78rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -199,9 +202,9 @@ p {
 h1,
 h2,
 .display {
-  font-family: "Pontano Sans", Arial, sans-serif;
+  font-family: var(--heading-font);
   font-weight: 400;
-  line-height: 1.02;
+  line-height: 1.4;
   letter-spacing: 0;
 }
 
@@ -256,7 +259,7 @@ h3 {
 }
 
 .kicker {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: var(--meta-font);
   font-size: 0.82rem;
   font-weight: 500;
   letter-spacing: 0;
@@ -328,7 +331,7 @@ h3 {
   counter-increment: step;
   content: counter(step, decimal-leading-zero);
   color: var(--terra);
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: var(--meta-font);
 }
 
 .quote {
@@ -340,7 +343,7 @@ h3 {
 .quote cite {
   display: block;
   margin-top: 24px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: var(--body-font);
   font-size: 0.8rem;
   font-style: normal;
   text-transform: uppercase;
@@ -377,7 +380,7 @@ h3 {
 label {
   display: grid;
   gap: 8px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: var(--body-font);
   font-size: 0.78rem;
   text-transform: uppercase;
 }
@@ -392,7 +395,7 @@ textarea {
   padding: 12px;
   background: #fff;
   color: var(--ink);
-  font: 1rem "Pontano Sans", Arial, sans-serif;
+  font: 1rem var(--body-font);
 }
 
 textarea {
