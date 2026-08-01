@@ -49,6 +49,7 @@ No deployable infrastructure was added in this stage. GitHub-to-AWS OIDC design 
 - `.gitignore` excludes common secrets and credential files.
 - `.env.example` contains placeholders only.
 - GitHub Actions use minimal default permissions.
+- Browser tests run against mock-only local behavior and do not call production providers.
 - No long-lived AWS credentials were created or stored.
 
 ## Known limitations
