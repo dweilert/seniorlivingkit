@@ -57,7 +57,7 @@ No deployable infrastructure was added in this stage. GitHub-to-AWS OIDC design 
 
 - Blog detail pages are not fully migrated because a source export was not available; the public blog index and visible excerpts are represented.
 - Real provider integrations are intentionally disabled.
-- The repository was made public at owner request after the initial private setup.
+- The repository was made public at owner request after the initial private setup. `main` branch protection is now enabled with required `verify` and `smoke` checks.
 
 ## Decisions still required
 
