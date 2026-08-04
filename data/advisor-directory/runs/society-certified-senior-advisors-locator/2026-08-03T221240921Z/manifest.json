@@ -1,0 +1,1210 @@
+{
+  "run_id": "2026-08-03T221240921Z",
+  "generated_at": "2026-08-03T22:12:40.921Z",
+  "source_id": "society-certified-senior-advisors-locator",
+  "source_url": "https://portal.csa.us/locator/",
+  "source_owner": "Society of Certified Senior Advisors",
+  "source_system": "GeoDirectory WordPress public search",
+  "limit": "all",
+  "requested_pages": 147,
+  "detected_total_pages": 147,
+  "fetched_pages": 147,
+  "total_parsed_records": 2931,
+  "selected_records": 2931,
+  "selected_records_sha256": "b1b43fbf990cedab2ea043af945243db5f031a306f94c6e6c8ab2c0b3c1daa49",
+  "delay_ms": 750,
+  "timeout_ms": 20000,
+  "pages": [
+    {
+      "page_number": 1,
+      "requested_url": "https://portal.csa.us/search/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "23d14adda18e80675a2eaaa9210788f8895956f865eaec1e66177822123aafd7",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 2,
+      "requested_url": "https://portal.csa.us/search/page/2/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/2/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "ca8dd07237d5f7332a63f6e51d49d4d2d67b600a50f724008f57263d6bbfe8aa",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 3,
+      "requested_url": "https://portal.csa.us/search/page/3/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/3/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "1f12c2be7d6c4e05630784e5a6f5c2373092d2e971e15c757c0d3d89e142b926",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 4,
+      "requested_url": "https://portal.csa.us/search/page/4/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/4/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "80dbcccf0f22f1f8b7ead77ba3f63533702aae3075a7b7f67146065a35db1bb0",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 5,
+      "requested_url": "https://portal.csa.us/search/page/5/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/5/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "951df57aed22982e244f7f01682740df4d039d52d4a2403693e2531265092f2f",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 6,
+      "requested_url": "https://portal.csa.us/search/page/6/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/6/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "63a74427993b697f4c316e11793057043a1c44c60474e75f6a93c82ef8abfa12",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 7,
+      "requested_url": "https://portal.csa.us/search/page/7/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/7/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "c9d18259dea3fc2cf0666e180dc3c5a0c134b278888bfcf162c77c2a58c0471a",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 8,
+      "requested_url": "https://portal.csa.us/search/page/8/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/8/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "1ad9b4967ae61449f4baab75576b4fe81c0e53d1c0f37597e97f95fba0976c3b",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 9,
+      "requested_url": "https://portal.csa.us/search/page/9/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/9/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "a91b4eb4d1f754d757bc3da90457c40bab6c9f7f144a22cfc83acdef815b726b",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 10,
+      "requested_url": "https://portal.csa.us/search/page/10/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/10/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "ddc4cc02150710a57fcb17f38bc2d8205f7e63c8094949273712de4380300467",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 11,
+      "requested_url": "https://portal.csa.us/search/page/11/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/11/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "fa746ce2a88f80a20c5cfeb3861b9d29203a269e96a135471cf41f7d132e4829",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 12,
+      "requested_url": "https://portal.csa.us/search/page/12/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/12/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "1d55c4e627a45b68a34fa53b31e105b2e93d6669d3f3f866f4b5b089385b7b6f",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 13,
+      "requested_url": "https://portal.csa.us/search/page/13/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/13/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "fb95f245bb94e101cb7edf406c0ba42d45e4c546a73e868f607f1510679347a2",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 14,
+      "requested_url": "https://portal.csa.us/search/page/14/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/14/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "aedad8270611077bb7b4f61c1e9711ebbeb9c245b333a5ce5f0de2bec46f4012",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 15,
+      "requested_url": "https://portal.csa.us/search/page/15/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/15/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "8337e29919805467bf308d182e15e9a4ac2327fab8d4402fc2b1f9e6f273985f",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 16,
+      "requested_url": "https://portal.csa.us/search/page/16/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/16/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "8e21558b5bde93c5ac5441a7e75ca9dd67c0f8dff464c5c65c368306196dd01c",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 17,
+      "requested_url": "https://portal.csa.us/search/page/17/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/17/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "5e3de4b08e86ec4c0f84f10efee18f5f8d4057d62969239827b083e013044f5f",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 18,
+      "requested_url": "https://portal.csa.us/search/page/18/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/18/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "e97d5b858f4fc18ba17efce496db646551e8002e80d44cd72c50628e503ecece",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 19,
+      "requested_url": "https://portal.csa.us/search/page/19/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/19/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "bcbad984c504c420c43f8b073c347c8e6b95dd30f69a5fa31759e0161a2ce85c",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 20,
+      "requested_url": "https://portal.csa.us/search/page/20/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/20/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "c6f2b0012f15724bd46d25db4b91c68f7fcc392b75502883b952f835d0323712",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 21,
+      "requested_url": "https://portal.csa.us/search/page/21/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/21/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "ab0b6af4f8ab0971ba44399edf19f51942803f6009068c33b50e360b7002438f",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 22,
+      "requested_url": "https://portal.csa.us/search/page/22/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/22/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "3a72e686ec00545d492514a5350ddb9a836ef3bbb518642b1016b677e22a376f",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 23,
+      "requested_url": "https://portal.csa.us/search/page/23/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/23/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "58b9ed8f490962d3e2deb480b14cf7cc0895d547bcf7560e0d7ed2f4e2714ae0",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 24,
+      "requested_url": "https://portal.csa.us/search/page/24/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/24/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "ce9cb5c76552ecf1129d713a9336ee963f356ada55a2cc05b530d4c5fb44ba31",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 25,
+      "requested_url": "https://portal.csa.us/search/page/25/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/25/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "b91bf2f6e92ccedad85536885189f64632b65b0deabafd792463a807724bfce9",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 26,
+      "requested_url": "https://portal.csa.us/search/page/26/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/26/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "cfdc2aa34309f3a44ff9aad2a57a83a4d6184a8bc702d3c7f63b4ca603d03d2c",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 27,
+      "requested_url": "https://portal.csa.us/search/page/27/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/27/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "771e14588387ce5771e94133d9d1b1f1bd7be17711228bbc3b47f671f06c87c9",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 28,
+      "requested_url": "https://portal.csa.us/search/page/28/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/28/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "18fd6e6a709e923bcb6b02a030e0f51304bed13da8bb0f0ffd654cd25d505c69",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 29,
+      "requested_url": "https://portal.csa.us/search/page/29/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/29/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "ab4a0c50ed4f84816a0b24ed58658856cb4ad724884e9ad29c1dc1972f988c59",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 30,
+      "requested_url": "https://portal.csa.us/search/page/30/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/30/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "4eeb6a5699450edede27cba605977a9fe08e3bef19e3199fd4357da60eb00ce5",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 31,
+      "requested_url": "https://portal.csa.us/search/page/31/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/31/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "f4e3374c19fd7c1eaef72a85276c58e13ff3b78de48d2f22363dad630654ea20",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 32,
+      "requested_url": "https://portal.csa.us/search/page/32/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/32/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "47ed029110334ae06d36bc1b8a07f849a82bef1c587fc8a572663683757dacfc",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 33,
+      "requested_url": "https://portal.csa.us/search/page/33/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/33/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "35aab797dc288544237329651c54dbce3be72faf7d134a95431a30c0c5ef432b",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 34,
+      "requested_url": "https://portal.csa.us/search/page/34/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/34/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "54839c7268a027a80beabfa4a2d213f8480b7cd458c94943f4d3d2c2624d26ce",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 35,
+      "requested_url": "https://portal.csa.us/search/page/35/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/35/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "40b39a57f92bb76d82fd149005cc9ab8cdef657861bed0ccbfbe33ba45503266",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 36,
+      "requested_url": "https://portal.csa.us/search/page/36/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/36/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "de7f84276fe5717aaf7b48b99706b54c5bfdb287e2fef45020550d2b8f5c0945",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 37,
+      "requested_url": "https://portal.csa.us/search/page/37/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/37/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "b1a35cd36e81a097aa4578cc1ad67200b6c3fa5ea853e16e6209f25a72377528",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 38,
+      "requested_url": "https://portal.csa.us/search/page/38/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/38/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "84a35923a05b4fbf51eda2bba6d30ef1cbd96bf81c0501267cefc99c5d0a6384",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 39,
+      "requested_url": "https://portal.csa.us/search/page/39/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/39/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "c75449d69195c062fe240cbf5bd0ecb1780b12a81394db3477ddff623bae33d8",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 40,
+      "requested_url": "https://portal.csa.us/search/page/40/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/40/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "53f751ce6eea1437e89ebbc0811e26306c40eb8d4eb4a0b2516e3533f77ba96c",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 41,
+      "requested_url": "https://portal.csa.us/search/page/41/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/41/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "f7c5c0cbd5deee353f1cc437b83dd7e148adb36c55158634e2f50c1f8b75141d",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 42,
+      "requested_url": "https://portal.csa.us/search/page/42/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/42/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "1f6e3255eb9e772674a879cc213a08d8f830c4559708e4342519363900c337dd",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 43,
+      "requested_url": "https://portal.csa.us/search/page/43/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/43/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "3d6dc6e972986b07d83a082773871edfb31a19e29efc88774312ef2d9f8d7d79",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 44,
+      "requested_url": "https://portal.csa.us/search/page/44/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/44/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "c52c9def5deb697e3060116c7ce942ba7fa07fb820c2825ceae7ce5ba70867cb",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 45,
+      "requested_url": "https://portal.csa.us/search/page/45/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/45/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "2281fa2d5ad3de2fd7a57599f92d186f4a7de9c7ea135872e359de5f210c7a3f",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 46,
+      "requested_url": "https://portal.csa.us/search/page/46/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/46/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "cfa7037ff0abc8fee8ca77c78ee0fd1cba68fd584c71c304a332262e6dfeb399",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 47,
+      "requested_url": "https://portal.csa.us/search/page/47/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/47/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "488960b5ddc09a694e4867472ce9a79505f72a88ceb4dd7f2d9c8f543bf8ed70",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 48,
+      "requested_url": "https://portal.csa.us/search/page/48/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/48/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "ec6a1caf2fdf9adc28ba5175b2f2138a7e49b7a4b5082a73cbb11d1a186fbf84",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 49,
+      "requested_url": "https://portal.csa.us/search/page/49/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/49/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "e33b3b3bb5b5d3d66339c513fc56a862dc61e975a3558f9258ae1f5d7bee185d",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 50,
+      "requested_url": "https://portal.csa.us/search/page/50/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/50/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "07b5a0085ea5a5f0d306b7f88017f11282c9356f76aec43011bf2e47a1124883",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 51,
+      "requested_url": "https://portal.csa.us/search/page/51/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/51/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "cab28697212e89c68363d665bb268c2a2dee3ce7ab1f7d6f89bb4ceb9d38b588",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 52,
+      "requested_url": "https://portal.csa.us/search/page/52/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/52/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "53334b199aad73c184c288d24d4a6230ea4b700755a18975aa326de49d370c8d",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 53,
+      "requested_url": "https://portal.csa.us/search/page/53/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/53/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "53766fe3e24cf2d07f3db8ee4755f24dc42451a782e7056c237d30a96398429a",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 54,
+      "requested_url": "https://portal.csa.us/search/page/54/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/54/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "361e3cc216351a1d0c86c4d42a5f2955df95540a9a8a19c559cabbe26d1bf8f1",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 55,
+      "requested_url": "https://portal.csa.us/search/page/55/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/55/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "6c46b30f2e350454d350cb0200cfdb4c30253c7d2370f9d530b01723731e4704",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 56,
+      "requested_url": "https://portal.csa.us/search/page/56/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/56/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "e247c454bc784381b895725d96e4e478efd805ba4ba8e8b8e8b673a05bc59756",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 57,
+      "requested_url": "https://portal.csa.us/search/page/57/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/57/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "3f67dfd0972a90920642b5a8199136229bff34799e2db6a519762d3f52991450",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 58,
+      "requested_url": "https://portal.csa.us/search/page/58/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/58/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "e890aff50154ea3d59b0042c1af033437a63e93ac77327bc822ae3a05140cba4",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 59,
+      "requested_url": "https://portal.csa.us/search/page/59/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/59/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "c9c795335797c4037705372ac980dad0fb9d665b4bc6ffb33544bdabacfa167b",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 60,
+      "requested_url": "https://portal.csa.us/search/page/60/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/60/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "0e6c77674712c80dae98c288acfd49d40bc80560aeb5a0283a50cf329938055c",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 61,
+      "requested_url": "https://portal.csa.us/search/page/61/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/61/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "6889275376054c4a3942d08d609c82dfb6654e2fddbbbca3877b4b14677ec882",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 62,
+      "requested_url": "https://portal.csa.us/search/page/62/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/62/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "82a12f4a3a2c191fdbd7a71e500750312f437a108ae1eb2e95bbee4e94af6814",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 63,
+      "requested_url": "https://portal.csa.us/search/page/63/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/63/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "ef6f48ea5c526d7a1304aad49663bc0c20094bd7f7ec4da30806ef37954b232e",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 64,
+      "requested_url": "https://portal.csa.us/search/page/64/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/64/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "b7dc02e4f050cabfb5967c3ebe7b008156bad5f20bda31c340dbcfd34f0abc65",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 65,
+      "requested_url": "https://portal.csa.us/search/page/65/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/65/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "6a611711f80b78862aadcc2c4087931bc39ba9588166e123d7c43d86e8ab1922",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 66,
+      "requested_url": "https://portal.csa.us/search/page/66/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/66/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "c1866b63655069b9b7c6a44fee655f1d52f2d6867986982d117a6b3a36fcfb2b",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 67,
+      "requested_url": "https://portal.csa.us/search/page/67/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/67/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "159129e0b7de6ecd2688ad564fd1614d62befc0ea8a99d7643384ff41f7ba418",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 68,
+      "requested_url": "https://portal.csa.us/search/page/68/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/68/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "0da84130b53cb31fd11f7e8ad00a5709609c5d4842ebc3fb7055c95eb1836a2b",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 69,
+      "requested_url": "https://portal.csa.us/search/page/69/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/69/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "45828d80c4707eda41676cbc8ce94c02343b1e0e1eedd10683325ca1dd0e5030",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 70,
+      "requested_url": "https://portal.csa.us/search/page/70/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/70/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "7f6c54b209cffa59a9f17e258eedb6da316ca7dc7f2185f1f477bc6081948a1d",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 71,
+      "requested_url": "https://portal.csa.us/search/page/71/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/71/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "6ff94cd6f9fbf3fe6d682e2a63b44ca9f3fe948410e9273ff92ad3d7ebdd696c",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 72,
+      "requested_url": "https://portal.csa.us/search/page/72/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/72/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "9c9bd3424e310a8798f56457ca480f1839103670950351c15b5bdc5250b1972c",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 73,
+      "requested_url": "https://portal.csa.us/search/page/73/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/73/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "01dd72c978d82bd4925396109705ff1876b98c13575d621b3fb56ffbd0ef91f6",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 74,
+      "requested_url": "https://portal.csa.us/search/page/74/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/74/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "68e84d20a1c04dbf94c346483ef66794d6dc009be52cec8e44f9a8af2d0afe67",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 75,
+      "requested_url": "https://portal.csa.us/search/page/75/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/75/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "5eb34767be8f80aaf16b13f2d55cd2a44a496631e2e73cca63b1e54d1615b009",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 76,
+      "requested_url": "https://portal.csa.us/search/page/76/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/76/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "42a707c69e3c9543dffb65bce450b114d4d7d32714822a9621a37db3f64746b9",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 77,
+      "requested_url": "https://portal.csa.us/search/page/77/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/77/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "3f74619cde0176c2e861dd56421e171ee7a38b709f6c16a1ab87b4200a7a00f3",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 78,
+      "requested_url": "https://portal.csa.us/search/page/78/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/78/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "ca65531012fb3d96575304261eaeaf7c39165841f53af81732ceccd8caa41e72",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 79,
+      "requested_url": "https://portal.csa.us/search/page/79/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/79/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "eecd6f2e9ec3054bb695eab99cdb3eeda6dfa82209e596e68d900e349453b52a",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 80,
+      "requested_url": "https://portal.csa.us/search/page/80/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/80/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "2fbe9b45c9c19fd47f73c02066dcbce97cb260aef281db07a8ab319ccceb8749",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 81,
+      "requested_url": "https://portal.csa.us/search/page/81/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/81/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "ba4ce6bef88295a78123fe3a6e7c3e73f9bf65773354971111cf828f765331d4",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 82,
+      "requested_url": "https://portal.csa.us/search/page/82/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/82/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "9d44cae74859bc5184644226fcbdf1e2b9ce9dd1833c627063eae2c4817f58d3",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 83,
+      "requested_url": "https://portal.csa.us/search/page/83/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/83/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "f31af02dd4e67211ecc20a2233d2f542c7e8c04522aeb4df92f1f3b72927ec56",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 84,
+      "requested_url": "https://portal.csa.us/search/page/84/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/84/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "d266f1994da40967d1a80d3fbc25b3b74b9b6c15d55dd69fd1119f97971c3757",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 85,
+      "requested_url": "https://portal.csa.us/search/page/85/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/85/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "a4a7907150ad01f74facb4bb74f6555271ae42024cb33cdc480f1d071dd9d11b",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 86,
+      "requested_url": "https://portal.csa.us/search/page/86/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/86/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "9ecb8d4518bc4c5b86755ae47dbbec1a1c74b3e58caf3243879475005432c28f",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 87,
+      "requested_url": "https://portal.csa.us/search/page/87/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/87/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "63c7626962e2fc0b73f9d184ffaa60379ba3346b1b25743de3e8410db2b9873e",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 88,
+      "requested_url": "https://portal.csa.us/search/page/88/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/88/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "d08890339d7f4a9b122c35fa46b78aa60230eb65822b1e6f659189ec12fb364a",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 89,
+      "requested_url": "https://portal.csa.us/search/page/89/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/89/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "6fbb134c36a0099a63557c4e8b2980541c3bc5dbd476d5a884ee4f0b23f31c1f",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 90,
+      "requested_url": "https://portal.csa.us/search/page/90/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/90/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "48003899b24a89bd4ad4779e1a1022a090b58384c736e817990b7e30a5a73383",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 91,
+      "requested_url": "https://portal.csa.us/search/page/91/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/91/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "5536174ea897c43f4393310afa411be504fd44dfcc38c11a085137f916265b44",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 92,
+      "requested_url": "https://portal.csa.us/search/page/92/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/92/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "1ffcfd4473d28f818a012f754cf9aab97adcf572f9b0e0fe85294c1ead7c1be6",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 93,
+      "requested_url": "https://portal.csa.us/search/page/93/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/93/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "dedc99121209c1b985d58a4f972e94a1fc5a513201e8800ea10d909f95219f6b",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 94,
+      "requested_url": "https://portal.csa.us/search/page/94/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/94/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "d3767ffd0a994fd448277b410769110216c54a96b891290e4438d017cae8d97e",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 95,
+      "requested_url": "https://portal.csa.us/search/page/95/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/95/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "4eb406b2c0b56ea8aa48f98ce8dfca6cbc842077f08f0ab7b064a879ee7b6eb8",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 96,
+      "requested_url": "https://portal.csa.us/search/page/96/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/96/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "f476519ef05df9f15002f992e07f8ec69308b06203571f05de2311b3f75d6f99",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 97,
+      "requested_url": "https://portal.csa.us/search/page/97/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/97/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "029deccb465aa4375d10e24470f549ea4eef1fca85a36c9d666ee1fc1b9ac2ec",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 98,
+      "requested_url": "https://portal.csa.us/search/page/98/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/98/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "634bbce4ead18bbb402fcf67c8abbfd8dfc131503b82c83512bc18fcde712825",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 99,
+      "requested_url": "https://portal.csa.us/search/page/99/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/99/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "4558c496443d57138de9de5f4341a3f3d3d04e1d3966b1b83f2e08ecf2f63e98",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 100,
+      "requested_url": "https://portal.csa.us/search/page/100/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/100/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "9ba34ff71085cd4bf1b06a475e0953007307eb20e223bc15f8aec40a7e454299",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 101,
+      "requested_url": "https://portal.csa.us/search/page/101/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/101/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "3d0723748b86b1133cf20ecd2dc0491c55738577b80d1af9c8bf13dc2fb88e9b",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 102,
+      "requested_url": "https://portal.csa.us/search/page/102/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/102/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "3b84a3a97a3a4c5d8016e12db4a847f6abfb2846647489300dd4b0c7fbb5bf86",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 103,
+      "requested_url": "https://portal.csa.us/search/page/103/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/103/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "15d82a7019ed6819d307a25b1161097ce576ca101516cc2fce26c1839a78bc2d",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 104,
+      "requested_url": "https://portal.csa.us/search/page/104/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/104/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "c55d904e39bd9b4055cc6583096463b96be0299b8b42d2b0e37b1c157ca0be06",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 105,
+      "requested_url": "https://portal.csa.us/search/page/105/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/105/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "1047222865b975a435b39d7c5719c201302ea8999fc6f9e878961c1d0a82415b",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 106,
+      "requested_url": "https://portal.csa.us/search/page/106/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/106/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "55e00554963a9e960a8850ca1f15639240b5f1caa95c3e37414d4c106ff9ced9",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 107,
+      "requested_url": "https://portal.csa.us/search/page/107/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/107/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "e72975520292c041db269b20767cc1b051482069bd359cec7e7925f742b5e9a4",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 108,
+      "requested_url": "https://portal.csa.us/search/page/108/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/108/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "390ab0d2b54d21d7434487fff54ebd45e900cc1a2efb3c44f7de2a32080158e3",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 109,
+      "requested_url": "https://portal.csa.us/search/page/109/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/109/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "0d9288ba104ab08dfcb393111d561f1f88f8531c73ae7c6cff8eaab79ace9e16",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 110,
+      "requested_url": "https://portal.csa.us/search/page/110/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/110/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "9cd3ca3368503e071f8e6f4abebe831e9edd50ebc97d07c7d9d1760a75d65a34",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 111,
+      "requested_url": "https://portal.csa.us/search/page/111/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/111/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "40da062ff225d62162b6768ba5f8e57921767f7f75bea2f4dfee6367a34ce88d",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 112,
+      "requested_url": "https://portal.csa.us/search/page/112/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/112/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "9d48acfdd95bfd9328ed9ba76414bfe13480f25bdb07ba64647ac4836f983949",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 113,
+      "requested_url": "https://portal.csa.us/search/page/113/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/113/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "4c3b9580dadeb5a4c3ee8db299cd695fd0006b556cf9efae8ac9522831d44992",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 114,
+      "requested_url": "https://portal.csa.us/search/page/114/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/114/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "4213b79611d017d30279fc1b71bd77b26329e64f3d4e6aed535bfce6dd031933",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 115,
+      "requested_url": "https://portal.csa.us/search/page/115/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/115/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "f510a330beff87d0a272365a21c0b7d389d20233522b7ed299ee68c1200a055c",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 116,
+      "requested_url": "https://portal.csa.us/search/page/116/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/116/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "64a58eb4601d277864b0187e5d09731013c068d484f4510c5b96b505c61c9713",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 117,
+      "requested_url": "https://portal.csa.us/search/page/117/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/117/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "a94ed38f5b556de4334339706496d04ed3cdbe69787482a5742de0317fb791de",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 118,
+      "requested_url": "https://portal.csa.us/search/page/118/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/118/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "a7dc464e2872d39ef6a913f1460ff4e1cd7116effc064252e3cfdbce995df9d4",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 119,
+      "requested_url": "https://portal.csa.us/search/page/119/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/119/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "5490336367b2d96145c707299331411146a2f31899f3c72d4ac7ae61d79c5c0f",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 120,
+      "requested_url": "https://portal.csa.us/search/page/120/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/120/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "e4a420e983e1e0bb5923780aa4000223616fd8d3eb22e5afe4b15dc96ee8fc5c",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 121,
+      "requested_url": "https://portal.csa.us/search/page/121/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/121/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "00e85ed23f87737a2ecbe790ddd54bc3d9b6de08513bf2399e70b6afbdd6fd74",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 122,
+      "requested_url": "https://portal.csa.us/search/page/122/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/122/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "ffc64ba6a4a75ccfcfd77a65705fa7b30d3c45a636e002d4cd6d86d999af230d",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 123,
+      "requested_url": "https://portal.csa.us/search/page/123/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/123/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "050569d7ab7f9fabb24999fd32c8f8144376babefc0959f66a1f5cd082a5b8a2",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 124,
+      "requested_url": "https://portal.csa.us/search/page/124/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/124/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "14eb6851779de44adec0d0d76f64d7eb3036a41365aafb6f812b3f65c95d39e6",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 125,
+      "requested_url": "https://portal.csa.us/search/page/125/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/125/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "8ab45f8ae0d83794192386f4f328dfa2dafb315050698db290a99c09352eaba7",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 126,
+      "requested_url": "https://portal.csa.us/search/page/126/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/126/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "e6c042d286453089a3f7654e58dd0d29a0e377431b8a79fde3757136c7bf832c",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 127,
+      "requested_url": "https://portal.csa.us/search/page/127/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/127/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "1b9461d139be5833911ff5ebbc7b1f5067b9809263687c1cda0e487a98d72ca6",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 128,
+      "requested_url": "https://portal.csa.us/search/page/128/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/128/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "aee05fb1a7ec828843092d15b9e2eec20608f41b127e341136d6dcdefac96931",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 129,
+      "requested_url": "https://portal.csa.us/search/page/129/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/129/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "9b19cb1a1b9eddb40f1728e5c845d14343128e8b653519f9bb28b381c444d8dc",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 130,
+      "requested_url": "https://portal.csa.us/search/page/130/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/130/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "21ac18616fbc05242faa8c1fe2b2a06fe9eb112f144b674bbb91e30c3fc49dcd",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 131,
+      "requested_url": "https://portal.csa.us/search/page/131/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/131/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "62f1accd47e93b38438cd2cf6d49ca1f681458af10d3f030ea1454970372eb69",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 132,
+      "requested_url": "https://portal.csa.us/search/page/132/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/132/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "a66bb902f51bfe8a7d8f79f5db8a2d2e596ce932e5782e44a87784606573b3c8",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 133,
+      "requested_url": "https://portal.csa.us/search/page/133/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/133/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "523dedbfc4a4b2105f051aca832af91fe64fa3bca2a1797c9bf08a0309ad9f1d",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 134,
+      "requested_url": "https://portal.csa.us/search/page/134/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/134/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "74b9278203c5228da1197355d62dda12af4f41bc26c3ccf9c15016820cdb7ea1",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 135,
+      "requested_url": "https://portal.csa.us/search/page/135/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/135/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "7140e45ef2a1a8bf7e31bfd318c636e87600c275c9d4292d31132fab8cabed13",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 136,
+      "requested_url": "https://portal.csa.us/search/page/136/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/136/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "5ab0d61834fa5d1b6f66f29c8140fc5e7d907d0264a30c9df5aa7eaad15c3fb9",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 137,
+      "requested_url": "https://portal.csa.us/search/page/137/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/137/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "007d7b7ae978d50670ba54710b0822a0e2a557d7c56c1673769131689af3631e",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 138,
+      "requested_url": "https://portal.csa.us/search/page/138/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/138/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "62e18b32af958ecbc22a74e57b081d02ec4e6790e2dc7105fd066b2dfe438a7c",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 139,
+      "requested_url": "https://portal.csa.us/search/page/139/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/139/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "8e13ab5d4dc5991ed12851f81b5174144aecc4ca8bb0d721312fb13c218b23c5",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 140,
+      "requested_url": "https://portal.csa.us/search/page/140/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/140/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "ad8cb87698b3cc9f20cdf0103eb952d684275e49cd2f03ee3951637a4f68f4e6",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 141,
+      "requested_url": "https://portal.csa.us/search/page/141/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/141/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "3bbe05ca709204aeefe6e12d69c467a90e2e290dac4f2cf5bb77d6e7142d6de9",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 142,
+      "requested_url": "https://portal.csa.us/search/page/142/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/142/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "8b81b709e3ef5747a1ad041e6a71b2ea6721c05662dc0a7e79bfeb9b8e6d8481",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 143,
+      "requested_url": "https://portal.csa.us/search/page/143/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/143/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "7fd76bcb5c39c4f68c268fd59f75334650913edd7d98040a915e9ee91ea6cd9c",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 144,
+      "requested_url": "https://portal.csa.us/search/page/144/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/144/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "d2bd65fa78c6788237ed6086a6631542d1ccc95ccce869df29d0d6febc677296",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 145,
+      "requested_url": "https://portal.csa.us/search/page/145/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/145/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "abfb7e0cd9184a5b8a4f972dcdfe16fa3b66edd843e2410b439779202c9312e0",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 146,
+      "requested_url": "https://portal.csa.us/search/page/146/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/146/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "9487768b01cf58e364d6834606d7de5dc2ec9e5de47c42d78b3fba71fe0fc161",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    },
+    {
+      "page_number": 147,
+      "requested_url": "https://portal.csa.us/search/page/147/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/147/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "cf15b695c863fc805f1c8d6f64911d6684d6155517df83ddad2cb21e10558e72",
+      "input_path": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T220353404Z/raw-source.json"
+    }
+  ],
+  "outputs": {
+    "latest_json": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/csa-locator-all.json",
+    "latest_csv": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/csa-locator-all.csv",
+    "run_manifest": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T221240921Z/manifest.json",
+    "run_raw": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T221240921Z/raw-source.json",
+    "run_normalized_json": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T221240921Z/normalized-records.json",
+    "run_normalized_csv": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T221240921Z/normalized-records.csv"
+  },
+  "parsing_notes": [
+    "Public search result pages are paginated at /search/page/{n}/ with geodir_search=1, stype=gd_place, and s= query parameters.",
+    "Listing cards are parsed for CSA name, certified-since date, location, main industry, profile URL, source page URL, and source post ID when present.",
+    "Detail pages sampled during research often repeat public credential/location/industry fields but do not consistently expose email, phone, or company fields.",
+    "Use this source as official credential verification and cross-match it to richer advisor/contact sources by name, location, website, email, or phone.",
+    "Collector is intentionally throttled and supports --pages, --limit, and --delay-ms for controlled daily refreshes."
+  ]
+}

@@ -7,12 +7,37 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "dev": "node scripts/dev-server.mjs",
+    "dev:facility-app": "vite --config apps/facility-directory-prototype/vite.config.mjs",
     "lint": "node scripts/lint.mjs",
+    "collect:facilities": "node scripts/facility-collector.mjs",
+    "collect:facilities:list": "node scripts/facility-collector.mjs --list-sources",
+    "collect:contacts": "node scripts/website-contact-harvester.mjs",
+    "collect:csa-locator": "node scripts/csa-locator-collector.mjs",
+    "db:up": "docker compose up -d db",
+    "db:down": "docker compose down",
+    "db:wait": "node scripts/db-wait.mjs",
+    "db:migrate": "node scripts/db-migrate.mjs",
+    "db:seed:facilities": "node scripts/db-seed-facilities.mjs",
+    "db:seed:advisors": "node scripts/db-seed-advisors.mjs",
+    "db:seed:crm": "node scripts/db-seed-crm-sample.mjs",
+    "db:setup": "npm run db:up && npm run db:wait && npm run db:migrate && npm run db:seed:facilities && npm run db:seed:advisors && npm run db:seed:crm",
+    "db:shell": "docker compose exec db psql -U seniorlivingkit -d seniorlivingkit",
+    "export:facilities": "node scripts/facility-exporter.mjs",
+    "health": "node scripts/project-health.mjs",
+    "health:db": "node scripts/project-health.mjs --db",
     "test": "node scripts/test.mjs",
+    "test:facility-app": "node scripts/facility-app-smoke.mjs",
     "test:browser": "node scripts/browser-smoke.mjs",
     "verify": "npm run lint && npm run test && npm run build"
   },
   "engines": {
     "node": ">=22 <26"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.5",
+    "lucide-react": "^1.28.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "vite": "^8.2.0"
   }
 }

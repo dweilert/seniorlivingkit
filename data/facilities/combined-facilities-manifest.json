@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-08-03T15:53:29.606Z",
+  "source_exports": [
+    {
+      "source_id": "tx-hhsc-assisted-living",
+      "run_id": "2026-08-03T155322982Z",
+      "selected_records": 2013,
+      "selected_records_sha256": "cbfa7cfccd64793d83f219905bae712d642c4ec2754061fc463551134464840b",
+      "source_url": "https://services1.arcgis.com/jI1j5lArZnrgFYSc/ArcGIS/rest/services/Assisted_Living/FeatureServer/0",
+      "source_owner": "Texas Health and Human Services Commission"
+    },
+    {
+      "source_id": "ca-cdss-rcfe",
+      "run_id": "2026-08-02T210238428Z",
+      "selected_records": 12522,
+      "selected_records_sha256": "3f4cd24ccbef714d8a07ad0225a97c4047aa3fd0f0e349ab88f6dbd5854b6616",
+      "source_url": "https://lab.data.ca.gov/dataset/community-care-licensing-facilities/6b2f5818-f60d-40b5-bc2a-94f995f9f8b0",
+      "source_owner": "California Department of Social Services"
+    },
+    {
+      "source_id": "cms-nursing-home-provider-info",
+      "run_id": "2026-08-03T034453929Z",
+      "selected_records": 14693,
+      "selected_records_sha256": "2934ac1cb883e3d0b95844167d3662e362abbb5aa9f7d1809209c5cf517b0631",
+      "source_url": "https://data.cms.gov/provider-data/dataset/4pq5-n9py",
+      "source_owner": "Centers for Medicare & Medicaid Services"
+    },
+    {
+      "source_id": "hud-section-202-properties",
+      "run_id": "2026-08-03T155154935Z",
+      "selected_records": 11012,
+      "selected_records_sha256": "ae5b36435a3fdb540535ee4fb99a5f90fefa5c95a1df3eeeb17cdd71197fb0fd",
+      "source_url": "https://catalog.data.gov/dataset/section-202-properties-5a638",
+      "source_owner": "U.S. Department of Housing and Urban Development"
+    }
+  ],
+  "all_records": 40240,
+  "active_records": 35680,
+  "all_records_sha256": "ee0b98b6d7f19461a17afe3664b0789566d44de6a0c4138cb15dddfd5df5a8f5",
+  "active_records_sha256": "0adba429cd5b6656e3367b9e3bcd449db04c496bafbadb9abbbc42556a8fdde7",
+  "all_summary": {
+    "active_records": 35680,
+    "inactive_records": 4560,
+    "status_counts": {
+      "ACTIVE": 14693,
+      "ACTIVE ASSISTANCE": 9938,
+      "LICENSED": 7939,
+      "CLOSED": 3821,
+      "UNKNOWN": 2013,
+      "SOURCE LISTED": 1074,
+      "PENDING": 739,
+      "ON PROBATION": 23
+    }
+  },
+  "active_summary": {
+    "active_records": 35680,
+    "inactive_records": 0,
+    "status_counts": {
+      "ACTIVE": 14693,
+      "ACTIVE ASSISTANCE": 9938,
+      "LICENSED": 7939,
+      "UNKNOWN": 2013,
+      "SOURCE LISTED": 1074,
+      "ON PROBATION": 23
+    }
+  },
+  "all_validation": {
+    "warnings": [
+      "65 records are missing phone numbers.",
+      "9 records are missing capacity.",
+      "12522 records are missing coordinates."
+    ],
+    "missing_source_facility_id": 0,
+    "missing_address": 0,
+    "missing_phone": 65,
+    "missing_capacity": 9,
+    "missing_coordinates": 12522,
+    "duplicate_facility_keys": {}
+  },
+  "active_validation": {
+    "warnings": [
+      "65 records are missing phone numbers.",
+      "9 records are missing capacity.",
+      "7962 records are missing coordinates."
+    ],
+    "missing_source_facility_id": 0,
+    "missing_address": 0,
+    "missing_phone": 65,
+    "missing_capacity": 9,
+    "missing_coordinates": 7962,
+    "duplicate_facility_keys": {}
+  },
+  "outputs": {
+    "combined_all_json": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/combined-facilities-all.json",
+    "combined_all_csv": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/combined-facilities-all.csv",
+    "combined_active_json": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/combined-facilities-active.json",
+    "combined_active_csv": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/combined-facilities-active.csv",
+    "combined_manifest": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/combined-facilities-manifest.json"
+  }
+}

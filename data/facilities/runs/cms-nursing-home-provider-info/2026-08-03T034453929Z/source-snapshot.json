@@ -1,0 +1,67 @@
+{
+  "source": {
+    "id": "cms-nursing-home-provider-info",
+    "name": "CMS Nursing Home Provider Information",
+    "jurisdiction": "US",
+    "careCategory": "skilled_nursing",
+    "sourceOwner": "Centers for Medicare & Medicaid Services",
+    "sourceSystem": "CMS Provider Data API",
+    "sourceUrl": "https://data.cms.gov/provider-data/dataset/4pq5-n9py",
+    "endpointUrl": "https://data.cms.gov/provider-data/api/1/datastore/query/4pq5-n9py/0",
+    "datasetId": "4pq5-n9py",
+    "sourceDescription": "National CMS Provider Data Catalog table for currently active nursing homes/skilled nursing facilities, including address, phone, certified beds, ownership, and Five-Star ratings.",
+    "exportNamePrefix": "cms-nursing-home-provider-info",
+    "activeStatuses": [],
+    "defaultCenter": {
+      "id": "united-states",
+      "label": "United States",
+      "latitude": null,
+      "longitude": null
+    },
+    "parsingNotes": [
+      "CMS Provider Data records are paginated with offset and limit from the Provider Data API datastore endpoint.",
+      "CMS Certification Number (CCN) is preserved as source_facility_id and used for stable facility_key generation.",
+      "Number of Certified Beds is parsed as numeric capacity.",
+      "Latitude/longitude are source-supplied CMS geocoded coordinates when available.",
+      "Overall, health inspection, staffing, and quality-measure ratings are preserved in source_detail.",
+      "Records are sorted by state, city, then provider name before applying the limit."
+    ]
+  },
+  "center": {
+    "id": "united-states",
+    "label": "United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "retrievedAt": "2026-08-03T03:44:53.929Z",
+  "totalSourceRecords": 14693,
+  "normalizedRecords": 14693,
+  "selectedRecords": 14693,
+  "summary": {
+    "active_records": 14693,
+    "inactive_records": 0,
+    "status_counts": {
+      "ACTIVE": 14693
+    }
+  },
+  "validation": {
+    "warnings": [
+      "9 records are missing capacity."
+    ],
+    "missing_source_facility_id": 0,
+    "missing_address": 0,
+    "missing_phone": 0,
+    "missing_capacity": 9,
+    "missing_coordinates": 0,
+    "duplicate_facility_keys": {}
+  },
+  "geocoding": null,
+  "parsingNotes": [
+    "CMS Provider Data records are paginated with offset and limit from the Provider Data API datastore endpoint.",
+    "CMS Certification Number (CCN) is preserved as source_facility_id and used for stable facility_key generation.",
+    "Number of Certified Beds is parsed as numeric capacity.",
+    "Latitude/longitude are source-supplied CMS geocoded coordinates when available.",
+    "Overall, health inspection, staffing, and quality-measure ratings are preserved in source_detail.",
+    "Records are sorted by state, city, then provider name before applying the limit."
+  ]
+}

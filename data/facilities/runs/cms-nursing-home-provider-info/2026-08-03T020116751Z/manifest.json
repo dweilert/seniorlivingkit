@@ -1,0 +1,105 @@
+{
+  "run_id": "2026-08-03T020116751Z",
+  "generated_at": "2026-08-03T02:01:16.751Z",
+  "source_id": "cms-nursing-home-provider-info",
+  "source_url": "https://data.cms.gov/provider-data/dataset/4pq5-n9py",
+  "source_owner": "Centers for Medicare & Medicaid Services",
+  "source_system": "CMS Provider Data API",
+  "center": {
+    "id": "united-states",
+    "label": "United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "limit": "all",
+  "total_source_records": 14693,
+  "normalized_records": 14693,
+  "selected_records": 14693,
+  "active_records": 14693,
+  "inactive_records": 0,
+  "status_counts": {
+    "ACTIVE": 14693
+  },
+  "selected_records_sha256": "ea4780c0adea27f417888c291fea791a041a25833388c2e0db77940256c582ca",
+  "validation": {
+    "warnings": [
+      "9 records are missing capacity."
+    ],
+    "missing_source_facility_id": 0,
+    "missing_address": 0,
+    "missing_phone": 0,
+    "missing_capacity": 9,
+    "missing_coordinates": 0,
+    "duplicate_facility_keys": {}
+  },
+  "geocoding": null,
+  "pages": [
+    {
+      "offset": 0,
+      "returned": 1500,
+      "total": 14693
+    },
+    {
+      "offset": 1500,
+      "returned": 1500,
+      "total": 14693
+    },
+    {
+      "offset": 3000,
+      "returned": 1500,
+      "total": 14693
+    },
+    {
+      "offset": 4500,
+      "returned": 1500,
+      "total": 14693
+    },
+    {
+      "offset": 6000,
+      "returned": 1500,
+      "total": 14693
+    },
+    {
+      "offset": 7500,
+      "returned": 1500,
+      "total": 14693
+    },
+    {
+      "offset": 9000,
+      "returned": 1500,
+      "total": 14693
+    },
+    {
+      "offset": 10500,
+      "returned": 1500,
+      "total": 14693
+    },
+    {
+      "offset": 12000,
+      "returned": 1500,
+      "total": 14693
+    },
+    {
+      "offset": 13500,
+      "returned": 1193,
+      "total": 14693
+    }
+  ],
+  "outputs": {
+    "latest_json": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/cms-nursing-home-provider-info-all.json",
+    "latest_csv": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/cms-nursing-home-provider-info-all.csv",
+    "run_manifest": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/runs/cms-nursing-home-provider-info/2026-08-03T020116751Z/manifest.json",
+    "run_raw": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/runs/cms-nursing-home-provider-info/2026-08-03T020116751Z/raw-source.json",
+    "run_geocoding": null,
+    "run_normalized_json": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/runs/cms-nursing-home-provider-info/2026-08-03T020116751Z/normalized-records.json",
+    "run_normalized_csv": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/runs/cms-nursing-home-provider-info/2026-08-03T020116751Z/normalized-records.csv"
+  },
+  "parsing_notes": [
+    "CMS Provider Data records are paginated with offset and limit from the Provider Data API datastore endpoint.",
+    "CMS Certification Number (CCN) is preserved as source_facility_id and used for stable facility_key generation.",
+    "Number of Certified Beds is parsed as numeric capacity.",
+    "Latitude/longitude are source-supplied CMS geocoded coordinates when available.",
+    "Overall, health inspection, staffing, and quality-measure ratings are preserved in source_detail.",
+    "Records are sorted by state, city, then provider name before applying the limit."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "features": [
+    {
+      "attributes": {
+        "PROPERTY_ID": "800000040",
+        "PROPERTY_NAME_TEXT": "Ken-Ton Presbyterian Village",
+        "ADDRESS_LINE1_TEXT": "3735 Delaware Ave",
+        "ADDRESS_LINE2_TEXT": "",
+        "PLACED_BASE_CITY_NAME_TEXT": "Tonawanda",
+        "STD_ADDR": "3735 Delaware Ave",
+        "STD_CITY": "Buffalo",
+        "STD_ST": "NY",
+        "STD_ZIP5": "14217",
+        "CURCNTY_NM": "Erie",
+        "TOTAL_ASSISTED_UNIT_COUNT": 150,
+        "TOTAL_UNIT_COUNT": 151,
+        "PROPERTY_ON_SITE_PHONE_NUMBER": "716-874-6070",
+        "PROPERTY_CATEGORY_NAME": "Subsidized - Previously Insured",
+        "CLIENT_GROUP_NAME": "Elderly",
+        "CLIENT_GROUP_TYPE": "Elderly",
+        "HAS_ACTIVE_ASSISTANCE_IND": "Y",
+        "HAS_ACTIVE_FINANCING_IND": "N",
+        "PRIMARY_FINANCING_TYPE": "",
+        "IS_ASSISTED_LIVING_IND": "N",
+        "IS_NURSING_HOME_IND": "N",
+        "PROGRAM_TYPE1": "202/8 NC",
+        "PROGRAM_TYPE2": "",
+        "MGMT_AGENT_ORG_NAME": "Beechwood Continuing Care, Inc.",
+        "MGMT_CONTACT_FULL_NAME": "Denise Rine",
+        "MGMT_CONTACT_INDV_TITLE_TEXT": "Management Agent",
+        "MGMT_CONTACT_MAIN_PHN_NBR": "716-874-6070",
+        "MGMT_CONTACT_EMAIL_TEXT": "drine@beechwoodcare.org",
+        "LAT": 42.985513,
+        "LON": -78.87277,
+        "LAST_UPDT_DTTM": 1783361442000
+      }
+    }
+  ]
+}

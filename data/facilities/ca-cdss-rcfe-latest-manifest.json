@@ -1,0 +1,71 @@
+{
+  "run_id": "2026-08-02T210238428Z",
+  "generated_at": "2026-08-02T21:02:38.428Z",
+  "source_id": "ca-cdss-rcfe",
+  "source_url": "https://lab.data.ca.gov/dataset/community-care-licensing-facilities/6b2f5818-f60d-40b5-bc2a-94f995f9f8b0",
+  "source_owner": "California Department of Social Services",
+  "source_system": "CKAN datastore",
+  "center": {
+    "id": "california",
+    "label": "California",
+    "latitude": null,
+    "longitude": null
+  },
+  "limit": "all",
+  "total_source_records": 12522,
+  "normalized_records": 12522,
+  "selected_records": 12522,
+  "active_records": 7962,
+  "inactive_records": 4560,
+  "status_counts": {
+    "LICENSED": 7939,
+    "CLOSED": 3821,
+    "PENDING": 739,
+    "ON PROBATION": 23
+  },
+  "selected_records_sha256": "3f4cd24ccbef714d8a07ad0225a97c4047aa3fd0f0e349ab88f6dbd5854b6616",
+  "validation": {
+    "warnings": [
+      "12522 records are missing coordinates."
+    ],
+    "missing_source_facility_id": 0,
+    "missing_address": 0,
+    "missing_phone": 0,
+    "missing_capacity": 0,
+    "missing_coordinates": 12522,
+    "duplicate_facility_keys": {}
+  },
+  "pages": [
+    {
+      "offset": 0,
+      "returned": 5000,
+      "total": 12522
+    },
+    {
+      "offset": 5000,
+      "returned": 5000,
+      "total": 12522
+    },
+    {
+      "offset": 10000,
+      "returned": 2522,
+      "total": 12522
+    }
+  ],
+  "outputs": {
+    "latest_json": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/california-rcfe-all.json",
+    "latest_csv": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/california-rcfe-all.csv",
+    "run_manifest": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/runs/ca-cdss-rcfe/2026-08-02T210238428Z/manifest.json",
+    "run_raw": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/runs/ca-cdss-rcfe/2026-08-02T210238428Z/raw-source.json",
+    "run_normalized_json": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/runs/ca-cdss-rcfe/2026-08-02T210238428Z/normalized-records.json",
+    "run_normalized_csv": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/runs/ca-cdss-rcfe/2026-08-02T210238428Z/normalized-records.csv"
+  },
+  "parsing_notes": [
+    "CKAN datastore records are paginated with offset/limit against the resource ID.",
+    "Residential Care Facilities for the Elderly are treated as assisted living facilities.",
+    "Facility number is preserved as source_facility_id and used for stable facility_key generation.",
+    "The source does not currently expose latitude/longitude, so distance fields remain null until geocoding is added.",
+    "Licensee, administrator, status, license dates, regional office, and file date are preserved as source-supplied fields.",
+    "Records are sorted by facility name, then source facility ID, before applying the limit."
+  ]
+}

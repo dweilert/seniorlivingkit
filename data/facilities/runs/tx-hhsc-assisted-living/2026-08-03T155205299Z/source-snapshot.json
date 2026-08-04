@@ -1,0 +1,81 @@
+{
+  "source": {
+    "id": "tx-hhsc-assisted-living",
+    "name": "Texas HHSC Assisted Living Facilities",
+    "jurisdiction": "TX",
+    "careCategory": "assisted_living",
+    "sourceOwner": "Texas Health and Human Services Commission",
+    "sourceSystem": "ArcGIS FeatureServer",
+    "sourceUrl": "https://services1.arcgis.com/jI1j5lArZnrgFYSc/ArcGIS/rest/services/Assisted_Living/FeatureServer/0",
+    "endpointUrl": "https://services1.arcgis.com/jI1j5lArZnrgFYSc/ArcGIS/rest/services/Assisted_Living/FeatureServer/0/query",
+    "sourceDescription": "Public map layer for assisted living facilities regulated by Texas HHSC.",
+    "exportNamePrefix": "austin-area-assisted-living",
+    "activeStatuses": [],
+    "defaultCenter": {
+      "id": "austin-tx",
+      "label": "Austin, TX",
+      "latitude": 30.2672,
+      "longitude": -97.7431
+    },
+    "fields": [
+      "FacName",
+      "FacID",
+      "ProgTyp",
+      "County",
+      "Address",
+      "City",
+      "State",
+      "Zipcode",
+      "X",
+      "Y",
+      "Phone",
+      "Fax",
+      "TotCap"
+    ],
+    "parsingNotes": [
+      "ArcGIS records are paginated with resultOffset/resultRecordCount and ordered by OBJECTID.",
+      "Facility attributes are read from feature.attributes; geometry is not requested because X/Y fields are already present.",
+      "State values of TEXAS or blank are normalized to TX.",
+      "Capacity is parsed from TotCap as a number when present.",
+      "Distance is computed with the Haversine formula from the configured center point.",
+      "Records are sorted by computed distance, then facility name, before applying the limit."
+    ]
+  },
+  "center": {
+    "id": "austin-tx",
+    "label": "Austin, TX",
+    "latitude": 30.2672,
+    "longitude": -97.7431
+  },
+  "retrievedAt": "2026-08-03T15:52:05.299Z",
+  "totalSourceRecords": 2014,
+  "normalizedRecords": 2013,
+  "selectedRecords": 2013,
+  "summary": {
+    "active_records": 2013,
+    "inactive_records": 0,
+    "status_counts": {
+      "UNKNOWN": 2013
+    }
+  },
+  "validation": {
+    "warnings": [
+      "37 records are missing phone numbers."
+    ],
+    "missing_source_facility_id": 0,
+    "missing_address": 0,
+    "missing_phone": 37,
+    "missing_capacity": 0,
+    "missing_coordinates": 0,
+    "duplicate_facility_keys": {}
+  },
+  "geocoding": null,
+  "parsingNotes": [
+    "ArcGIS records are paginated with resultOffset/resultRecordCount and ordered by OBJECTID.",
+    "Facility attributes are read from feature.attributes; geometry is not requested because X/Y fields are already present.",
+    "State values of TEXAS or blank are normalized to TX.",
+    "Capacity is parsed from TotCap as a number when present.",
+    "Distance is computed with the Haversine formula from the configured center point.",
+    "Records are sorted by computed distance, then facility name, before applying the limit."
+  ]
+}

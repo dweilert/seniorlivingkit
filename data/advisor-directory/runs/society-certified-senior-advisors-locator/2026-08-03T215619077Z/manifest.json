@@ -1,0 +1,54 @@
+{
+  "run_id": "2026-08-03T215619077Z",
+  "generated_at": "2026-08-03T21:56:19.077Z",
+  "source_id": "society-certified-senior-advisors-locator",
+  "source_url": "https://portal.csa.us/locator/",
+  "source_owner": "Society of Certified Senior Advisors",
+  "source_system": "GeoDirectory WordPress public search",
+  "limit": "all",
+  "requested_pages": 3,
+  "detected_total_pages": 147,
+  "fetched_pages": 3,
+  "total_parsed_records": 60,
+  "selected_records": 60,
+  "selected_records_sha256": "d7766f8dab55843161c24664d1eac5a469b734b42e6d9c98cf83cf09d716451d",
+  "delay_ms": 750,
+  "pages": [
+    {
+      "page_number": 1,
+      "requested_url": "https://portal.csa.us/search/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "0426c936dc77f07e96bb088238b7afb95718f3fce45508505c33a9545687fb8b"
+    },
+    {
+      "page_number": 2,
+      "requested_url": "https://portal.csa.us/search/page/2/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/2/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "a2b8a2878aab4e4204bc3e3c20efe61c1b07c2a5efaa659b78d3d0c13b4de691"
+    },
+    {
+      "page_number": 3,
+      "requested_url": "https://portal.csa.us/search/page/3/?geodir_search=1&stype=gd_place&s=",
+      "final_url": "https://portal.csa.us/search/page/3/?geodir_search=1&stype=gd_place&s=",
+      "http_status": 200,
+      "html_sha256": "f58224d6cf27c0579b0fd99aab66c8746a3e264ee07f590ae1f9d4d83719957a"
+    }
+  ],
+  "outputs": {
+    "latest_json": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/csa-locator-all.json",
+    "latest_csv": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/csa-locator-all.csv",
+    "run_manifest": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T215619077Z/manifest.json",
+    "run_raw": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T215619077Z/raw-source.json",
+    "run_normalized_json": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T215619077Z/normalized-records.json",
+    "run_normalized_csv": "/Users/bob/retirementPlannerRewriteCodeX/data/advisor-directory/runs/society-certified-senior-advisors-locator/2026-08-03T215619077Z/normalized-records.csv"
+  },
+  "parsing_notes": [
+    "Public search result pages are paginated at /search/page/{n}/ with geodir_search=1, stype=gd_place, and s= query parameters.",
+    "Listing cards are parsed for CSA name, certified-since date, location, main industry, profile URL, source page URL, and source post ID when present.",
+    "Detail pages sampled during research often repeat public credential/location/industry fields but do not consistently expose email, phone, or company fields.",
+    "Use this source as official credential verification and cross-match it to richer advisor/contact sources by name, location, website, email, or phone.",
+    "Collector is intentionally throttled and supports --pages, --limit, and --delay-ms for controlled daily refreshes."
+  ]
+}

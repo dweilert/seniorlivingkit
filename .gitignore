@@ -16,3 +16,4 @@ playwright/.auth/
 playwright-report/
 test-results/
 coverage/
+tmp/
