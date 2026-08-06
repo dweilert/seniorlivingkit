@@ -77,6 +77,11 @@ Core migrations:
 
 ## Current Data Inventory
 
+Generated source snapshots are local-only for now. The current plan is to keep
+the local backup as the recovery point and move durable raw/generated snapshots
+to S3 later. Git should keep source code, schemas, manifests, and smaller curated
+files, but not large generated JSON snapshots.
+
 Facility data files:
 
 - `data/facilities/combined-facilities-all.json`: 40,240 records

@@ -17,3 +17,9 @@ playwright-report/
 test-results/
 coverage/
 tmp/
+
+# Generated data snapshots are kept locally for now. Store durable copies in S3
+# before making them part of a production data pipeline.
+data/facilities/combined-facilities-*.json
+data/facilities/runs/**/raw-source.json
+data/advisor-directory/runs/**/raw-source.json
