@@ -1,6 +1,6 @@
 # Senior Living Data CRM Project Ledger
 
-Last updated: 2026-08-09
+Last updated: 2026-08-10
 
 This file is the durable checkpoint for the senior living facility intelligence
 and CRM prototype. It exists so the current state can be recovered without
@@ -168,6 +168,24 @@ people and activity tabs reuse the current relationship graph, card scan, and
 communication logging components; assessment/tasks/files are prototype panels
 ready to be backed by the richer schema from `005_screen_driven_product_model`.
 
+## Recovery Checkpoint
+
+Current saved branch and commit:
+
+```text
+codex/aws-rebuild @ 786fe10 feat: add client workspace shell
+```
+
+This checkpoint includes:
+
+- database-backed facility/advisor/CRM seed data
+- server-side facility search paging, filter, radius, bounds, and key lookup
+- tenant/user facility preferences for priority, exclusion, favorites, and notes
+- CRM client workspace shell with overview, people, assessment, communities,
+  activity, tasks, and files tabs
+- current local review URL: `http://127.0.0.1:3201/`
+- local Postgres container expected through Docker Compose on port `54321`
+
 ## Collector Commands
 
 List facility sources:
@@ -254,12 +272,13 @@ Known passing checks as of this ledger update:
 
 ## Next Best Work
 
-1. Add persistent tenant/user facility preferences for priority and exclusion,
-   replacing browser-only preference storage.
-2. Move facility filtering fully server-side, including selected facility lookup,
-   pagination, map window bounds, and radius search.
-3. Add website discovery/enrichment jobs for facility records and store parser
+1. Build the client overview data model/UI deeper: status history, intake
+   summary, next-step ownership, and linked primary people.
+2. Add client-specific community option persistence with statuses such as
+   potential match, referred, toured, selected, declined, and excluded.
+3. Create the assessment template seed and assessment entry workflow.
+4. Add website discovery/enrichment jobs for facility records and store parser
    evidence in `facility_contacts`.
-4. Add authentication and tenant scoping before exposing the app beyond local
+5. Add authentication and tenant scoping before exposing the app beyond local
    development.
-5. Convert the Vite prototype API into an application backend suitable for AWS.
+6. Convert the Vite prototype API into an application backend suitable for AWS.
