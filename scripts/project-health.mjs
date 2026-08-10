@@ -38,6 +38,7 @@ const requiredFiles = [
   "docs/PROJECT_LEDGER.md",
   "docs/SENIOR_APP_SCREEN_REVIEW.md",
   "docs/SCREEN_AND_DATA_BACKLOG.md",
+  "docs/PRODUCT_ISSUE_REGISTER.md",
   "docs/LOCAL_DATABASE.md",
   "docs/FACILITY_DATA_COLLECTOR.md",
   "docs/FACILITY_APP_DATA_MODEL.md",

@@ -5,6 +5,9 @@ Last updated: 2026-08-09
 This backlog converts the reference screenshots in `/Users/bob/@senior` into
 screens we need to build and the data each screen requires.
 
+See `docs/PRODUCT_ISSUE_REGISTER.md` for the issue-style backlog derived from
+the list-heavy screens.
+
 ## Primary Screens
 
 | Screen | Purpose | Main Data |

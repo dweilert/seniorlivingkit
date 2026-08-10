@@ -84,11 +84,13 @@ Reference screenshots from `/Users/bob/@senior` were reviewed and summarized in:
 
 - `docs/SENIOR_APP_SCREEN_REVIEW.md`
 - `docs/SCREEN_AND_DATA_BACKLOG.md`
+- `docs/PRODUCT_ISSUE_REGISTER.md`
 
 Those notes should drive the next frontend/data-model work. The key finding is
 that the target app should center on a client workspace with tabs for overview,
 people, assessment, communities, activity, tasks, and files, backed by a richer
-community option and assessment model.
+community option and assessment model. The issue register turns the list-heavy
+screens into prioritized implementation issues.
 
 ## Current Data Inventory
 
