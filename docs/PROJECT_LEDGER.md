@@ -162,6 +162,12 @@ preferences through `/api/facility-preferences`. The CRM view loads and saves
 through `/api/crm/state`. Browser storage is now a fallback draft, not the
 intended source of truth.
 
+The CRM tab now has a client workspace shell below the pipeline with tabs for
+overview, people, assessment, communities, activity, tasks, and files. The
+people and activity tabs reuse the current relationship graph, card scan, and
+communication logging components; assessment/tasks/files are prototype panels
+ready to be backed by the richer schema from `005_screen_driven_product_model`.
+
 ## Collector Commands
 
 List facility sources:

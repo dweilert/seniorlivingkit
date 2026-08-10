@@ -17,7 +17,7 @@ GitHub/Jira later.
 
 | ID | Priority | Area | Issue | Acceptance Criteria |
 | --- | --- | --- | --- | --- |
-| CRM-001 | P0 | Client Workspace | Replace the generic CRM tab with a client workspace shell. | User can select a client and see tabs for overview, people, assessment, communities, activity, tasks, and files. |
+| CRM-001 | P0 | Client Workspace | Replace the generic CRM tab with a client workspace shell. | Client workspace shell prototype complete: user can select a client and see tabs for overview, people, assessment, communities, activity, tasks, and files. |
 | CRM-002 | P0 | Client Workspace | Build a client overview panel with intake summary and current pipeline state. | Overview shows resident, primary contact, urgency, budget, care needs, preferred area, assigned owner, next step, and current stage. |
 | CRM-003 | P0 | Client Workspace | Move people and relationship graph into the client workspace. | People tab shows linked resident/family/friends/doctors/advisors/facility contacts and preserves relationship graph behavior. |
 | CRM-004 | P1 | Client Workspace | Add client activity timeline. | Activity tab combines notes, calls, emails, texts, tasks, tours, files, and status changes in reverse chronological order. |

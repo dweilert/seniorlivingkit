@@ -35,6 +35,15 @@ const TARGET_CATEGORIES = [
   ["memory_care", "Memory care"],
   ["skilled_nursing", "Skilled nursing"]
 ];
+const CLIENT_WORKSPACE_TABS = [
+  ["overview", "Overview"],
+  ["people", "People"],
+  ["assessment", "Assessment"],
+  ["communities", "Communities"],
+  ["activity", "Activity"],
+  ["tasks", "Tasks"],
+  ["files", "Files"]
+];
 const PERSON_TYPE_COLORS = {
   Resident: "#244c5a",
   Family: "#3f7d5a",
@@ -1585,11 +1594,186 @@ function PeopleNetwork({ people, relationships, setPeople, setRelationships }) {
   );
 }
 
+function ClientOverview({ lead, linkedFacilities, communications }) {
+  if (!lead) return <article className="client-overview-panel">Select a client</article>;
+  const lastCommunication = [...communications]
+    .filter((item) => item.leadId === lead.id)
+    .sort((a, b) => b.id.localeCompare(a.id))[0];
+  return (
+    <section className="client-overview-panel" id="clientOverviewPanel" aria-label="Client overview">
+      <div className="client-overview-grid">
+        <article>
+          <p className="eyebrow">Resident</p>
+          <h3>{lead.name}</h3>
+          <dl>
+            <dt>Current stage</dt><dd>{lead.status}</dd>
+            <dt>Primary contact</dt><dd>{clean(lead.relationship)}</dd>
+            <dt>Assigned owner</dt><dd>{clean(lead.assignedTo)}</dd>
+            <dt>Urgency</dt><dd>{clean(lead.urgency)}</dd>
+          </dl>
+        </article>
+        <article>
+          <p className="eyebrow">Placement Need</p>
+          <h3>{clean(lead.preferredArea, "Preferred area not set")}</h3>
+          <dl>
+            <dt>Budget</dt><dd>{clean(lead.budget)}</dd>
+            <dt>Care needs</dt><dd>{clean(lead.careNeeds)}</dd>
+            <dt>Communities</dt><dd>{linkedFacilities.length}</dd>
+            <dt>Last activity</dt><dd>{lastCommunication ? lastCommunication.subject : "No activity yet"}</dd>
+          </dl>
+        </article>
+        <article className="next-step-card">
+          <p className="eyebrow">Next Step</p>
+          <h3>{clean(lead.nextStep, "No next step")}</h3>
+          <p>{lead.phone || lead.email ? [lead.phone, lead.email].filter(Boolean).join(" · ") : "No contact method captured"}</p>
+        </article>
+      </div>
+    </section>
+  );
+}
+
+function ClientCommunities({ lead, setLeads, facilities, selectedFacility }) {
+  if (!lead) return <section className="client-empty-panel">Select a client</section>;
+  const leadFacilityKeys = lead.linkedFacilities || [];
+  const linkedFacilities = leadFacilityKeys.map((key) => facilities.find((facility) => facility.facility_key === key)).filter(Boolean);
+  const canLinkSelectedFacility = selectedFacility && !leadFacilityKeys.includes(selectedFacility.facility_key);
+  const update = (patch) => setLeads((leads) => leads.map((item) => item.id === lead.id ? { ...item, ...patch } : item));
+  const addSelectedFacility = () => {
+    if (!selectedFacility) return;
+    update({ linkedFacilities: [...leadFacilityKeys, selectedFacility.facility_key] });
+  };
+  const removeFacility = (facilityKey) => update({ linkedFacilities: leadFacilityKeys.filter((key) => key !== facilityKey) });
+
+  return (
+    <section className="client-communities-panel" id="clientCommunitiesPanel" aria-label="Client community options">
+      <div className="linked-facilities-header">
+        <div>
+          <p className="eyebrow">Community Options</p>
+          <h3>{linkedFacilities.length} linked communities</h3>
+        </div>
+        {canLinkSelectedFacility && (
+          <button type="button" id="linkSelectedFacilityButton" onClick={addSelectedFacility}>
+            <Link size={15} /> Link selected
+          </button>
+        )}
+      </div>
+      <div className="community-option-list">
+        {linkedFacilities.length ? linkedFacilities.map((facility, index) => (
+          <article className="community-option-card" key={facility.facility_key}>
+            <div>
+              <strong>{facility.facility_name}</strong>
+              <span>{addressLine(facility)}</span>
+              <small>{clean(facility.care_category).replaceAll("_", " ")} · {clean(facility.capacity, "Unknown")} beds</small>
+            </div>
+            <div className="community-option-status">
+              <span>{index === 0 ? "Potential match" : index === 1 ? "Review" : "Backup"}</span>
+              <button type="button" aria-label={`Remove ${facility.facility_name}`} onClick={() => removeFacility(facility.facility_key)}>
+                <Trash2 size={15} />
+              </button>
+            </div>
+          </article>
+        )) : <span>No communities linked yet</span>}
+      </div>
+    </section>
+  );
+}
+
+function ClientAssessment({ lead }) {
+  return (
+    <section className="client-form-panel" id="clientAssessmentPanel" aria-label="Client assessment">
+      <div>
+        <p className="eyebrow">Assessment</p>
+        <h3>{lead ? `${lead.name} intake` : "Select a client"}</h3>
+      </div>
+      <div className="assessment-snapshot">
+        <div><strong>Care needs</strong><span>{clean(lead?.careNeeds)}</span></div>
+        <div><strong>Budget</strong><span>{clean(lead?.budget)}</span></div>
+        <div><strong>Preferred area</strong><span>{clean(lead?.preferredArea)}</span></div>
+        <div><strong>Urgency</strong><span>{clean(lead?.urgency)}</span></div>
+      </div>
+    </section>
+  );
+}
+
+function ClientTasks({ lead }) {
+  const tasks = [
+    ["Complete intake", lead?.status === "New" ? "Due today" : "Open"],
+    ["Confirm budget and care needs", "Open"],
+    ["Shortlist communities", (lead?.linkedFacilities || []).length ? "In progress" : "Not started"]
+  ];
+  return (
+    <section className="client-list-panel" id="clientTasksPanel" aria-label="Client tasks">
+      <p className="eyebrow">Tasks</p>
+      {tasks.map(([title, status]) => (
+        <article key={title}>
+          <strong>{title}</strong>
+          <span>{status}</span>
+        </article>
+      ))}
+    </section>
+  );
+}
+
+function ClientFiles({ lead }) {
+  return (
+    <section className="client-list-panel" id="clientFilesPanel" aria-label="Client files">
+      <p className="eyebrow">Files</p>
+      {["Assessment worksheet", "Community comparison packet", "Scanned business cards"].map((title) => (
+        <article key={title}>
+          <strong>{title}</strong>
+          <span>{lead ? "Ready for document storage model" : "Select a client"}</span>
+        </article>
+      ))}
+    </section>
+  );
+}
+
+function ClientWorkspace({ activeTab, setActiveTab, lead, setLeads, facilities, selectedFacility, people, relationships, setPeople, setRelationships, communications, setCommunications, selectedFacilityKey }) {
+  const linkedFacilities = (lead?.linkedFacilities || []).map((key) => facilities.find((facility) => facility.facility_key === key)).filter(Boolean);
+  return (
+    <section className="client-workspace-shell" id="clientWorkspaceShell" aria-label="Client workspace">
+      <div className="client-workspace-header">
+        <div>
+          <p className="eyebrow">Client Workspace</p>
+          <h2>{lead?.name || "Select a client"}</h2>
+        </div>
+        <div className="client-tab-list" id="clientWorkspaceTabs" role="tablist" aria-label="Client workspace tabs">
+          {CLIENT_WORKSPACE_TABS.map(([key, label]) => (
+            <button key={key} type="button" role="tab" aria-selected={activeTab === key} className={activeTab === key ? "is-active" : ""} onClick={() => setActiveTab(key)}>
+              {label}
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="client-workspace-body" id="clientWorkspaceBody">
+        {activeTab === "overview" && (
+          <>
+            <ClientOverview lead={lead} linkedFacilities={linkedFacilities} communications={communications} />
+            <LeadDetail lead={lead} setLeads={setLeads} facilities={facilities} selectedFacility={selectedFacility} />
+          </>
+        )}
+        {activeTab === "people" && <PeopleNetwork people={people} relationships={relationships} setPeople={setPeople} setRelationships={setRelationships} />}
+        {activeTab === "assessment" && <ClientAssessment lead={lead} />}
+        {activeTab === "communities" && <ClientCommunities lead={lead} setLeads={setLeads} facilities={facilities} selectedFacility={selectedFacility} />}
+        {activeTab === "activity" && (
+          <section className="client-activity-panel" id="clientActivityPanel">
+            <Scanner lead={lead} selectedFacilityKey={selectedFacilityKey} setLeads={setLeads} setCommunications={setCommunications} />
+            <Communications lead={lead} selectedFacility={selectedFacility} facilities={facilities} communications={communications} setCommunications={setCommunications} />
+          </section>
+        )}
+        {activeTab === "tasks" && <ClientTasks lead={lead} />}
+        {activeTab === "files" && <ClientFiles lead={lead} />}
+      </div>
+    </section>
+  );
+}
+
 function CrmView({ facilities, selectedFacilityKey }) {
   const [crmState, setCrmState] = useState(() => readStored(CRM_STATE_KEY, defaultCrmState()));
   const [crmSaveStatus, setCrmSaveStatus] = useState("Loading CRM database");
   const [linkedFacilities, setLinkedFacilities] = useState([]);
   const [selectedLeadId, setSelectedLeadId] = useState(crmState.leads[0]?.id || "");
+  const [activeClientTab, setActiveClientTab] = useState("overview");
   const [leadFilters, setLeadFilters] = useState({ query: "", status: "" });
   const crmWriteEnabledRef = useRef(false);
   const skipNextCrmSaveRef = useRef(false);
@@ -1733,12 +1917,21 @@ function CrmView({ facilities, selectedFacilityKey }) {
         <span id="leadFilterCount">{formatNumber(filteredLeads.length)} shown</span>
       </section>
       <Pipeline leads={filteredLeads} selectedLeadId={lead?.id} setSelectedLeadId={setSelectedLeadId} />
-      <section className="lead-panel" aria-label="Lead detail"><LeadDetail lead={lead} setLeads={setLeads} facilities={crmFacilities} selectedFacility={selectedFacility} /></section>
-      <section className="communications-panel" aria-label="Communication history">
-        <Scanner lead={lead} selectedFacilityKey={selectedFacilityKey} setLeads={setLeads} setCommunications={setCommunications} />
-        <Communications lead={lead} selectedFacility={selectedFacility} facilities={crmFacilities} communications={crmState.communications} setCommunications={setCommunications} />
-      </section>
-      <PeopleNetwork people={people} relationships={relationships} setPeople={setPeople} setRelationships={setRelationships} />
+      <ClientWorkspace
+        activeTab={activeClientTab}
+        setActiveTab={setActiveClientTab}
+        lead={lead}
+        setLeads={setLeads}
+        facilities={crmFacilities}
+        selectedFacility={selectedFacility}
+        people={people}
+        relationships={relationships}
+        setPeople={setPeople}
+        setRelationships={setRelationships}
+        communications={crmState.communications}
+        setCommunications={setCommunications}
+        selectedFacilityKey={selectedFacilityKey}
+      />
     </main>
   );
 }

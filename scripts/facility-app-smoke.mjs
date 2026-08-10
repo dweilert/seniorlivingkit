@@ -65,6 +65,15 @@ try {
   assert.match(script, /facility-directory-crm-state-v3/);
   assert.match(script, /\/api\/crm\/state/);
   assert.match(script, /id: "crmSaveStatus"/);
+  assert.match(script, /CLIENT_WORKSPACE_TABS/);
+  assert.match(script, /id: "clientWorkspaceShell"/);
+  assert.match(script, /id: "clientWorkspaceTabs"/);
+  assert.match(script, /id: "clientOverviewPanel"/);
+  assert.match(script, /id: "clientAssessmentPanel"/);
+  assert.match(script, /id: "clientCommunitiesPanel"/);
+  assert.match(script, /id: "clientActivityPanel"/);
+  assert.match(script, /id: "clientTasksPanel"/);
+  assert.match(script, /id: "clientFilesPanel"/);
   assert.match(script, /facility-directory-website-contacts-v1/);
   assert.match(script, /id: "websiteContactCard"/);
   assert.match(script, /id: "facilityWebsiteInput"/);
