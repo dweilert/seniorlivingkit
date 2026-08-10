@@ -239,7 +239,7 @@ button:disabled {
 
 .results-panel {
   display: grid;
-  grid-template-rows: auto minmax(260px, 38vh) 1fr;
+  grid-template-rows: auto minmax(260px, 38vh) auto 1fr;
   min-height: 0;
 }
 
@@ -261,6 +261,29 @@ button:disabled {
 
 .result-summary span {
   color: var(--muted);
+}
+
+.pagination-bar {
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--line);
+  background: #f7faf8;
+}
+
+.pagination-bar span {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.pagination-bar button {
+  min-height: 30px;
+  padding: 6px 10px;
+  border-color: #c8d4cf;
+  background: #ffffff;
 }
 
 .result-list {

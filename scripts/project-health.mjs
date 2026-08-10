@@ -68,7 +68,9 @@ for (const scriptName of [
   assert.ok(packageJson.scripts?.[scriptName], `Missing package script: ${scriptName}`);
 }
 
-await assertFile("apps/facility-directory-prototype/src/App.jsx", /\/api\/facilities\/search\?limit=50000/);
+await assertFile("apps/facility-directory-prototype/src/App.jsx", /const FACILITY_API_URL = "\/api\/facilities\/search"/);
+await assertFile("apps/facility-directory-prototype/src/App.jsx", /FACILITY_PAGE_SIZE = 500/);
+await assertFile("apps/facility-directory-prototype/src/App.jsx", /id="facilityPagination"/);
 await assertFile("apps/facility-directory-prototype/src/App.jsx", /\/api\/crm\/state/);
 await assertFile("apps/facility-directory-prototype/src/App.jsx", /\/api\/advisors\/search/);
 await assertFile("apps/facility-directory-prototype/vite.config.mjs", /function facilitySearch/);

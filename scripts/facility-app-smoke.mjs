@@ -31,7 +31,9 @@ try {
   const script = await scriptResponse.text();
   assert.equal(scriptResponse.status, 200);
   assert.match(script, /combined-facilities-active\.json/);
-  assert.match(script, /\/api\/facilities\/search\?limit=50000/);
+  assert.match(script, /const FACILITY_API_URL = "\/api\/facilities\/search"/);
+  assert.match(script, /FACILITY_PAGE_SIZE = 500/);
+  assert.match(script, /id: "facilityPagination"/);
   assert.match(script, /MAX_RENDERED_ROWS = 300/);
   assert.match(script, /DEFAULT_PIN_LIMIT = 300/);
   assert.match(script, /tile\.openstreetmap\.org/);
@@ -114,7 +116,29 @@ try {
   assert.ok(facilitySearch.records.length > 0);
   assert.ok(facilitySearch.records.every((record) => record.state === "TX"));
   assert.ok(facilitySearch.states.includes("TX"));
+  assert.equal(facilitySearch.page_size, 25);
+  assert.equal(facilitySearch.page, 1);
+  assert.equal(typeof facilitySearch.has_more, "boolean");
   const preferenceFacilityKey = facilitySearch.records[0].facility_key;
+
+  const facilityPageResponse = await fetch(`http://127.0.0.1:${port}/api/facilities/search?state=TX&q=Austin&page=2&pageSize=10`);
+  const facilityPage = await facilityPageResponse.json();
+  assert.equal(facilityPageResponse.status, 200);
+  assert.equal(facilityPage.page, 2);
+  assert.equal(facilityPage.page_size, 10);
+  assert.ok(facilityPage.records.length <= 10);
+
+  const boundedSearchResponse = await fetch(`http://127.0.0.1:${port}/api/facilities/search?state=TX&south=30.0&north=30.6&west=-98.1&east=-97.3&pageSize=20`);
+  const boundedSearch = await boundedSearchResponse.json();
+  assert.equal(boundedSearchResponse.status, 200);
+  assert.ok(boundedSearch.records.every((record) => record.latitude >= 30.0 && record.latitude <= 30.6));
+  assert.ok(boundedSearch.records.every((record) => record.longitude >= -98.1 && record.longitude <= -97.3));
+
+  const keyedSearchResponse = await fetch(`http://127.0.0.1:${port}/api/facilities/search?keys=${encodeURIComponent("tx-hhsc-assisted-living:000745,tx-hhsc-assisted-living:105071")}&pageSize=10`);
+  const keyedSearch = await keyedSearchResponse.json();
+  assert.equal(keyedSearchResponse.status, 200);
+  assert.equal(keyedSearch.records.length, 2);
+  assert.ok(keyedSearch.records.every((record) => ["tx-hhsc-assisted-living:000745", "tx-hhsc-assisted-living:105071"].includes(record.facility_key)));
 
   const facilityPreferencesResponse = await fetch(`http://127.0.0.1:${port}/api/facility-preferences`);
   const facilityPreferences = await facilityPreferencesResponse.json();

@@ -142,10 +142,13 @@ Vite local API routes in `apps/facility-directory-prototype/vite.config.mjs`:
 - `GET /api/advisors/search`
 - `POST /api/business-card/ocr`
 
-The directory view loads facilities from Postgres first:
+The directory view loads facilities from Postgres first with server-side page
+size, page/offset, sort, source filters, ZIP/capacity filters, distance radius,
+map bounding box support, and exact facility-key lookup for CRM-linked
+communities:
 
 ```text
-/api/facilities/search?limit=50000
+/api/facilities/search?page=1&pageSize=500
 ```
 
 It falls back to:

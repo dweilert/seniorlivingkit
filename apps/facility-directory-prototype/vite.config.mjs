@@ -122,6 +122,13 @@ function numberParam(params, key) {
   return Number.isFinite(number) ? number : null;
 }
 
+function integerParam(params, key, fallback) {
+  const raw = params.get(key);
+  if (raw == null || raw === "") return fallback;
+  const value = Number(raw);
+  return Number.isFinite(value) ? Math.trunc(value) : fallback;
+}
+
 async function queryJson(sql) {
   const output = await capture("docker", psqlArgs(["-At", "-c", sql]));
   return JSON.parse(output.trim() || "null");
@@ -249,18 +256,33 @@ function clampNumber(value, min, max) {
   return Math.max(min, Math.min(max, Math.trunc(value)));
 }
 
+function clampFloat(value, min, max) {
+  if (!Number.isFinite(value)) return min;
+  return Math.max(min, Math.min(max, value));
+}
+
 async function facilitySearch(params) {
   const query = String(params.get("q") || "").trim();
   const state = String(params.get("state") || "").trim();
   const category = String(params.get("category") || "").trim();
   const care = String(params.get("care") || "").trim();
   const zip = String(params.get("zip") || "").trim();
+  const capacity = String(params.get("capacity") || "").trim();
+  const sort = String(params.get("sort") || "location").trim();
+  const keys = String(params.get("keys") || "").split(",").map((key) => key.trim()).filter(Boolean).slice(0, 250);
   const minBeds = numberParam(params, "minBeds");
   const maxBeds = numberParam(params, "maxBeds");
   const latitude = numberParam(params, "latitude");
   const longitude = numberParam(params, "longitude");
   const miles = numberParam(params, "miles");
-  const limit = Math.min(Math.max(Number(params.get("limit") || 5000), 1), 50000);
+  const north = numberParam(params, "north");
+  const south = numberParam(params, "south");
+  const east = numberParam(params, "east");
+  const west = numberParam(params, "west");
+  const requestedLimit = integerParam(params, "pageSize", integerParam(params, "limit", 500));
+  const limit = Math.min(Math.max(requestedLimit, 1), 1000);
+  const page = Math.max(integerParam(params, "page", 1), 1);
+  const offset = Math.max(integerParam(params, "offset", (page - 1) * limit), 0);
   const conditions = ["facility.is_active = true"];
   const orderTerms = [];
 
@@ -277,19 +299,41 @@ async function facilitySearch(params) {
     )`);
   }
   if (state) conditions.push(`facility.state = ${sqlLiteral(state)}`);
+  if (keys.length) conditions.push(`facility.facility_key IN (${keys.map(sqlLiteral).join(", ")})`);
   if (category) conditions.push(`facility.care_category = ${sqlLiteral(category)}`);
   if (care) conditions.push(`facility.program_type = ${sqlLiteral(care)}`);
   if (zip) conditions.push(`facility.zip LIKE ${sqlLiteral(`${zip}%`)}`);
+  if (capacity === "small") conditions.push("facility.capacity BETWEEN 1 AND 15");
+  if (capacity === "medium") conditions.push("facility.capacity BETWEEN 16 AND 75");
+  if (capacity === "large") conditions.push("facility.capacity >= 76");
   if (minBeds != null) conditions.push(`facility.capacity >= ${minBeds}`);
   if (maxBeds != null) conditions.push(`facility.capacity <= ${maxBeds}`);
   if (latitude != null && longitude != null && miles != null) {
     const meters = Math.max(miles, 0) * 1609.344;
     conditions.push(`facility.geog IS NOT NULL`);
     conditions.push(`ST_DWithin(facility.geog, ST_SetSRID(ST_MakePoint(${longitude}, ${latitude}), 4326)::geography, ${meters})`);
-    orderTerms.push(`ST_Distance(facility.geog, ST_SetSRID(ST_MakePoint(${longitude}, ${latitude}), 4326)::geography)`);
+    if (sort === "distance" || sort === "location") {
+      orderTerms.push(`ST_Distance(facility.geog, ST_SetSRID(ST_MakePoint(${longitude}, ${latitude}), 4326)::geography)`);
+    }
+  }
+  if ([north, south, east, west].every((value) => value != null)) {
+    const boundedNorth = clampFloat(north, -90, 90);
+    const boundedSouth = clampFloat(south, -90, 90);
+    const boundedEast = clampFloat(east, -180, 180);
+    const boundedWest = clampFloat(west, -180, 180);
+    conditions.push("facility.latitude IS NOT NULL");
+    conditions.push("facility.longitude IS NOT NULL");
+    conditions.push(`facility.latitude BETWEEN ${Math.min(boundedSouth, boundedNorth)} AND ${Math.max(boundedSouth, boundedNorth)}`);
+    if (boundedWest <= boundedEast) {
+      conditions.push(`facility.longitude BETWEEN ${boundedWest} AND ${boundedEast}`);
+    } else {
+      conditions.push(`(facility.longitude >= ${boundedWest} OR facility.longitude <= ${boundedEast})`);
+    }
   }
   const where = `WHERE ${conditions.join(" AND ")}`;
-  const orderBy = [...orderTerms, "facility.state", "facility.city", "facility.facility_name"].join(", ");
+  if (sort === "name") orderTerms.push("facility.facility_name");
+  if (sort === "capacity") orderTerms.push("facility.capacity DESC NULLS LAST");
+  const orderBy = [...orderTerms, "facility.state", "facility.city", "facility.facility_name", "facility.facility_key"].join(", ");
 
   return queryJson(`
     WITH filtered AS (
@@ -315,6 +359,7 @@ async function facilitySearch(params) {
       ${where}
       ORDER BY ${orderBy}
       LIMIT ${limit}
+      OFFSET ${offset}
     )
     SELECT jsonb_build_object(
       'records', coalesce((
@@ -351,6 +396,11 @@ async function facilitySearch(params) {
       'total_matching', (SELECT count(*) FROM facilities facility ${where}),
       'total_active', (SELECT count(*) FROM facilities WHERE is_active = true),
       'limit', ${limit},
+      'page_size', ${limit},
+      'offset', ${offset},
+      'page', ${Math.floor(offset / limit) + 1},
+      'sort', ${sqlLiteral(sort || "location")},
+      'has_more', ((SELECT count(*) FROM facilities facility ${where}) > ${offset + limit}),
       'states', (
         SELECT coalesce(jsonb_agg(state_row.state ORDER BY state_row.state), '[]'::jsonb)
         FROM (SELECT DISTINCT state FROM facilities WHERE is_active = true AND state <> '') state_row

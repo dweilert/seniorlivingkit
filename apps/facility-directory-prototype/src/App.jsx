@@ -20,7 +20,8 @@ import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { PERSON_TYPES, PIPELINE_STAGES, SAMPLE_COMMUNICATIONS, SAMPLE_LEADS, SAMPLE_PEOPLE, SAMPLE_RELATIONSHIPS } from "../crm-data.js";
 
 const DATA_URL = "/data/facilities/combined-facilities-active.json";
-const FACILITY_API_URL = "/api/facilities/search?limit=50000";
+const FACILITY_API_URL = "/api/facilities/search";
+const FACILITY_PAGE_SIZE = 500;
 const MAX_RENDERED_ROWS = 300;
 const DEFAULT_PIN_LIMIT = 300;
 const TILE_SIZE = 256;
@@ -166,6 +167,73 @@ function usePersistentState(key, fallback) {
 
 function defaultPreferences() {
   return { priority: {}, excluded: {}, favorite: {}, notes: {} };
+}
+
+function defaultFacilitySearchMeta() {
+  return {
+    total_matching: 0,
+    total_active: 0,
+    page: 1,
+    page_size: FACILITY_PAGE_SIZE,
+    has_more: false,
+    states: [],
+    care_options: [],
+    categories: []
+  };
+}
+
+function facilitySearchUrl(filters, page) {
+  const params = new URLSearchParams({
+    page: String(page),
+    pageSize: String(FACILITY_PAGE_SIZE),
+    sort: filters.distanceCenter && filters.distanceMiles ? "distance" : "location"
+  });
+  const values = {
+    q: filters.query,
+    category: filters.category,
+    state: filters.state,
+    care: filters.care,
+    zip: filters.zip,
+    capacity: filters.capacity,
+    minBeds: filters.minBeds,
+    maxBeds: filters.maxBeds,
+    miles: filters.distanceMiles
+  };
+  for (const [key, value] of Object.entries(values)) {
+    if (String(value || "").trim()) params.set(key, String(value).trim());
+  }
+  if (filters.distanceCenter && filters.distanceMiles) {
+    params.set("latitude", String(filters.distanceCenter.latitude));
+    params.set("longitude", String(filters.distanceCenter.longitude));
+  }
+  return `${FACILITY_API_URL}?${params.toString()}`;
+}
+
+function facilityFilterSignature(filters) {
+  return JSON.stringify({
+    query: filters.query,
+    category: filters.category,
+    state: filters.state,
+    care: filters.care,
+    zip: filters.zip,
+    capacity: filters.capacity,
+    minBeds: filters.minBeds,
+    maxBeds: filters.maxBeds,
+    distanceMiles: filters.distanceMiles,
+    distanceCenter: filters.distanceCenter
+      ? { latitude: filters.distanceCenter.latitude, longitude: filters.distanceCenter.longitude }
+      : null
+  });
+}
+
+function mergeFacilities(...groups) {
+  const byKey = new Map();
+  for (const group of groups) {
+    for (const facility of group || []) {
+      if (facility?.facility_key) byKey.set(facility.facility_key, facility);
+    }
+  }
+  return [...byKey.values()];
 }
 
 function defaultCrmState() {
@@ -355,7 +423,8 @@ function DirectoryFilters({ filters, setFilters, stateOptions, careOptions, geoc
     pinLimit: String(DEFAULT_PIN_LIMIT),
     visibility: "visible",
     costMin: "",
-    costMax: ""
+    costMax: "",
+    sort: "location"
   });
 
   return (
@@ -833,13 +902,13 @@ function FacilityDetail({ record, priority, excluded, favorite, changePriority, 
   );
 }
 
-function DirectoryView({ records, filters, setFilters, preferences, setPreferences, preferenceStatus, setPreferenceStatus, selectedKey, setSelectedKey }) {
+function DirectoryView({ records, filters, setFilters, searchMeta, searchPage, setSearchPage, preferences, setPreferences, preferenceStatus, setPreferenceStatus, selectedKey, setSelectedKey }) {
   const [zoomOffset, setZoomOffset] = useState(0);
   const [geocodeStatus, setGeocodeStatus] = useState("Address distance filter inactive.");
   const [websiteContacts, setWebsiteContacts] = usePersistentState(WEBSITE_CONTACTS_KEY, {});
   const resultListRef = useRef(null);
-  const stateOptions = useMemo(() => optionValues(records, "state"), [records]);
-  const careOptions = useMemo(() => optionValues(records, "program_type"), [records]);
+  const stateOptions = searchMeta.states?.length ? searchMeta.states : optionValues(records, "state");
+  const careOptions = searchMeta.care_options?.length ? searchMeta.care_options : optionValues(records, "program_type");
 
   const filtered = useMemo(() => {
     const query = filters.query.trim().toLowerCase();
@@ -1010,8 +1079,16 @@ function DirectoryView({ records, filters, setFilters, preferences, setPreferenc
     <main className="workspace" id="directoryView">
       <DirectoryFilters filters={filters} setFilters={setFilters} stateOptions={stateOptions} careOptions={careOptions} geocodeStatus={geocodeStatus} geocodeAddress={geocodeAddress} />
       <section className="results-panel" aria-label="Facility results">
-        <div className="result-summary"><strong id="resultCount">{formatNumber(filtered.length)}</strong><span id="resultMeta">facilities ({Math.min(filtered.length, MAX_RENDERED_ROWS)} rows · {Math.min(filtered.filter(hasCoordinates).length, pinLimit)} pins · <span id="facilityPreferenceStatus">{preferenceStatus}</span>)</span></div>
+        <div className="result-summary">
+          <strong id="resultCount">{formatNumber(searchMeta.total_matching || filtered.length)}</strong>
+          <span id="resultMeta">facilities ({Math.min(filtered.length, MAX_RENDERED_ROWS)} rows loaded · page {searchPage} · {Math.min(filtered.filter(hasCoordinates).length, pinLimit)} pins · <span id="facilityPreferenceStatus">{preferenceStatus}</span>)</span>
+        </div>
         <FacilityMap records={filtered} selectedKey={selectedKey} onPinSelect={selectFromMap} priority={preferences.priority} zoomOffset={zoomOffset} setZoomOffset={setZoomOffset} pinLimit={pinLimit} />
+        <div className="pagination-bar" id="facilityPagination">
+          <button type="button" disabled={searchPage <= 1} onClick={() => setSearchPage((current) => Math.max(current - 1, 1))}><ArrowLeft size={15} /> Previous</button>
+          <span>Showing {formatNumber(filtered.length)} of {formatNumber(searchMeta.total_matching || filtered.length)}</span>
+          <button type="button" disabled={!searchMeta.has_more} onClick={() => setSearchPage((current) => current + 1)}>Next <ArrowRight size={15} /></button>
+        </div>
         <div className="result-list" id="resultList" ref={resultListRef}>
           {filtered.slice(0, MAX_RENDERED_ROWS).map((record) => (
             <div key={record.facility_key} data-facility-key={record.facility_key}>
@@ -1511,14 +1588,16 @@ function PeopleNetwork({ people, relationships, setPeople, setRelationships }) {
 function CrmView({ facilities, selectedFacilityKey }) {
   const [crmState, setCrmState] = useState(() => readStored(CRM_STATE_KEY, defaultCrmState()));
   const [crmSaveStatus, setCrmSaveStatus] = useState("Loading CRM database");
+  const [linkedFacilities, setLinkedFacilities] = useState([]);
   const [selectedLeadId, setSelectedLeadId] = useState(crmState.leads[0]?.id || "");
   const [leadFilters, setLeadFilters] = useState({ query: "", status: "" });
   const crmWriteEnabledRef = useRef(false);
   const skipNextCrmSaveRef = useRef(false);
   const people = crmState.people?.length ? crmState.people : SAMPLE_PEOPLE;
   const relationships = crmState.relationships?.length ? crmState.relationships : SAMPLE_RELATIONSHIPS;
+  const crmFacilities = useMemo(() => mergeFacilities(facilities, linkedFacilities), [facilities, linkedFacilities]);
   const lead = crmState.leads.find((item) => item.id === selectedLeadId) || crmState.leads[0];
-  const selectedFacility = facilities.find((facility) => facility.facility_key === selectedFacilityKey);
+  const selectedFacility = crmFacilities.find((facility) => facility.facility_key === selectedFacilityKey);
   const setLeads = (updater) => setCrmState((current) => ({ ...current, leads: typeof updater === "function" ? updater(current.leads) : updater }));
   const setCommunications = (updater) => setCrmState((current) => ({ ...current, communications: typeof updater === "function" ? updater(current.communications) : updater }));
   const setPeople = (updater) => setCrmState((current) => ({ ...current, people: typeof updater === "function" ? updater(current.people?.length ? current.people : SAMPLE_PEOPLE) : updater }));
@@ -1594,6 +1673,30 @@ function CrmView({ facilities, selectedFacilityKey }) {
     return () => window.clearTimeout(timer);
   }, [crmState]);
 
+  useEffect(() => {
+    const keys = [...new Set(crmState.leads.flatMap((item) => item.linkedFacilities || []))]
+      .filter((key) => !facilities.some((facility) => facility.facility_key === key));
+    if (!keys.length) {
+      setLinkedFacilities([]);
+      return;
+    }
+    let ignore = false;
+    fetch(`${FACILITY_API_URL}?pageSize=${keys.length}&keys=${encodeURIComponent(keys.join(","))}`)
+      .then((response) => {
+        if (!response.ok) throw new Error(`Linked facility lookup failed: ${response.status}`);
+        return response.json();
+      })
+      .then((payload) => {
+        if (!ignore) setLinkedFacilities(payload.records || []);
+      })
+      .catch(() => {
+        if (!ignore) setLinkedFacilities([]);
+      });
+    return () => {
+      ignore = true;
+    };
+  }, [crmState.leads, facilities]);
+
   return (
     <main className="crm-workspace" id="crmView">
       <section className="crm-header" aria-label="CRM summary">
@@ -1630,10 +1733,10 @@ function CrmView({ facilities, selectedFacilityKey }) {
         <span id="leadFilterCount">{formatNumber(filteredLeads.length)} shown</span>
       </section>
       <Pipeline leads={filteredLeads} selectedLeadId={lead?.id} setSelectedLeadId={setSelectedLeadId} />
-      <section className="lead-panel" aria-label="Lead detail"><LeadDetail lead={lead} setLeads={setLeads} facilities={facilities} selectedFacility={selectedFacility} /></section>
+      <section className="lead-panel" aria-label="Lead detail"><LeadDetail lead={lead} setLeads={setLeads} facilities={crmFacilities} selectedFacility={selectedFacility} /></section>
       <section className="communications-panel" aria-label="Communication history">
         <Scanner lead={lead} selectedFacilityKey={selectedFacilityKey} setLeads={setLeads} setCommunications={setCommunications} />
-        <Communications lead={lead} selectedFacility={selectedFacility} facilities={facilities} communications={crmState.communications} setCommunications={setCommunications} />
+        <Communications lead={lead} selectedFacility={selectedFacility} facilities={crmFacilities} communications={crmState.communications} setCommunications={setCommunications} />
       </section>
       <PeopleNetwork people={people} relationships={relationships} setPeople={setPeople} setRelationships={setRelationships} />
     </main>
@@ -1776,6 +1879,8 @@ function AdvisorsView() {
 export default function App() {
   const [view, setView] = useState("directory");
   const [records, setRecords] = useState([]);
+  const [searchMeta, setSearchMeta] = useState(defaultFacilitySearchMeta());
+  const [searchPage, setSearchPage] = useState(1);
   const [dataStatus, setDataStatus] = useState("Loading database");
   const [selectedKey, setSelectedKey] = useState("");
   const [filters, setFilters] = useState({
@@ -1793,23 +1898,42 @@ export default function App() {
     pinLimit: String(DEFAULT_PIN_LIMIT),
     visibility: "visible",
     costMin: "",
-    costMax: ""
+    costMax: "",
+    sort: "location"
   });
   const [preferences, setPreferences] = usePersistentState(PREFERENCES_KEY, defaultPreferences());
   const [preferenceStatus, setPreferenceStatus] = useState("Loading preferences");
 
+  const serverFilterSignature = facilityFilterSignature(filters);
+
+  useEffect(() => {
+    setSearchPage(1);
+  }, [serverFilterSignature]);
+
   useEffect(() => {
     let ignore = false;
-    fetch(FACILITY_API_URL)
+    setDataStatus("Loading database");
+    fetch(facilitySearchUrl(filters, searchPage))
       .then((response) => {
         if (!response.ok) throw new Error(`Facility database load failed: ${response.status}`);
         return response.json();
       })
       .then((payload) => {
         if (ignore) return;
-        setRecords(payload.records);
-        setSelectedKey(payload.records[0]?.facility_key || "");
-        setDataStatus(`Postgres source · ${formatNumber(payload.total_matching || payload.records.length)} matching`);
+        const nextRecords = payload.records || [];
+        setRecords(nextRecords);
+        setSearchMeta({
+          total_matching: payload.total_matching || 0,
+          total_active: payload.total_active || 0,
+          page: payload.page || searchPage,
+          page_size: payload.page_size || FACILITY_PAGE_SIZE,
+          has_more: Boolean(payload.has_more),
+          states: payload.states || [],
+          care_options: payload.care_options || [],
+          categories: payload.categories || []
+        });
+        setSelectedKey(nextRecords[0]?.facility_key || "");
+        setDataStatus(`Postgres source · ${formatNumber(payload.total_matching || nextRecords.length)} matching · page ${payload.page || searchPage}`);
       })
       .catch((error) => {
         console.error(error);
@@ -1822,6 +1946,16 @@ export default function App() {
           .then((payload) => {
             if (ignore) return;
             setRecords(payload.records);
+            setSearchMeta({
+              ...defaultFacilitySearchMeta(),
+              total_matching: payload.records.length,
+              total_active: payload.records.length,
+              page: 1,
+              page_size: payload.records.length,
+              states: optionValues(payload.records, "state"),
+              care_options: optionValues(payload.records, "program_type"),
+              categories: optionValues(payload.records, "care_category")
+            });
             setSelectedKey(payload.records[0]?.facility_key || "");
             setDataStatus("fallback file");
           })
@@ -1833,7 +1967,7 @@ export default function App() {
     return () => {
       ignore = true;
     };
-  }, []);
+  }, [filters, searchPage]);
 
   useEffect(() => {
     let ignore = false;
@@ -1868,6 +2002,9 @@ export default function App() {
           records={records}
           filters={filters}
           setFilters={setFilters}
+          searchMeta={searchMeta}
+          searchPage={searchPage}
+          setSearchPage={setSearchPage}
           preferences={preferences}
           setPreferences={setPreferences}
           preferenceStatus={preferenceStatus}
