@@ -1,0 +1,44 @@
+{
+  "records": [
+    {
+      "_id": 1,
+      "facility_type": "RCFE-CONTINUING CARE RETIREMENT COMMUNITY",
+      "facility_number": 15601302,
+      "facility_name": "ACACIA CREEK - UNION CITY",
+      "licensee": "MASONIC HOMES CAL & ACACIA CREEK, MASONIC SEN LIV",
+      "facility_administrator": "CHUCK MAJOR",
+      "facility_telephone_number": "(510) 441-3700",
+      "facility_address": "34400 MISSION BLVD.",
+      "facility_city": "UNION CITY",
+      "facility_state": "CA",
+      "facility_zip": 94587,
+      "county_name": "ALAMEDA",
+      "regional_office": 15,
+      "facility_capacity": 376,
+      "facility_status": "LICENSED",
+      "license_first_date": "5/20/2010",
+      "closed_date": null,
+      "file_date": 5252025
+    },
+    {
+      "_id": 2,
+      "facility_type": "RESIDENTIAL CARE ELDERLY",
+      "facility_number": 216801686,
+      "facility_name": "ALDERSLY",
+      "licensee": "ALDERSLY/LIFE CARE SERVICES,LLC",
+      "facility_administrator": "MIKE SHARKEY",
+      "facility_telephone_number": "(415) 453-7425",
+      "facility_address": "326 MISSION AVENUE",
+      "facility_city": "SAN RAFAEL",
+      "facility_state": "CA",
+      "facility_zip": 94901,
+      "county_name": "MARIN",
+      "regional_office": 21,
+      "facility_capacity": 137,
+      "facility_status": "LICENSED",
+      "license_first_date": "11/5/2004",
+      "closed_date": null,
+      "file_date": 5252025
+    }
+  ]
+}

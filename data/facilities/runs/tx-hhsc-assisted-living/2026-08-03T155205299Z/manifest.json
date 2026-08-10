@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-08-03T155205299Z",
+  "generated_at": "2026-08-03T15:52:05.299Z",
+  "source_id": "tx-hhsc-assisted-living",
+  "source_url": "https://services1.arcgis.com/jI1j5lArZnrgFYSc/ArcGIS/rest/services/Assisted_Living/FeatureServer/0",
+  "source_owner": "Texas Health and Human Services Commission",
+  "source_system": "ArcGIS FeatureServer",
+  "center": {
+    "id": "austin-tx",
+    "label": "Austin, TX",
+    "latitude": 30.2672,
+    "longitude": -97.7431
+  },
+  "limit": "all",
+  "total_source_records": 2014,
+  "normalized_records": 2013,
+  "selected_records": 2013,
+  "active_records": 2013,
+  "inactive_records": 0,
+  "status_counts": {
+    "UNKNOWN": 2013
+  },
+  "selected_records_sha256": "cbfa7cfccd64793d83f219905bae712d642c4ec2754061fc463551134464840b",
+  "validation": {
+    "warnings": [
+      "37 records are missing phone numbers."
+    ],
+    "missing_source_facility_id": 0,
+    "missing_address": 0,
+    "missing_phone": 37,
+    "missing_capacity": 0,
+    "missing_coordinates": 0,
+    "duplicate_facility_keys": {}
+  },
+  "geocoding": null,
+  "pages": [
+    {
+      "offset": 0,
+      "returned": 1000,
+      "exceededTransferLimit": true
+    },
+    {
+      "offset": 1000,
+      "returned": 1000,
+      "exceededTransferLimit": true
+    },
+    {
+      "offset": 2000,
+      "returned": 14,
+      "exceededTransferLimit": false
+    }
+  ],
+  "outputs": {
+    "latest_json": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/austin-area-assisted-living-all.json",
+    "latest_csv": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/austin-area-assisted-living-all.csv",
+    "run_manifest": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/runs/tx-hhsc-assisted-living/2026-08-03T155205299Z/manifest.json",
+    "run_raw": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/runs/tx-hhsc-assisted-living/2026-08-03T155205299Z/raw-source.json",
+    "run_geocoding": null,
+    "run_normalized_json": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/runs/tx-hhsc-assisted-living/2026-08-03T155205299Z/normalized-records.json",
+    "run_normalized_csv": "/Users/bob/retirementPlannerRewriteCodeX/data/facilities/runs/tx-hhsc-assisted-living/2026-08-03T155205299Z/normalized-records.csv"
+  },
+  "parsing_notes": [
+    "ArcGIS records are paginated with resultOffset/resultRecordCount and ordered by OBJECTID.",
+    "Facility attributes are read from feature.attributes; geometry is not requested because X/Y fields are already present.",
+    "State values of TEXAS or blank are normalized to TX.",
+    "Capacity is parsed from TotCap as a number when present.",
+    "Distance is computed with the Haversine formula from the configured center point.",
+    "Records are sorted by computed distance, then facility name, before applying the limit."
+  ]
+}

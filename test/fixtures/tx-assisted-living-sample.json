@@ -1,0 +1,55 @@
+{
+  "features": [
+    {
+      "attributes": {
+        "FacName": "SOCO VILLAGE",
+        "FacID": "110472",
+        "ProgTyp": "Assisted Living",
+        "County": "Travis",
+        "Address": "3700 PAYLOAD PASS",
+        "City": "Austin",
+        "State": "TEXAS",
+        "Zipcode": "78704",
+        "Y": 30.2232,
+        "X": -97.7552,
+        "Phone": "512 6531430",
+        "Fax": "",
+        "TotCap": "129"
+      }
+    },
+    {
+      "attributes": {
+        "FacName": "BROOKDALE WESTLAKE HILLS",
+        "FacID": "000745",
+        "ProgTyp": "Assisted Living",
+        "County": "TRAVIS",
+        "Address": "1034 LIBERTY PARK DR",
+        "City": "Austin",
+        "State": "TX",
+        "Zipcode": "78746",
+        "Y": 30.2675,
+        "X": -97.7876,
+        "Phone": "(512) 328-3775",
+        "Fax": "(512) 329-6533",
+        "TotCap": 36
+      }
+    },
+    {
+      "attributes": {
+        "FacName": "",
+        "FacID": "ignored",
+        "ProgTyp": "Assisted Living",
+        "County": "TRAVIS",
+        "Address": "No Name",
+        "City": "Austin",
+        "State": "TX",
+        "Zipcode": "78701",
+        "Y": 30.2672,
+        "X": -97.7431,
+        "Phone": "",
+        "Fax": "",
+        "TotCap": ""
+      }
+    }
+  ]
+}

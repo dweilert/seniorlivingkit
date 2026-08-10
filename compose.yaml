@@ -1,0 +1,23 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: seniorlivingkit-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-seniorlivingkit}
+      POSTGRES_USER: ${POSTGRES_USER:-seniorlivingkit}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-seniorlivingkit_dev}
+    ports:
+      - "${POSTGRES_PORT:-54321}:5432"
+    volumes:
+      - seniorlivingkit_pgdata:/var/lib/postgresql/data
+      - ./db:/workspace/db:ro
+      - ./data:/workspace/data:ro
+      - ./tmp:/workspace/tmp
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-seniorlivingkit} -d ${POSTGRES_DB:-seniorlivingkit}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  seniorlivingkit_pgdata:

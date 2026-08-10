@@ -1,0 +1,513 @@
+{
+  "probed_at": "2026-08-03",
+  "source_url": "https://portal.csa.us/locator/",
+  "extraction_note": "Small read-only pagination probe of public CSA Locator search result pages.",
+  "pages": [
+    {
+      "cards": [
+        {
+          "certified_since": "2025-10-06",
+          "detail_url": "https://portal.csa.us/csa-search/andrew-forstadt/",
+          "location": "CHERRY HILL, New Jersey",
+          "main_industry": "Senior Housing, Placement",
+          "name": "ANDREW FORSTADT",
+          "raw_text": "ANDREW FORSTADT\nCERTIFIED SINCE:\n2025-10-06\nLOCATION:\nCHERRY HILL, New Jersey\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: ANDREW FORSTADT"
+        },
+        {
+          "certified_since": "2026-01-14",
+          "detail_url": "https://portal.csa.us/csa-search/laura-odom/",
+          "location": "Campbell, California",
+          "main_industry": "Real Estate Services",
+          "name": "LAURA ODOM",
+          "raw_text": "LAURA ODOM\nCERTIFIED SINCE:\n2026-01-14\nLOCATION:\nCampbell, California\nMAIN INDUSTRY:\nReal Estate Services\nVIEW DETAILS\nVIEW DETAILS\n: LAURA ODOM"
+        },
+        {
+          "certified_since": "2001-08-18",
+          "detail_url": "https://portal.csa.us/csa-search/dennis-r-stolp/",
+          "location": "St Paul, Minnesota",
+          "main_industry": "Insurance Services",
+          "name": "DENNIS R. STOLP",
+          "raw_text": "DENNIS R. STOLP\nCERTIFIED SINCE:\n2001-08-18\nLOCATION:\nSt Paul, Minnesota\nMAIN INDUSTRY:\nInsurance Services\nVIEW DETAILS\nVIEW DETAILS\n: DENNIS R. STOLP"
+        },
+        {
+          "certified_since": "2015-08-18",
+          "detail_url": "https://portal.csa.us/csa-search/jason-eddy/",
+          "location": "Los Angeles, California",
+          "main_industry": "Senior Housing, Placement",
+          "name": "JASON EDDY",
+          "raw_text": "JASON EDDY\nCERTIFIED SINCE:\n2015-08-18\nLOCATION:\nLos Angeles, California\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: JASON EDDY"
+        },
+        {
+          "certified_since": "2018-12-14",
+          "detail_url": "https://portal.csa.us/csa-search/laqueta-shelburne/",
+          "location": "San Angelo, Texas",
+          "main_industry": "Financial Services",
+          "name": "LAQUETA SHELBURNE",
+          "raw_text": "LAQUETA SHELBURNE\nCERTIFIED SINCE:\n2018-12-14\nLOCATION:\nSan Angelo, Texas\nMAIN INDUSTRY:\nFinancial Services\nVIEW DETAILS\nVIEW DETAILS\n: LAQUETA SHELBURNE"
+        },
+        {
+          "certified_since": "2022-04-12",
+          "detail_url": "https://portal.csa.us/csa-search/kelly-graffius/",
+          "location": "Peachtree Corners, Georgia",
+          "main_industry": "Senior Housing, Placement",
+          "name": "KELLY GRAFFIUS",
+          "raw_text": "KELLY GRAFFIUS\nCERTIFIED SINCE:\n2022-04-12\nLOCATION:\nPeachtree Corners, Georgia\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: KELLY GRAFFIUS"
+        },
+        {
+          "certified_since": "2023-11-01",
+          "detail_url": "https://portal.csa.us/csa-search/greg-mason/",
+          "location": "Brooklyn, New York",
+          "main_industry": "Senior Housing, Placement, & Real Estate Services",
+          "name": "GREG MASON",
+          "raw_text": "GREG MASON\nCERTIFIED SINCE:\n2023-11-01\nLOCATION:\nBrooklyn, New York\nMAIN INDUSTRY:\nSenior Housing, Placement, & Real Estate Services\nVIEW DETAILS\nVIEW DETAILS\n: GREG MASON"
+        },
+        {
+          "certified_since": "2021-04-14",
+          "detail_url": "https://portal.csa.us/csa-search/catherine-shelton/",
+          "location": "Culpeper, Virginia",
+          "main_industry": "Senior Care Services (Healthcare, Homecare, etc.)",
+          "name": "CATHERINE SHELTON",
+          "raw_text": "CATHERINE SHELTON\nCERTIFIED SINCE:\n2021-04-14\nLOCATION:\nCulpeper, Virginia\nMAIN INDUSTRY:\nSenior Care Services (Healthcare, Homecare, etc.)\nVIEW DETAILS\nVIEW DETAILS\n: CATHERINE SHELTON"
+        },
+        {
+          "certified_since": "2005-02-05",
+          "detail_url": "https://portal.csa.us/csa-search/robin-telesco/",
+          "location": "Draper, Utah",
+          "main_industry": "Insurance Services",
+          "name": "ROBIN TELESCO",
+          "raw_text": "ROBIN TELESCO\nCERTIFIED SINCE:\n2005-02-05\nLOCATION:\nDraper, Utah\nMAIN INDUSTRY:\nInsurance Services\nVIEW DETAILS\nVIEW DETAILS\n: ROBIN TELESCO"
+        },
+        {
+          "certified_since": "2022-06-06",
+          "detail_url": "https://portal.csa.us/csa-search/magna-johnston-bucknor/",
+          "location": "Gaithersburg, Maryland",
+          "main_industry": "Senior Care Services (Healthcare, Homecare, etc.)",
+          "name": "MAGNA JOHNSTON-BUCKNOR",
+          "raw_text": "MAGNA JOHNSTON-BUCKNOR\nCERTIFIED SINCE:\n2022-06-06\nLOCATION:\nGaithersburg, Maryland\nMAIN INDUSTRY:\nSenior Care Services (Healthcare, Homecare, etc.)\nVIEW DETAILS\nVIEW DETAILS\n: MAGNA JOHNSTON-BUCKNOR"
+        },
+        {
+          "certified_since": "2025-04-30",
+          "detail_url": "https://portal.csa.us/csa-search/nnenna-kuntz/",
+          "location": "Lancaster, Pennsylvania",
+          "main_industry": "Senior Housing, Placement",
+          "name": "NNENNA KUNTZ",
+          "raw_text": "NNENNA KUNTZ\nCERTIFIED SINCE:\n2025-04-30\nLOCATION:\nLancaster, Pennsylvania\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: NNENNA KUNTZ"
+        },
+        {
+          "certified_since": "2013-10-25",
+          "detail_url": "https://portal.csa.us/csa-search/chris-gartman/",
+          "location": "York, Pennsylvania",
+          "main_industry": "Senior Housing, Placement",
+          "name": "CHRIS GARTMAN",
+          "raw_text": "CHRIS GARTMAN\nCERTIFIED SINCE:\n2013-10-25\nLOCATION:\nYork, Pennsylvania\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: CHRIS GARTMAN"
+        },
+        {
+          "certified_since": "2021-03-29",
+          "detail_url": "https://portal.csa.us/csa-search/kathryn-aukamp/",
+          "location": "Highlands Ranch, Colorado",
+          "main_industry": "Senior Housing, Placement",
+          "name": "KATHRYN AUKAMP",
+          "raw_text": "KATHRYN AUKAMP\nCERTIFIED SINCE:\n2021-03-29\nLOCATION:\nHighlands Ranch, Colorado\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: KATHRYN AUKAMP"
+        },
+        {
+          "certified_since": "2023-11-22",
+          "detail_url": "https://portal.csa.us/csa-search/kimberly-powell/",
+          "location": "Bee Branch, Arkansas",
+          "main_industry": "Senior Housing, Placement, & Real Estate Services",
+          "name": "KIMBERLY POWELL",
+          "raw_text": "KIMBERLY POWELL\nCERTIFIED SINCE:\n2023-11-22\nLOCATION:\nBee Branch, Arkansas\nMAIN INDUSTRY:\nSenior Housing, Placement, & Real Estate Services\nVIEW DETAILS\nVIEW DETAILS\n: KIMBERLY POWELL"
+        },
+        {
+          "certified_since": "2023-04-28",
+          "detail_url": "https://portal.csa.us/?post_type=gd_place&p=49463",
+          "location": "Honolulu, Hawaii",
+          "main_industry": "Senior Housing, Placement, & Real Estate Services",
+          "name": "VANCE YAMAMOTO",
+          "raw_text": "VANCE YAMAMOTO\nCERTIFIED SINCE:\n2023-04-28\nLOCATION:\nHonolulu, Hawaii\nMAIN INDUSTRY:\nSenior Housing, Placement, & Real Estate Services\nVIEW DETAILS\nVIEW DETAILS\n: VANCE YAMAMOTO"
+        },
+        {
+          "certified_since": "2006-05-30",
+          "detail_url": "https://portal.csa.us/csa-search/linda-jensen/",
+          "location": "Las Vegas, Nevada",
+          "main_industry": "Insurance Services",
+          "name": "LINDA JENSEN",
+          "raw_text": "LINDA JENSEN\nCERTIFIED SINCE:\n2006-05-30\nLOCATION:\nLas Vegas, Nevada\nMAIN INDUSTRY:\nInsurance Services\nVIEW DETAILS\nVIEW DETAILS\n: LINDA JENSEN"
+        },
+        {
+          "certified_since": "2020-10-06",
+          "detail_url": "https://portal.csa.us/csa-search/linda-shipman/",
+          "location": "Whittier, California",
+          "main_industry": "Counseling & Social Services",
+          "name": "LINDA SHIPMAN",
+          "raw_text": "LINDA SHIPMAN\nCERTIFIED SINCE:\n2020-10-06\nLOCATION:\nWhittier, California\nMAIN INDUSTRY:\nCounseling & Social Services\nVIEW DETAILS\nVIEW DETAILS\n: LINDA SHIPMAN"
+        },
+        {
+          "certified_since": "2012-05-29",
+          "detail_url": "https://portal.csa.us/csa-search/tim-petlin/",
+          "location": "Santa Monica, California",
+          "main_industry": "Senior Care Services (Healthcare, Homecare, etc.)",
+          "name": "TIM PETLIN",
+          "raw_text": "TIM PETLIN\nCERTIFIED SINCE:\n2012-05-29\nLOCATION:\nSanta Monica, California\nMAIN INDUSTRY:\nSenior Care Services (Healthcare, Homecare, etc.)\nVIEW DETAILS\nVIEW DETAILS\n: TIM PETLIN"
+        },
+        {
+          "certified_since": "2025-12-18",
+          "detail_url": "https://portal.csa.us/csa-search/joanne-jordan/",
+          "location": "Greenwood Village, Colorado",
+          "main_industry": "Real Estate Services",
+          "name": "JOANNE JORDAN",
+          "raw_text": "JOANNE JORDAN\nCERTIFIED SINCE:\n2025-12-18\nLOCATION:\nGreenwood Village, Colorado\nMAIN INDUSTRY:\nReal Estate Services\nVIEW DETAILS\nVIEW DETAILS\n: JOANNE JORDAN"
+        },
+        {
+          "certified_since": "2020-11-18",
+          "detail_url": "https://portal.csa.us/csa-search/susan-davidson/",
+          "location": "Pound Ridge, New York",
+          "main_industry": "Senior Care Services (Healthcare, Homecare, etc.)",
+          "name": "SUSAN DAVIDSON",
+          "raw_text": "SUSAN DAVIDSON\nCERTIFIED SINCE:\n2020-11-18\nLOCATION:\nPound Ridge, New York\nMAIN INDUSTRY:\nSenior Care Services (Healthcare, Homecare, etc.)\nVIEW DETAILS\nVIEW DETAILS\n: SUSAN DAVIDSON"
+        }
+      ],
+      "note": "page_1",
+      "page_numbers": [],
+      "title": "Certified Senior Advisors search results for - Society of Certified Senior Advisors",
+      "url": "https://portal.csa.us/search/?geodir_search=1&stype=gd_place&s="
+    },
+    {
+      "cards": [
+        {
+          "certified_since": "2005-10-08",
+          "detail_url": "https://portal.csa.us/csa-search/john-glasgow/",
+          "location": "Golden, Colorado",
+          "main_industry": "Financial Services",
+          "name": "JOHN GLASGOW",
+          "raw_text": "JOHN GLASGOW\nCERTIFIED SINCE:\n2005-10-08\nLOCATION:\nGolden, Colorado\nMAIN INDUSTRY:\nFinancial Services\nVIEW DETAILS\nVIEW DETAILS\n: JOHN GLASGOW"
+        },
+        {
+          "certified_since": "2025-04-03",
+          "detail_url": "https://portal.csa.us/csa-search/roberto-rodriguez/",
+          "location": "San Antonio, Texas",
+          "main_industry": "Senior Care Services (Healthcare, Homecare, etc.)",
+          "name": "ROBERTO RODRIGUEZ",
+          "raw_text": "ROBERTO RODRIGUEZ\nCERTIFIED SINCE:\n2025-04-03\nLOCATION:\nSan Antonio, Texas\nMAIN INDUSTRY:\nSenior Care Services (Healthcare, Homecare, etc.)\nVIEW DETAILS\nVIEW DETAILS\n: ROBERTO RODRIGUEZ"
+        },
+        {
+          "certified_since": "2011-06-22",
+          "detail_url": "https://portal.csa.us/csa-search/carrie-shapiro/",
+          "location": "Enon, Ohio",
+          "main_industry": "Senior Care Services (Healthcare, Homecare, etc.)",
+          "name": "CARRIE SHAPIRO",
+          "raw_text": "CARRIE SHAPIRO\nCERTIFIED SINCE:\n2011-06-22\nLOCATION:\nEnon, Ohio\nMAIN INDUSTRY:\nSenior Care Services (Healthcare, Homecare, etc.)\nVIEW DETAILS\nVIEW DETAILS\n: CARRIE SHAPIRO"
+        },
+        {
+          "certified_since": "2017-10-06",
+          "detail_url": "https://portal.csa.us/csa-search/dannelle-leblanc/",
+          "location": "Lewisville, Texas",
+          "main_industry": "Counseling & Social Services",
+          "name": "DANNELLE LEBLANC",
+          "raw_text": "DANNELLE LEBLANC\nCERTIFIED SINCE:\n2017-10-06\nLOCATION:\nLewisville, Texas\nMAIN INDUSTRY:\nCounseling & Social Services\nVIEW DETAILS\nVIEW DETAILS\n: DANNELLE LEBLANC"
+        },
+        {
+          "certified_since": "2025-04-07",
+          "detail_url": "https://portal.csa.us/csa-search/benjamin-booth/",
+          "location": "North Ogden, Utah",
+          "main_industry": "Senior Housing, Placement",
+          "name": "BENJAMIN BOOTH",
+          "raw_text": "BENJAMIN BOOTH\nCERTIFIED SINCE:\n2025-04-07\nLOCATION:\nNorth Ogden, Utah\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: BENJAMIN BOOTH"
+        },
+        {
+          "certified_since": "2026-03-09",
+          "detail_url": "https://portal.csa.us/csa-search/carolyn-holtzen/",
+          "location": "Seattle, Washington",
+          "main_industry": "Senior Care Services (Healthcare, Homecare, etc.)",
+          "name": "CAROLYN HOLTZEN",
+          "raw_text": "CAROLYN HOLTZEN\nCERTIFIED SINCE:\n2026-03-09\nLOCATION:\nSeattle, Washington\nMAIN INDUSTRY:\nSenior Care Services (Healthcare, Homecare, etc.)\nVIEW DETAILS\nVIEW DETAILS\n: CAROLYN HOLTZEN"
+        },
+        {
+          "certified_since": "2025-05-28",
+          "detail_url": "https://portal.csa.us/csa-search/autumn-guerin/",
+          "location": "Hampton, Virginia",
+          "main_industry": "Senior Housing, Placement",
+          "name": "AUTUMN GUERIN",
+          "raw_text": "AUTUMN GUERIN\nCERTIFIED SINCE:\n2025-05-28\nLOCATION:\nHampton, Virginia\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: AUTUMN GUERIN"
+        },
+        {
+          "certified_since": "2015-04-20",
+          "detail_url": "https://portal.csa.us/?post_type=gd_place&p=44130",
+          "location": "Delray Beach, Florida",
+          "main_industry": "Insurance Services",
+          "name": "JARET VOGEL",
+          "raw_text": "JARET VOGEL\nCERTIFIED SINCE:\n2015-04-20\nLOCATION:\nDelray Beach, Florida\nMAIN INDUSTRY:\nInsurance Services\nVIEW DETAILS\nVIEW DETAILS\n: JARET VOGEL"
+        },
+        {
+          "certified_since": "2019-02-01",
+          "detail_url": "https://portal.csa.us/csa-search/donald-minter/",
+          "location": "Shawnee, Kansas",
+          "main_industry": "Senior Housing, Placement",
+          "name": "DONALD MINTER",
+          "raw_text": "DONALD MINTER\nCERTIFIED SINCE:\n2019-02-01\nLOCATION:\nShawnee, Kansas\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: DONALD MINTER"
+        },
+        {
+          "certified_since": "2026-03-31",
+          "detail_url": "https://portal.csa.us/csa-search/gigi-gonzales/",
+          "location": "American Canyon, California",
+          "main_industry": "Senior Housing, Placement",
+          "name": "GIGI GONZALES",
+          "raw_text": "GIGI GONZALES\nCERTIFIED SINCE:\n2026-03-31\nLOCATION:\nAmerican Canyon, California\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: GIGI GONZALES"
+        },
+        {
+          "certified_since": "2013-10-18",
+          "detail_url": "https://portal.csa.us/csa-search/linda-cezanne/",
+          "location": "Farmingville, New York",
+          "main_industry": "Consulting Services",
+          "name": "LINDA CEZANNE",
+          "raw_text": "LINDA CEZANNE\nCERTIFIED SINCE:\n2013-10-18\nLOCATION:\nFarmingville, New York\nMAIN INDUSTRY:\nConsulting Services\nVIEW DETAILS\nVIEW DETAILS\n: LINDA CEZANNE"
+        },
+        {
+          "certified_since": "2020-11-06",
+          "detail_url": "https://portal.csa.us/csa-search/amy-wilczek/",
+          "location": "Okemos, Michigan",
+          "main_industry": "Senior Housing, Placement",
+          "name": "AMY WILCZEK",
+          "raw_text": "AMY WILCZEK\nCERTIFIED SINCE:\n2020-11-06\nLOCATION:\nOkemos, Michigan\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: AMY WILCZEK"
+        },
+        {
+          "certified_since": "2025-05-19",
+          "detail_url": "https://portal.csa.us/csa-search/erica-beaudry/",
+          "location": "Easthampton, Massachusetts",
+          "main_industry": "Insurance Services",
+          "name": "ERICA BEAUDRY",
+          "raw_text": "ERICA BEAUDRY\nCERTIFIED SINCE:\n2025-05-19\nLOCATION:\nEasthampton, Massachusetts\nMAIN INDUSTRY:\nInsurance Services\nVIEW DETAILS\nVIEW DETAILS\n: ERICA BEAUDRY"
+        },
+        {
+          "certified_since": "2011-09-02",
+          "detail_url": "https://portal.csa.us/csa-search/paulette-chatman/",
+          "location": "West Orange, New Jersey",
+          "main_industry": "Senior Care Services (Healthcare, Homecare, etc.)",
+          "name": "PAULETTE CHATMAN",
+          "raw_text": "PAULETTE CHATMAN\nCERTIFIED SINCE:\n2011-09-02\nLOCATION:\nWest Orange, New Jersey\nMAIN INDUSTRY:\nSenior Care Services (Healthcare, Homecare, etc.)\nVIEW DETAILS\nVIEW DETAILS\n: PAULETTE CHATMAN"
+        },
+        {
+          "certified_since": "2025-09-03",
+          "detail_url": "https://portal.csa.us/csa-search/kit-baumann/",
+          "location": "Austin, Texas",
+          "main_industry": "Senior Housing, Placement, & Real Estate Services",
+          "name": "KIT BAUMANN",
+          "raw_text": "KIT BAUMANN\nCERTIFIED SINCE:\n2025-09-03\nLOCATION:\nAustin, Texas\nMAIN INDUSTRY:\nSenior Housing, Placement, & Real Estate Services\nVIEW DETAILS\nVIEW DETAILS\n: KIT BAUMANN"
+        },
+        {
+          "certified_since": "2002-01-11",
+          "detail_url": "https://portal.csa.us/csa-search/winston-dookram/",
+          "location": "West Babylon, New York",
+          "main_industry": "Insurance Services",
+          "name": "WINSTON DOOKRAM",
+          "raw_text": "WINSTON DOOKRAM\nCERTIFIED SINCE:\n2002-01-11\nLOCATION:\nWest Babylon, New York\nMAIN INDUSTRY:\nInsurance Services\nVIEW DETAILS\nVIEW DETAILS\n: WINSTON DOOKRAM"
+        },
+        {
+          "certified_since": "1998-07-31",
+          "detail_url": "https://portal.csa.us/csa-search/armen-abrahamian/",
+          "location": "North Haven, Connecticut",
+          "main_industry": "Insurance Services",
+          "name": "ARMEN ABRAHAMIAN",
+          "raw_text": "ARMEN ABRAHAMIAN\nCERTIFIED SINCE:\n1998-07-31\nLOCATION:\nNorth Haven, Connecticut\nMAIN INDUSTRY:\nInsurance Services\nVIEW DETAILS\nVIEW DETAILS\n: ARMEN ABRAHAMIAN"
+        },
+        {
+          "certified_since": "2003-09-27",
+          "detail_url": "https://portal.csa.us/csa-search/christine-bryson-lazo/",
+          "location": "Sedona, Arizona",
+          "main_industry": "Aging Services - Other",
+          "name": "CHRISTINE BRYSON-LAZO",
+          "raw_text": "CHRISTINE BRYSON-LAZO\nCERTIFIED SINCE:\n2003-09-27\nLOCATION:\nSedona, Arizona\nMAIN INDUSTRY:\nAging Services - Other\nVIEW DETAILS\nVIEW DETAILS\n: CHRISTINE BRYSON-LAZO"
+        },
+        {
+          "certified_since": "2006-07-11",
+          "detail_url": "https://portal.csa.us/csa-search/angela-mccants/",
+          "location": "Dallas, Texas",
+          "main_industry": "Real Estate Services",
+          "name": "ANGELA MCCANTS",
+          "raw_text": "ANGELA MCCANTS\nCERTIFIED SINCE:\n2006-07-11\nLOCATION:\nDallas, Texas\nMAIN INDUSTRY:\nReal Estate Services\nVIEW DETAILS\nVIEW DETAILS\n: ANGELA MCCANTS"
+        },
+        {
+          "certified_since": "2021-04-14",
+          "detail_url": "https://portal.csa.us/csa-search/stacey-schwartz/",
+          "location": "Las Vegas, Nevada",
+          "main_industry": "Real Estate Services",
+          "name": "STACEY SCHWARTZ",
+          "raw_text": "STACEY SCHWARTZ\nCERTIFIED SINCE:\n2021-04-14\nLOCATION:\nLas Vegas, Nevada\nMAIN INDUSTRY:\nReal Estate Services\nVIEW DETAILS\nVIEW DETAILS\n: STACEY SCHWARTZ"
+        }
+      ],
+      "note": "page_2",
+      "page_numbers": [],
+      "title": "Certified Senior Advisors search results for - Society of Certified Senior Advisors",
+      "url": "https://portal.csa.us/search/page/2/?geodir_search=1&stype=gd_place&s="
+    },
+    {
+      "cards": [
+        {
+          "certified_since": "2014-01-28",
+          "detail_url": "https://portal.csa.us/csa-search/sandra-wake/",
+          "location": "Middleville (Grand Rapids), Michigan",
+          "main_industry": "Senior Housing, Placement",
+          "name": "SANDRA WAKE",
+          "raw_text": "SANDRA WAKE\nCERTIFIED SINCE:\n2014-01-28\nLOCATION:\nMiddleville (Grand Rapids), Michigan\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: SANDRA WAKE"
+        },
+        {
+          "certified_since": "2021-09-08",
+          "detail_url": "https://portal.csa.us/csa-search/keith-huegel/",
+          "location": "Lantana, Texas",
+          "main_industry": "Senior Housing, Placement",
+          "name": "KEITH HUEGEL",
+          "raw_text": "KEITH HUEGEL\nCERTIFIED SINCE:\n2021-09-08\nLOCATION:\nLantana, Texas\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: KEITH HUEGEL"
+        },
+        {
+          "certified_since": "2010-02-04",
+          "detail_url": "https://portal.csa.us/csa-search/elizabeth-katz/",
+          "location": "Palm Beach Gardens, Florida",
+          "main_industry": "Senior Care Services (Healthcare, Homecare, etc.)",
+          "name": "ELIZABETH KATZ",
+          "raw_text": "ELIZABETH KATZ\nCERTIFIED SINCE:\n2010-02-04\nLOCATION:\nPalm Beach Gardens, Florida\nMAIN INDUSTRY:\nSenior Care Services (Healthcare, Homecare, etc.)\nVIEW DETAILS\nVIEW DETAILS\n: ELIZABETH KATZ"
+        },
+        {
+          "certified_since": "2023-06-22",
+          "detail_url": "https://portal.csa.us/csa-search/ann-witherspoon/",
+          "location": "Glendale, Colorado",
+          "main_industry": "Education Services",
+          "name": "ANN WITHERSPOON",
+          "raw_text": "ANN WITHERSPOON\nCERTIFIED SINCE:\n2023-06-22\nLOCATION:\nGlendale, Colorado\nMAIN INDUSTRY:\nEducation Services\nVIEW DETAILS\nVIEW DETAILS\n: ANN WITHERSPOON"
+        },
+        {
+          "certified_since": "2026-04-04",
+          "detail_url": "https://portal.csa.us/csa-search/dawn-spaulding/",
+          "location": "New York, New York",
+          "main_industry": "Other",
+          "name": "DAWN SPAULDING",
+          "raw_text": "DAWN SPAULDING\nCERTIFIED SINCE:\n2026-04-04\nLOCATION:\nNew York, New York\nMAIN INDUSTRY:\nOther\nVIEW DETAILS\nVIEW DETAILS\n: DAWN SPAULDING"
+        },
+        {
+          "certified_since": "2021-02-09",
+          "detail_url": "https://portal.csa.us/csa-search/joseph-holm/",
+          "location": "Surprise, Arizona",
+          "main_industry": "Insurance Services",
+          "name": "JOSEPH HOLM",
+          "raw_text": "JOSEPH HOLM\nCERTIFIED SINCE:\n2021-02-09\nLOCATION:\nSurprise, Arizona\nMAIN INDUSTRY:\nInsurance Services\nVIEW DETAILS\nVIEW DETAILS\n: JOSEPH HOLM"
+        },
+        {
+          "certified_since": "2024-10-22",
+          "detail_url": "https://portal.csa.us/csa-search/amy-geissler/",
+          "location": "Prescott, Arizona",
+          "main_industry": "Consulting Services",
+          "name": "AMY GEISSLER",
+          "raw_text": "AMY GEISSLER\nCERTIFIED SINCE:\n2024-10-22\nLOCATION:\nPrescott, Arizona\nMAIN INDUSTRY:\nConsulting Services\nVIEW DETAILS\nVIEW DETAILS\n: AMY GEISSLER"
+        },
+        {
+          "certified_since": "2012-05-09",
+          "detail_url": "https://portal.csa.us/csa-search/keith-griffin/",
+          "location": "Halethorpe, Maryland",
+          "main_industry": "Insurance Services",
+          "name": "KEITH GRIFFIN",
+          "raw_text": "KEITH GRIFFIN\nCERTIFIED SINCE:\n2012-05-09\nLOCATION:\nHalethorpe, Maryland\nMAIN INDUSTRY:\nInsurance Services\nVIEW DETAILS\nVIEW DETAILS\n: KEITH GRIFFIN"
+        },
+        {
+          "certified_since": "2019-03-11",
+          "detail_url": "https://portal.csa.us/csa-search/matthew-gardiner/",
+          "location": "East Aurora, New York",
+          "main_industry": "Senior Housing, Placement",
+          "name": "MATTHEW GARDINER",
+          "raw_text": "MATTHEW GARDINER\nCERTIFIED SINCE:\n2019-03-11\nLOCATION:\nEast Aurora, New York\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: MATTHEW GARDINER"
+        },
+        {
+          "certified_since": "2025-03-20",
+          "detail_url": "https://portal.csa.us/csa-search/kathleen-mccann/",
+          "location": "New Milford, New Jersey",
+          "main_industry": "Counseling & Social Services",
+          "name": "KATHLEEN MCCANN",
+          "raw_text": "KATHLEEN MCCANN\nCERTIFIED SINCE:\n2025-03-20\nLOCATION:\nNew Milford, New Jersey\nMAIN INDUSTRY:\nCounseling & Social Services\nVIEW DETAILS\nVIEW DETAILS\n: KATHLEEN MCCANN"
+        },
+        {
+          "certified_since": "2012-11-26",
+          "detail_url": "https://portal.csa.us/csa-search/karen-moerwald/",
+          "location": "Oakland, California",
+          "main_industry": "Senior Care Services (Healthcare, Homecare, etc.)",
+          "name": "KAREN MOERWALD",
+          "raw_text": "KAREN MOERWALD\nCERTIFIED SINCE:\n2012-11-26\nLOCATION:\nOakland, California\nMAIN INDUSTRY:\nSenior Care Services (Healthcare, Homecare, etc.)\nVIEW DETAILS\nVIEW DETAILS\n: KAREN MOERWALD"
+        },
+        {
+          "certified_since": "2026-01-30",
+          "detail_url": "https://portal.csa.us/csa-search/melina-koochof/",
+          "location": "Valley Glen, California",
+          "main_industry": "Real Estate Services",
+          "name": "MELINA KOOCHOF",
+          "raw_text": "MELINA KOOCHOF\nCERTIFIED SINCE:\n2026-01-30\nLOCATION:\nValley Glen, California\nMAIN INDUSTRY:\nReal Estate Services\nVIEW DETAILS\nVIEW DETAILS\n: MELINA KOOCHOF"
+        },
+        {
+          "certified_since": "2025-10-10",
+          "detail_url": "https://portal.csa.us/csa-search/traci-johnson/",
+          "location": "Washington, District of Columbia",
+          "main_industry": "Real Estate Services",
+          "name": "TRACI JOHNSON",
+          "raw_text": "TRACI JOHNSON\nCERTIFIED SINCE:\n2025-10-10\nLOCATION:\nWashington, District of Columbia\nMAIN INDUSTRY:\nReal Estate Services\nVIEW DETAILS\nVIEW DETAILS\n: TRACI JOHNSON"
+        },
+        {
+          "certified_since": "2012-07-03",
+          "detail_url": "https://portal.csa.us/csa-search/james-hazen/",
+          "location": "Mc Leansville, North Carolina",
+          "main_industry": "Insurance Services",
+          "name": "JAMES HAZEN",
+          "raw_text": "JAMES HAZEN\nCERTIFIED SINCE:\n2012-07-03\nLOCATION:\nMc Leansville, North Carolina\nMAIN INDUSTRY:\nInsurance Services\nVIEW DETAILS\nVIEW DETAILS\n: JAMES HAZEN"
+        },
+        {
+          "certified_since": "2025-01-08",
+          "detail_url": "https://portal.csa.us/csa-search/alison-zaleski/",
+          "location": "Waterville, Ohio",
+          "main_industry": "Senior Care Services (Healthcare, Homecare, etc.)",
+          "name": "ALISON ZALESKI",
+          "raw_text": "ALISON ZALESKI\nCERTIFIED SINCE:\n2025-01-08\nLOCATION:\nWaterville, Ohio\nMAIN INDUSTRY:\nSenior Care Services (Healthcare, Homecare, etc.)\nVIEW DETAILS\nVIEW DETAILS\n: ALISON ZALESKI"
+        },
+        {
+          "certified_since": "2026-01-14",
+          "detail_url": "https://portal.csa.us/csa-search/colleen-kraus-mcguire/",
+          "location": "Hamburg, New York",
+          "main_industry": "Senior Housing, Placement",
+          "name": "COLLEEN (KRAUS) MCGUIRE",
+          "raw_text": "COLLEEN (KRAUS) MCGUIRE\nCERTIFIED SINCE:\n2026-01-14\nLOCATION:\nHamburg, New York\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: COLLEEN (KRAUS) MCGUIRE"
+        },
+        {
+          "certified_since": "2025-04-17",
+          "detail_url": "https://portal.csa.us/csa-search/kerri-winans/",
+          "location": "Cold Spring Harbor, New York",
+          "main_industry": "Senior Housing, Placement",
+          "name": "KERRI WINANS",
+          "raw_text": "KERRI WINANS\nCERTIFIED SINCE:\n2025-04-17\nLOCATION:\nCold Spring Harbor, New York\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: KERRI WINANS"
+        },
+        {
+          "certified_since": "2019-12-19",
+          "detail_url": "https://portal.csa.us/csa-search/mary-molnar/",
+          "location": "Fairview Park, Ohio",
+          "main_industry": "Senior Housing, Placement",
+          "name": "MARY MOLNAR",
+          "raw_text": "MARY MOLNAR\nCERTIFIED SINCE:\n2019-12-19\nLOCATION:\nFairview Park, Ohio\nMAIN INDUSTRY:\nSenior Housing, Placement\nVIEW DETAILS\nVIEW DETAILS\n: MARY MOLNAR"
+        },
+        {
+          "certified_since": "2004-06-25",
+          "detail_url": "https://portal.csa.us/csa-search/rb-rick-wilshire/",
+          "location": "Fort Worth, Texas",
+          "main_industry": "Financial Services",
+          "name": "RB (RICK) WILSHIRE",
+          "raw_text": "RB (RICK) WILSHIRE\nCERTIFIED SINCE:\n2004-06-25\nLOCATION:\nFort Worth, Texas\nMAIN INDUSTRY:\nFinancial Services\nVIEW DETAILS\nVIEW DETAILS\n: RB (RICK) WILSHIRE"
+        },
+        {
+          "certified_since": "2023-01-11",
+          "detail_url": "https://portal.csa.us/csa-search/rich-lanning/",
+          "location": "Montclair, New Jersey",
+          "main_industry": "Senior Housing, Placement, & Real Estate Services",
+          "name": "RICH LANNING",
+          "raw_text": "RICH LANNING\nCERTIFIED SINCE:\n2023-01-11\nLOCATION:\nMontclair, New Jersey\nMAIN INDUSTRY:\nSenior Housing, Placement, & Real Estate Services\nVIEW DETAILS\nVIEW DETAILS\n: RICH LANNING"
+        }
+      ],
+      "note": "page_3",
+      "page_numbers": [],
+      "title": "Certified Senior Advisors search results for - Society of Certified Senior Advisors",
+      "url": "https://portal.csa.us/search/page/3/?geodir_search=1&stype=gd_place&s="
+    }
+  ],
+  "unique_count": 60,
+  "pagination_hint": []
+}

@@ -1,0 +1,72 @@
+{
+  "source": {
+    "id": "ca-cdss-rcfe",
+    "name": "California CDSS Residential Care Facilities for the Elderly",
+    "jurisdiction": "CA",
+    "careCategory": "assisted_living",
+    "sourceOwner": "California Department of Social Services",
+    "sourceSystem": "CKAN datastore",
+    "sourceUrl": "https://lab.data.ca.gov/dataset/community-care-licensing-facilities/6b2f5818-f60d-40b5-bc2a-94f995f9f8b0",
+    "endpointUrl": "https://data.ca.gov/api/action/datastore_search",
+    "resourceId": "6b2f5818-f60d-40b5-bc2a-94f995f9f8b0",
+    "sourceDescription": "Public open-data table for California Residential Care Facilities for the Elderly.",
+    "exportNamePrefix": "california-rcfe",
+    "activeStatuses": [
+      "LICENSED",
+      "ON PROBATION"
+    ],
+    "defaultCenter": {
+      "id": "california",
+      "label": "California",
+      "latitude": null,
+      "longitude": null
+    },
+    "parsingNotes": [
+      "CKAN datastore records are paginated with offset/limit against the resource ID.",
+      "Residential Care Facilities for the Elderly are treated as assisted living facilities.",
+      "Facility number is preserved as source_facility_id and used for stable facility_key generation.",
+      "The source does not currently expose latitude/longitude, so distance fields remain null until geocoding is added.",
+      "Licensee, administrator, status, license dates, regional office, and file date are preserved as source-supplied fields.",
+      "Records are sorted by facility name, then source facility ID, before applying the limit."
+    ]
+  },
+  "center": {
+    "id": "california",
+    "label": "California",
+    "latitude": null,
+    "longitude": null
+  },
+  "retrievedAt": "2026-08-02T21:02:38.428Z",
+  "totalSourceRecords": 12522,
+  "normalizedRecords": 12522,
+  "selectedRecords": 12522,
+  "summary": {
+    "active_records": 7962,
+    "inactive_records": 4560,
+    "status_counts": {
+      "LICENSED": 7939,
+      "CLOSED": 3821,
+      "PENDING": 739,
+      "ON PROBATION": 23
+    }
+  },
+  "validation": {
+    "warnings": [
+      "12522 records are missing coordinates."
+    ],
+    "missing_source_facility_id": 0,
+    "missing_address": 0,
+    "missing_phone": 0,
+    "missing_capacity": 0,
+    "missing_coordinates": 12522,
+    "duplicate_facility_keys": {}
+  },
+  "parsingNotes": [
+    "CKAN datastore records are paginated with offset/limit against the resource ID.",
+    "Residential Care Facilities for the Elderly are treated as assisted living facilities.",
+    "Facility number is preserved as source_facility_id and used for stable facility_key generation.",
+    "The source does not currently expose latitude/longitude, so distance fields remain null until geocoding is added.",
+    "Licensee, administrator, status, license dates, regional office, and file date are preserved as source-supplied fields.",
+    "Records are sorted by facility name, then source facility ID, before applying the limit."
+  ]
+}

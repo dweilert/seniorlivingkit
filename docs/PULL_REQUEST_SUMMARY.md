@@ -22,7 +22,7 @@ No AWS account inspection was performed and no AWS resources were deployed.
 
 ## Content migrated
 
-Primary public-page messages, service categories, process steps, consultation CTA, mission, vision, founder positioning, and service pricing language were migrated from indexed public content.
+Primary public-page messages, service categories, process steps, consultation CTA, mission, vision, founder positioning, service pricing language, contact details, footer language, blog index content, local fonts, and public Squarespace-hosted imagery were migrated from the existing site.
 
 ## Form and integration behavior
 
@@ -39,6 +39,7 @@ Local results on August 1, 2026:
 - `npm ci`: passed
 - `npm run verify`: passed
 - `npm run test:browser`: passed when allowed to bind a local `127.0.0.1` smoke-test server
+- Browser visual/form QA: home page rendered with harvested logo/hero assets; `/get-started` mock form submitted locally and confirmed that no production provider received data.
 
 ## Infrastructure-as-code added
 
@@ -49,13 +50,14 @@ No deployable infrastructure was added in this stage. GitHub-to-AWS OIDC design 
 - `.gitignore` excludes common secrets and credential files.
 - `.env.example` contains placeholders only.
 - GitHub Actions use minimal default permissions.
+- Browser tests run against mock-only local behavior and do not call production providers.
 - No long-lived AWS credentials were created or stored.
 
 ## Known limitations
 
-- Blog pages are not migrated because source exports were not available.
+- Blog detail pages are not fully migrated because a source export was not available; the public blog index and visible excerpts are represented.
 - Real provider integrations are intentionally disabled.
-- Repository branch protection must be configured after CI checks exist.
+- The repository was made public at owner request after the initial private setup. `main` branch protection is now enabled with required `verify` and `smoke` checks.
 
 ## Decisions still required
 

@@ -1,0 +1,13 @@
+FROM node:24-slim
+
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev
+
+COPY scripts ./scripts
+COPY test/fixtures ./test/fixtures
+
+VOLUME ["/app/data"]
+
+ENTRYPOINT ["node", "scripts/facility-collector.mjs"]

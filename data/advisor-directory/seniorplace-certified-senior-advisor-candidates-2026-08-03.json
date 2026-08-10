@@ -1,0 +1,1611 @@
+{
+  "source_files": [
+    "data/advisor-directory/seniorplace-advisors-show-all-full-2026-08-03.json"
+  ],
+  "source_url": "https://app.seniorplace.com/advisor-directory",
+  "collected_at": "2026-08-03",
+  "extraction_note": "Filtered from SeniorPlace advisor directory for records mentioning CSA or Certified Senior Advisor.",
+  "record_count": 45,
+  "records": [
+    {
+      "agency": "Olympic Senior Advisors",
+      "certifications": [
+        "CSA",
+        "NPRA"
+      ],
+      "email_hrefs": [
+        "mailto:info@olympicsenioradvisors.com"
+      ],
+      "emails": [
+        "info@olympicsenioradvisors.com"
+      ],
+      "locations": [
+        "West Seattle, WA"
+      ],
+      "name": "Admin Team Olympic Senior Advisors",
+      "operational_approach": "We work as a team to help families find the right fit the first time. We support our clients before, during, and after the move to help ensure a smooth transition and long-term success. We carefully interview, screen, and build strong relationships with the care providers and communities we work with to ensure they can meet each client’s unique care needs, budgets, preferences, and personality. Our goal is to create safe, supportive, and lasting moves where seniors can truly feel at home.",
+      "phone_hrefs": [
+        "tel:+12064737657"
+      ],
+      "phone_numbers": [
+        "(206) 473-7657"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/f5e3a224-8887-4385-b907-c909527bcf41",
+      "raw_card_text": "Admin Team Olympic Senior Advisors\nOlympic Senior Advisors\nWest Seattle, WA\nhttps://olympicsenioradvisors.com/\n(206) 473-7657\ninfo@olympicsenioradvisors.com\nSummary\nOlympic Senior Advisors is family owned and operated in the Greater Puget Sound region and we work as a team to help find the best fit for our clients.  We value the work that you put in and are happy to pay a 30 percent revenue share for your efforts.\nOperational Approach\nWe work as a team to help families find the right fit the first time. We support our clients before, during, and after the move to help ensure a smooth transition and long-term success.\nWe carefully interview, screen, and build strong relationships with the care providers and communities we work with to ensure they can meet each client’s unique care needs, budgets, preferences, and personality.\nOur goal is to create safe, supportive, and lasting moves where seniors can truly feel at home.\nShow more\nCertifications\nCSA\nNPRA",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "We work as a team to help families find the right fit the first time. We support our clients before, during, and after the move to help ensure a smooth transition and long-term success. We carefully interview, screen, and build strong relationships with the care providers and communities we work with to ensure they can meet each client’s unique care needs, budgets, preferences, and personality. Our goal is to create safe, supportive, and lasting moves where seniors can truly feel at home.",
+        "summary": "Olympic Senior Advisors is family owned and operated in the Greater Puget Sound region and we work as a team to help find the best fit for our clients. We value the work that you put in and are happy to pay a 30 percent revenue share for your efforts."
+      },
+      "source_record_index": 4,
+      "summary": "Olympic Senior Advisors is family owned and operated in the Greater Puget Sound region and we work as a team to help find the best fit for our clients. We value the work that you put in and are happy to pay a 30 percent revenue share for your efforts.",
+      "website_urls": [
+        "https://olympicsenioradvisors.com/"
+      ]
+    },
+    {
+      "agency": "2Sisters Senior Living Advisors",
+      "certifications": [
+        "CSA, CDP"
+      ],
+      "email_hrefs": [
+        "mailto:alyson@2sisters-sla.com"
+      ],
+      "emails": [
+        "alyson@2sisters-sla.com"
+      ],
+      "locations": [
+        "boston, MA"
+      ],
+      "name": "Alyson Powers",
+      "operational_approach": "We provide referral services as well as fee based consulting services Usually we partner with other referral agencies for 70/30% of the referral fee earned for cross referrals",
+      "phone_hrefs": [
+        "tel:+16177017007"
+      ],
+      "phone_numbers": [
+        "(617) 701-7007"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/642f736d-28e1-4919-a541-7215dc79fc65",
+      "raw_card_text": "Alyson Powers\n2Sisters Senior Living Advisors\nboston, MA\nhttp://www.2sisters-sla.com\n(617) 701-7007\nalyson@2sisters-sla.com\nSummary\n2Sisters has been in business in MA since 2011. We are locally owned and operated and really are two sisters!\nOperational Approach\nWe provide referral services as well as fee based consulting services\nUsually we partner with other referral agencies for 70/30% of the referral fee earned for cross referrals\nCertifications\nCSA, CDP",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "We provide referral services as well as fee based consulting services Usually we partner with other referral agencies for 70/30% of the referral fee earned for cross referrals",
+        "summary": "2Sisters has been in business in MA since 2011. We are locally owned and operated and really are two sisters!"
+      },
+      "source_record_index": 15,
+      "summary": "2Sisters has been in business in MA since 2011. We are locally owned and operated and really are two sisters!",
+      "website_urls": [
+        "http://www.2sisters-sla.com/"
+      ]
+    },
+    {
+      "agency": "Heartfelt Senior Placement™",
+      "certifications": [
+        "Certified Senior Advisor",
+        "Certified Dementia Practitioner"
+      ],
+      "email_hrefs": [
+        "mailto:amymccabe@heartfeltseniorplacement.com"
+      ],
+      "emails": [
+        "amymccabe@heartfeltseniorplacement.com"
+      ],
+      "locations": [
+        "Johns Creek, GA 30022"
+      ],
+      "name": "Amy McCabe",
+      "operational_approach": "We listen to what they need and do anything we can to help.",
+      "phone_hrefs": [
+        "tel:+16785168209"
+      ],
+      "phone_numbers": [
+        "(678) 516-8209"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/99f7816e-c409-44c9-a001-184e07024a93",
+      "raw_card_text": "Amy McCabe\nHeartfelt Senior Placement™\nJohns Creek, GA 30022\nhttp://www.HeartfeltSeniorPlacement.com\n(678) 516-8209\namymccabe@heartfeltseniorplacement.com\nSummary\nWe provide a complimentary service for folks looking for an assisted living, independent living, memory care, or personal care home for a loved one. We are with you every step of the way - attending tours with you and providing white glove service.\nOperational Approach\nWe listen to what they need and do anything we can to help.\nCertifications\nCertified Senior Advisor\nCertified Dementia Practitioner",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "We listen to what they need and do anything we can to help.",
+        "summary": "We provide a complimentary service for folks looking for an assisted living, independent living, memory care, or personal care home for a loved one. We are with you every step of the way - attending tours with you and providing white glove service."
+      },
+      "source_record_index": 18,
+      "summary": "We provide a complimentary service for folks looking for an assisted living, independent living, memory care, or personal care home for a loved one. We are with you every step of the way - attending tours with you and providing white glove service.",
+      "website_urls": [
+        "http://www.heartfeltseniorplacement.com/"
+      ]
+    },
+    {
+      "agency": "ViewPath Senior Services",
+      "certifications": [
+        "Certified Senior Advisor",
+        "MPA"
+      ],
+      "email_hrefs": [
+        "mailto:angela@viewpathseniorservices.com"
+      ],
+      "emails": [
+        "angela@viewpathseniorservices.com"
+      ],
+      "locations": [
+        "Erie, CO 80516"
+      ],
+      "name": "Angela Deabler",
+      "operational_approach": "Our client's needs come first! We aim to provide the resources they need to meet them where they are in their aging journey. When home is no longer an option, we walk them through the best places to meet their needs, preferences and finances. We enjoy sharing referrals, give us a call to discuss!",
+      "phone_hrefs": [
+        "tel:+17207994946"
+      ],
+      "phone_numbers": [
+        "(720) 799-4946"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/91c9ec42-73a6-4cc6-9d3b-0f1d8f896852",
+      "raw_card_text": "Angela Deabler\nViewPath Senior Services\nErie, CO 80516\nhttps://viewpathseniorservices.com/\n(720) 799-4946\nangela@viewpathseniorservices.com\nSummary\nI stepped away from corporate work to start this company after my personal journey of caregiving for many years, including four rounds of dementia. Helping people live out their best life is what I strive for every day!\nOperational Approach\nOur client's needs come first! We aim to provide the resources they need to meet them where they are in their aging journey. When home is no longer an option, we walk them through the best places to meet their needs, preferences and finances. We enjoy sharing referrals, give us a call to discuss!\nCertifications\nCertified Senior Advisor\nMPA",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "Our client's needs come first! We aim to provide the resources they need to meet them where they are in their aging journey. When home is no longer an option, we walk them through the best places to meet their needs, preferences and finances. We enjoy sharing referrals, give us a call to discuss!",
+        "summary": "I stepped away from corporate work to start this company after my personal journey of caregiving for many years, including four rounds of dementia. Helping people live out their best life is what I strive for every day!"
+      },
+      "source_record_index": 20,
+      "summary": "I stepped away from corporate work to start this company after my personal journey of caregiving for many years, including four rounds of dementia. Helping people live out their best life is what I strive for every day!",
+      "website_urls": [
+        "https://viewpathseniorservices.com/"
+      ]
+    },
+    {
+      "agency": "Next Steps Senior Placement",
+      "certifications": [
+        "Certified Senior Advisor",
+        "MBA"
+      ],
+      "email_hrefs": [
+        "mailto:cameron@nextstepssenior.com"
+      ],
+      "emails": [
+        "cameron@nextstepssenior.com"
+      ],
+      "locations": [
+        "Castle Rock, CO 80109"
+      ],
+      "name": "cameron@nextstepssenior.com",
+      "operational_approach": "At Next Steps Senior Placement, we guide families through the senior living search with care and clarity. We start with a call and 45-min consultation, then match you with options based on budget, care needs, and location. We tour with families, answer questions, and connect you to trusted resources—all at no cost to you. We also follow up 1 week. 2 weeks, 6 weeks, and 4 months. When working with out-of-state referrals - we usually do a 70/30 split - but are flexible.",
+      "phone_hrefs": [
+        "tel:+17205158014"
+      ],
+      "phone_numbers": [
+        "(720) 515-8014"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/98e5c0cc-58b0-4796-84e5-7034277908e9",
+      "raw_card_text": "cameron@nextstepssenior.com\nNext Steps Senior Placement\nCastle Rock, CO 80109\nhttp://www.nextstepssenior.com\n(720) 515-8014\ncameron@nextstepssenior.com\nSummary\nCertified Senior Advisor, MBA, and founder of Next Steps Senior Placement (est. 2018), Cameron helps families navigate senior care. A former family caregiver and 2021–2023 Colorado Placement and Referral Alliance President, she offers expert, free guidance with empathy and heart.\nOperational Approach\nAt Next Steps Senior Placement, we guide families through the senior living search with care and clarity. We start with a call and 45-min consultation, then match you with options based on budget, care needs, and location. We tour with families, answer questions, and connect you to trusted resources—all at no cost to you. We also follow up 1 week. 2 weeks, 6 weeks, and 4 months.\nWhen working with out-of-state referrals - we usually do a 70/30 split - but are flexible.\nShow more\nCertifications\nCertified Senior Advisor\nMBA",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "At Next Steps Senior Placement, we guide families through the senior living search with care and clarity. We start with a call and 45-min consultation, then match you with options based on budget, care needs, and location. We tour with families, answer questions, and connect you to trusted resources—all at no cost to you. We also follow up 1 week. 2 weeks, 6 weeks, and 4 months. When working with out-of-state referrals - we usually do a 70/30 split - but are flexible.",
+        "summary": "Certified Senior Advisor, MBA, and founder of Next Steps Senior Placement (est. 2018), Cameron helps families navigate senior care. A former family caregiver and 2021–2023 Colorado Placement and Referral Alliance President, she offers expert, free guidance with empathy and heart."
+      },
+      "source_record_index": 42,
+      "summary": "Certified Senior Advisor, MBA, and founder of Next Steps Senior Placement (est. 2018), Cameron helps families navigate senior care. A former family caregiver and 2021–2023 Colorado Placement and Referral Alliance President, she offers expert, free guidance with empathy and heart.",
+      "website_urls": [
+        "http://www.nextstepssenior.com/"
+      ]
+    },
+    {
+      "agency": "",
+      "certifications": [
+        "Certified Senior Advisor, CSA",
+        "Certified Dementia Practitioner",
+        "Certified Placement and Referral Specialist,CPRS"
+      ],
+      "email_hrefs": [
+        "mailto:barrie@caringheartsforyou.com"
+      ],
+      "emails": [
+        "barrie@caringheartsforyou.com"
+      ],
+      "locations": [
+        "Albuquerque , NM 87109"
+      ],
+      "name": "Caring Hearts Senior Housing Advisors, Barrie Benson, CSA",
+      "operational_approach": "A family centered approach that provides personalized guidance and support tailored to each individual's unique needs and circumstances. I recently wrote \"Navigating Senior Living in New Mexico\" guide for seniors and their families to better understand options and prepare for the transition to senior living. It’s a resource that professionals can use to guide conversations, answer questions, and connect families with local support and information. Visit my website for your free guide.",
+      "phone_hrefs": [
+        "tel:+15052599225"
+      ],
+      "phone_numbers": [
+        "(505) 259-9225"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/b149e8ed-bc87-486b-a63d-5cf7d9bfeb90",
+      "raw_card_text": "Caring Hearts Senior Housing Advisors, Barrie Benson, CSA\nAlbuquerque , NM 87109\nhttp://www.caringheartsnm.com\n(505) 259-9225\nbarrie@caringheartsforyou.com\nSummary\nHi, I’m Barrie Benson, owner and founder of Caring Hearts Senior Housing Advisors.\nSince 2012 I have been personally assisting our New Mexico seniors find the appropriate independent, assisted living and memory care community.\nOperational Approach\nA family centered approach that provides personalized guidance and support tailored to each individual's unique needs and circumstances.\nI recently wrote \"Navigating Senior Living in New Mexico\" guide for seniors and their families to better understand options and prepare for the transition to senior living. It’s a resource that professionals can use to guide conversations, answer questions, and connect families with local support and information. Visit my website for your free guide.\nShow more\nCertifications\nCertified Senior Advisor, CSA\nCertified Dementia Practitioner\nCertified Placement and Referral Specialist,CPRS",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "A family centered approach that provides personalized guidance and support tailored to each individual's unique needs and circumstances. I recently wrote \"Navigating Senior Living in New Mexico\" guide for seniors and their families to better understand options and prepare for the transition to senior living. It’s a resource that professionals can use to guide conversations, answer questions, and connect families with local support and information. Visit my website for your free guide.",
+        "summary": "Hi, I’m Barrie Benson, owner and founder of Caring Hearts Senior Housing Advisors. Since 2012 I have been personally assisting our New Mexico seniors find the appropriate independent, assisted living and memory care community."
+      },
+      "source_record_index": 43,
+      "summary": "Hi, I’m Barrie Benson, owner and founder of Caring Hearts Senior Housing Advisors. Since 2012 I have been personally assisting our New Mexico seniors find the appropriate independent, assisted living and memory care community.",
+      "website_urls": [
+        "http://www.caringheartsnm.com/"
+      ]
+    },
+    {
+      "agency": "Caring Hearts Senior Housing Advisors",
+      "certifications": [
+        "Certified Senior Advisor",
+        "Real Estate Broker"
+      ],
+      "email_hrefs": [
+        "mailto:kelsie@caringheartsnm.com"
+      ],
+      "emails": [
+        "kelsie@caringheartsnm.com"
+      ],
+      "locations": [
+        "Los Ranchos de Albuquerque, NM 87114"
+      ],
+      "name": "Caring Hearts Senior Housing Advisors - Kelsie D'Antonio",
+      "operational_approach": "My approach is centered on clarity, trust, and personalization. I take time to understand each client’s needs, preferences, and timeline, then guide them through their options with honest, straightforward communication. I act as both an advocate and a resource, helping families feel confident in their decisions while making the process as seamless and stress free as possible.",
+      "phone_hrefs": [
+        "tel:+15056047621"
+      ],
+      "phone_numbers": [
+        "(505) 604-7621"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/f98ca4b6-26f7-46cb-8205-e9ffd752cee4",
+      "raw_card_text": "Caring Hearts Senior Housing Advisors - Kelsie D'Antonio\nCaring Hearts Senior Housing Advisors\nLos Ranchos de Albuquerque, NM 87114\nhttps://caringheartsnm.com/\n(505) 604-7621\nkelsie@caringheartsnm.com\nSummary\nI’m a Certified Senior Advisor and local real estate professional in Albuquerque, helping seniors and families navigate the transition into assisted living with clarity and care. My real estate background brings added insight into timing, housing decisions, and life transitions.\nOperational Approach\nMy approach is centered on clarity, trust, and personalization. I take time to understand each client’s needs, preferences, and timeline, then guide them through their options with honest, straightforward communication. I act as both an advocate and a resource, helping families feel confident in their decisions while making the process as seamless and stress free as possible.\nShow more\nCertifications\nCertified Senior Advisor\nReal Estate Broker",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "My approach is centered on clarity, trust, and personalization. I take time to understand each client’s needs, preferences, and timeline, then guide them through their options with honest, straightforward communication. I act as both an advocate and a resource, helping families feel confident in their decisions while making the process as seamless and stress free as possible.",
+        "summary": "I’m a Certified Senior Advisor and local real estate professional in Albuquerque, helping seniors and families navigate the transition into assisted living with clarity and care. My real estate background brings added insight into timing, housing decisions, and life transitions."
+      },
+      "source_record_index": 44,
+      "summary": "I’m a Certified Senior Advisor and local real estate professional in Albuquerque, helping seniors and families navigate the transition into assisted living with clarity and care. My real estate background brings added insight into timing, housing decisions, and life transitions.",
+      "website_urls": [
+        "https://caringheartsnm.com/"
+      ]
+    },
+    {
+      "agency": "Caring Hearts Senior Housing Advisors",
+      "certifications": [
+        "Certified Senior Advisor"
+      ],
+      "email_hrefs": [
+        "mailto:whitney@caringheartsnm.com"
+      ],
+      "emails": [
+        "whitney@caringheartsnm.com"
+      ],
+      "locations": [
+        "Albuqueruque, NM 87107"
+      ],
+      "name": "Caring Hearts Senior Housing Advisors, Whitney Owsley, CSA",
+      "operational_approach": "",
+      "phone_hrefs": [
+        "tel:+15053463965"
+      ],
+      "phone_numbers": [
+        "(505) 346-3965"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/d724b8ee-a29b-47d0-a8df-19afda776e37",
+      "raw_card_text": "Caring Hearts Senior Housing Advisors, Whitney Owsley, CSA\nCaring Hearts Senior Housing Advisors\nAlbuqueruque, NM 87107\nhttp://www.caringheartsnm.com\n(505) 346-3965\nwhitney@caringheartsnm.com\nCertifications\nCertified Senior Advisor",
+      "sections": {
+        "certifications": "[Circular]"
+      },
+      "source_record_index": 45,
+      "summary": "",
+      "website_urls": [
+        "http://www.caringheartsnm.com/"
+      ]
+    },
+    {
+      "agency": "Woodlands Senior Care",
+      "certifications": [
+        "Certified Senior Advisor",
+        "Certified Assisted Living Manager",
+        "Certified Dementia Practitioner",
+        "Certified Parkinson Disease Care (CPDC)",
+        "Readmission Prevention Fellow",
+        "Care Transition Fellow"
+      ],
+      "email_hrefs": [
+        "mailto:cassy@woodlandsseniorcare.com"
+      ],
+      "emails": [
+        "cassy@woodlandsseniorcare.com"
+      ],
+      "locations": [
+        "The Woodlands, TX"
+      ],
+      "name": "Cassy Eriksson",
+      "operational_approach": "Our approach is highly personalized and relationship-driven, putting the client first every step of the way. We vet each community thoroughly - touring regularly, reviewing state reports, and staying in close contact with leadership. By combining local insight with ethical guidance, we help families make confident choices and ensure smoother transitions for all involved.",
+      "phone_hrefs": [
+        "tel:+13463281339"
+      ],
+      "phone_numbers": [
+        "(346) 328-1339"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/03db1a07-1b96-492f-a6aa-0c375eedc539",
+      "raw_card_text": "Cassy Eriksson\nWoodlands Senior Care\nThe Woodlands, TX\nhttp://www.WoodlandsSeniorCare.com\n(346) 328-1339\ncassy@woodlandsseniorcare.com\nSummary\nCassy started Woodlands Senior Care to be the help she needed when her dad was sick. With almost 10 years in the industry, she holds industry-leading credentials and gives back to the community as an Alzheimer's Association Community Educator and the founder of Woodlands Dementia Experience.\nOperational Approach\nOur approach is highly personalized and relationship-driven, putting the client first every step of the way. We vet each community thoroughly - touring regularly, reviewing state reports, and staying in close contact with leadership. By combining local insight with ethical guidance, we help families make confident choices and ensure smoother transitions for all involved.\nShow more\nCertifications\nCertified Senior Advisor\nCertified Assisted Living Manager\nCertified Dementia Practitioner\nCertified Parkinson Disease Care (CPDC)\nReadmission Prevention Fellow\nCare Transition Fellow",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "Our approach is highly personalized and relationship-driven, putting the client first every step of the way. We vet each community thoroughly - touring regularly, reviewing state reports, and staying in close contact with leadership. By combining local insight with ethical guidance, we help families make confident choices and ensure smoother transitions for all involved.",
+        "summary": "Cassy started Woodlands Senior Care to be the help she needed when her dad was sick. With almost 10 years in the industry, she holds industry-leading credentials and gives back to the community as an Alzheimer's Association Community Educator and the founder of Woodlands Dementia Experience."
+      },
+      "source_record_index": 50,
+      "summary": "Cassy started Woodlands Senior Care to be the help she needed when her dad was sick. With almost 10 years in the industry, she holds industry-leading credentials and gives back to the community as an Alzheimer's Association Community Educator and the founder of Woodlands Dementia Experience.",
+      "website_urls": [
+        "http://www.woodlandsseniorcare.com/"
+      ]
+    },
+    {
+      "agency": "Caring Senior Choices LLC",
+      "certifications": [
+        "CAPS Certified Aging in Place Specialist",
+        "CSA Certified Senior Advisor",
+        "CDP Certified Dementia Practitioner"
+      ],
+      "email_hrefs": [
+        "mailto:cindy@caringseniorchoices.com"
+      ],
+      "emails": [
+        "cindy@caringseniorchoices.com"
+      ],
+      "locations": [
+        "Cleveland , OH 44124"
+      ],
+      "name": "Cindy Cardwell",
+      "operational_approach": "I run a very high touch process; meeting in person with families/loved ones during the intake, identifying a small list (1-3) communities that meet their criteria, schedule and accompany the families on tours. I've also been known to find and refinish furniture, assist on move-in, shop for clients, pick them up at the ER, etc.. Many become very dear friends.",
+      "phone_hrefs": [
+        "tel:+12164047667"
+      ],
+      "phone_numbers": [
+        "(216) 404-7667"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/bb8faf3d-f247-4c2d-8c63-832cb706d8bf",
+      "raw_card_text": "Cindy Cardwell\nCaring Senior Choices LLC\nCleveland , OH 44124\nhttp://www.caringseniorchoices.com\n(216) 404-7667\ncindy@caringseniorchoices.com\nSummary\nI started Caring Senior Choices in 2019 and am a one-person boutique firm. I cover Northeast Ohio/greater Cleveland area. I am passionate about the work we do and will assist families even if they need to find a Medicaid community.\nOperational Approach\nI run a very high touch process; meeting in person with families/loved ones during the intake, identifying a small list (1-3) communities that meet their criteria, schedule and accompany the families on tours. I've also been known to find and refinish furniture, assist on move-in, shop for clients, pick them up at the ER, etc.. Many become very dear friends.\nShow more\nCertifications\nCAPS Certified Aging in Place Specialist\nCSA Certified Senior Advisor\nCDP Certified Dementia Practitioner",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "I run a very high touch process; meeting in person with families/loved ones during the intake, identifying a small list (1-3) communities that meet their criteria, schedule and accompany the families on tours. I've also been known to find and refinish furniture, assist on move-in, shop for clients, pick them up at the ER, etc.. Many become very dear friends.",
+        "summary": "I started Caring Senior Choices in 2019 and am a one-person boutique firm. I cover Northeast Ohio/greater Cleveland area. I am passionate about the work we do and will assist families even if they need to find a Medicaid community."
+      },
+      "source_record_index": 63,
+      "summary": "I started Caring Senior Choices in 2019 and am a one-person boutique firm. I cover Northeast Ohio/greater Cleveland area. I am passionate about the work we do and will assist families even if they need to find a Medicaid community.",
+      "website_urls": [
+        "http://www.caringseniorchoices.com/"
+      ]
+    },
+    {
+      "agency": "A Foundation for Elder Care",
+      "certifications": [],
+      "email_hrefs": [
+        "mailto:colleen@afoundationforeldercare.com"
+      ],
+      "emails": [
+        "colleen@afoundationforeldercare.com"
+      ],
+      "locations": [
+        "Murrieta, CA 92563"
+      ],
+      "name": "colleen@afoundationforeldercare.com",
+      "operational_approach": "My work is grounded in both professional expertise and personal experience, including serving as a caregiver and advocate for my own family members while supporting other families through the senior care process. I conduct comprehensive intake assessments to understand care needs, budget, and geographic preferences, then provide detailed guidance, arrange tours, and support families through every step of the process from initial consultation to final placement.",
+      "phone_hrefs": [
+        "tel:+17143428692"
+      ],
+      "phone_numbers": [
+        "(714) 342-8692"
+      ],
+      "profile_image_url": "",
+      "raw_card_text": "colleen@afoundationforeldercare.com\nA Foundation for Elder Care\nMurrieta, CA 92563\nhttp://www.afoundationforeldercare.com\n(714) 342-8692\ncolleen@afoundationforeldercare.com\nSummary\nI am a Certified Senior Advisor and a Licensed Administrator in the State of California with over 20 years of experience assisting families with senior care, housing information, and trusted referrals.\nOperational Approach\nMy work is grounded in both professional expertise and personal experience, including serving as a caregiver and advocate for my own family members while supporting other families through the senior care process. I conduct comprehensive intake assessments to understand care needs, budget, and geographic preferences, then provide detailed guidance, arrange tours, and support families through every step of the process from initial consultation to final placement.\nShow more",
+      "sections": {
+        "operational_approach": "My work is grounded in both professional expertise and personal experience, including serving as a caregiver and advocate for my own family members while supporting other families through the senior care process. I conduct comprehensive intake assessments to understand care needs, budget, and geographic preferences, then provide detailed guidance, arrange tours, and support families through every step of the process from initial consultation to final placement.",
+        "summary": "I am a Certified Senior Advisor and a Licensed Administrator in the State of California with over 20 years of experience assisting families with senior care, housing information, and trusted referrals."
+      },
+      "source_record_index": 68,
+      "summary": "I am a Certified Senior Advisor and a Licensed Administrator in the State of California with over 20 years of experience assisting families with senior care, housing information, and trusted referrals.",
+      "website_urls": [
+        "http://www.afoundationforeldercare.com/"
+      ]
+    },
+    {
+      "agency": "Senior Living Advisors",
+      "certifications": [
+        "Certified Senior Advisor, CSA"
+      ],
+      "email_hrefs": [
+        "mailto:info@seniorlivingadvisorsnm.com"
+      ],
+      "emails": [
+        "info@seniorlivingadvisorsnm.com"
+      ],
+      "locations": [
+        "Albuquerque, NM 87114"
+      ],
+      "name": "Darla and Mario Romero, Senior Living Advisors",
+      "operational_approach": "As a family-owned agency in New Mexico, we treat each client like our own family. We provide personalized support and expert local knowledge to help families find the best senior living options. We’re excited to partner with agencies nationwide to expand our reach and ensure families across the country get the care and guidance they need. Let's work together to make transitions smoother and more supportive for everyone.",
+      "phone_hrefs": [
+        "tel:+15052284755"
+      ],
+      "phone_numbers": [
+        "(505) 228-4755"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/dcd6a4d5-7705-4c09-a30b-e2c145a18b1c",
+      "raw_card_text": "Darla and Mario Romero, Senior Living Advisors\nSenior Living Advisors\nAlbuquerque, NM 87114\nhttp://www.SeniorLivingAdvisorsNM.com\n(505) 228-4755\ninfo@seniorlivingadvisorsnm.com\nSummary\nHello!\nWe're a locally owned husband-and-wife team passionate about supporting seniors and their families with care, compassion, and local expertise. While we're based in Albuquerque, we proudly help families all across the state of New Mexico find the right senior living solutions for their needs.\nShow more\nOperational Approach\nAs a family-owned agency in New Mexico, we treat each client like our own family. We provide personalized support and expert local knowledge to help families find the best senior living options.\nWe’re excited to partner with agencies nationwide to expand our reach and ensure families across the country get the care and guidance they need. Let's work together to make transitions smoother and more supportive for everyone.\nShow more\nCertifications\nCertified Senior Advisor, CSA",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "As a family-owned agency in New Mexico, we treat each client like our own family. We provide personalized support and expert local knowledge to help families find the best senior living options. We’re excited to partner with agencies nationwide to expand our reach and ensure families across the country get the care and guidance they need. Let's work together to make transitions smoother and more supportive for everyone.",
+        "summary": "Hello! We're a locally owned husband-and-wife team passionate about supporting seniors and their families with care, compassion, and local expertise. While we're based in Albuquerque, we proudly help families all across the state of New Mexico find the right senior living solutions for their needs."
+      },
+      "source_record_index": 79,
+      "summary": "Hello! We're a locally owned husband-and-wife team passionate about supporting seniors and their families with care, compassion, and local expertise. While we're based in Albuquerque, we proudly help families all across the state of New Mexico find the right senior living solutions for their needs.",
+      "website_urls": [
+        "http://www.seniorlivingadvisorsnm.com/"
+      ]
+    },
+    {
+      "agency": "American Senior Home Finders",
+      "certifications": [
+        "CSA, CPRS, RCFE"
+      ],
+      "email_hrefs": [
+        "mailto:donna@americanseniorhomefinders.com"
+      ],
+      "emails": [
+        "donna@americanseniorhomefinders.com"
+      ],
+      "locations": [
+        "Orange County, CA 92782"
+      ],
+      "name": "Donna Rybacki - Senior Placement Specialist",
+      "operational_approach": "The American Senior Home Finders team takes a highly personalized, hands-on approach to senior living placement, recognizing that every family’s situation is unique. We take the time to truly listen, assess individual care needs, financial considerations, and personal preferences, and then guide families step-by-step through their options. Our focus is on compassionate support, ethical guidance, and finding the right fit—not just a quick placement.",
+      "phone_hrefs": [
+        "tel:+19492780155"
+      ],
+      "phone_numbers": [
+        "(949) 278-0155"
+      ],
+      "profile_image_url": "",
+      "raw_card_text": "Donna Rybacki - Senior Placement Specialist\nAmerican Senior Home Finders\nOrange County, CA 92782\nhttps://www.americanseniorhomefinders.com/\n(949) 278-0155\ndonna@americanseniorhomefinders.com\nSummary\nWe have been helping families since 2013. We are hands on and meet with the client/family. We vet the options and give professional guidance.\nDonna is a CSA, CPRS and RCFE Administrator. We have a strong presence in Southern California.\nOperational Approach\nThe American Senior Home Finders team takes a highly personalized, hands-on approach to senior living placement, recognizing that every family’s situation is unique. We take the time to truly listen, assess individual care needs, financial considerations, and personal preferences, and then guide families step-by-step through their options. Our focus is on compassionate support, ethical guidance, and finding the right fit—not just a quick placement.\nShow more\nCertifications\nCSA, CPRS, RCFE",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "The American Senior Home Finders team takes a highly personalized, hands-on approach to senior living placement, recognizing that every family’s situation is unique. We take the time to truly listen, assess individual care needs, financial considerations, and personal preferences, and then guide families step-by-step through their options. Our focus is on compassionate support, ethical guidance, and finding the right fit—not just a quick placement.",
+        "summary": "We have been helping families since 2013. We are hands on and meet with the client/family. We vet the options and give professional guidance. Donna is a CSA, CPRS and RCFE Administrator. We have a strong presence in Southern California."
+      },
+      "source_record_index": 91,
+      "summary": "We have been helping families since 2013. We are hands on and meet with the client/family. We vet the options and give professional guidance. Donna is a CSA, CPRS and RCFE Administrator. We have a strong presence in Southern California.",
+      "website_urls": [
+        "https://www.americanseniorhomefinders.com/"
+      ]
+    },
+    {
+      "agency": "CareCompass for Seniors",
+      "certifications": [
+        "California RCFE Administrator",
+        "Certified Senior Advisor",
+        "Senior ome Safe Specialist"
+      ],
+      "email_hrefs": [
+        "mailto:gigi@carecompassforseniors.com"
+      ],
+      "emails": [
+        "gigi@carecompassforseniors.com"
+      ],
+      "locations": [
+        "American Canyon, CA 94503"
+      ],
+      "name": "Gigi Gonzales",
+      "operational_approach": "100% Objective Guidance: Because we offer both aging-in-place and placement options, we have no bias. Our only goal is what is best for your family. One Trusted Point of Contact: From family mediation and home tech setups to coordinating estate sales and movers, we handle the logistics so you can just be a son or daughter again. Local Expertise: We know the local care agencies, the violations histories of local facilities, and the best senior vendors in town.",
+      "phone_hrefs": [
+        "tel:+17078051411"
+      ],
+      "phone_numbers": [
+        "(707) 805-1411"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/2041b8f6-0689-41ca-933d-0b971e98db0b",
+      "raw_card_text": "Gigi Gonzales\nCareCompass for Seniors\nAmerican Canyon, CA 94503\nhttp://www.CareCompassforSeniors.com\n(707) 805-1411\ngigi@carecompassforseniors.com\nSummary\nCareCompass for Seniors is a holistic advisory service dedicated to helping families navigate the complexities of senior care. Whether your goal is modifying a home for safety or finding the perfect community when it’s time to transition, you don’t have to figure it out alone.\nOperational Approach\n100% Objective Guidance:\nBecause we offer both aging-in-place and placement options, we have no bias. Our only goal is what is best for your family.\nOne Trusted Point of Contact:\nFrom family mediation and home tech setups to coordinating estate sales and movers, we handle the logistics so you can just be a son or daughter again.\nLocal Expertise:\nWe know the local care agencies, the violations histories of local facilities, and the best senior vendors in town.\nShow more\nCertifications\nCalifornia RCFE Administrator\nCertified Senior Advisor\nSenior ome Safe Specialist",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "100% Objective Guidance: Because we offer both aging-in-place and placement options, we have no bias. Our only goal is what is best for your family. One Trusted Point of Contact: From family mediation and home tech setups to coordinating estate sales and movers, we handle the logistics so you can just be a son or daughter again. Local Expertise: We know the local care agencies, the violations histories of local facilities, and the best senior vendors in town.",
+        "summary": "CareCompass for Seniors is a holistic advisory service dedicated to helping families navigate the complexities of senior care. Whether your goal is modifying a home for safety or finding the perfect community when it’s time to transition, you don’t have to figure it out alone."
+      },
+      "source_record_index": 103,
+      "summary": "CareCompass for Seniors is a holistic advisory service dedicated to helping families navigate the complexities of senior care. Whether your goal is modifying a home for safety or finding the perfect community when it’s time to transition, you don’t have to figure it out alone.",
+      "website_urls": [
+        "http://www.carecompassforseniors.com/"
+      ]
+    },
+    {
+      "agency": "Bespoke Senior Services",
+      "certifications": [
+        "Certified Senior Advisor®",
+        "Certified Dementia Practitioner®",
+        "Member of NPRA"
+      ],
+      "email_hrefs": [
+        "mailto:gracie@bespokeseniorservices.com"
+      ],
+      "emails": [
+        "gracie@bespokeseniorservices.com"
+      ],
+      "locations": [
+        "Denver, CO"
+      ],
+      "name": "Gracie Ahn",
+      "operational_approach": "I am dedicated to person-centered care and guiding seniors and families through one of life’s most important transitions with compassion, clarity, and dignity. I combine industry expertise with heartfelt advocacy to support my clients.",
+      "phone_hrefs": [
+        "tel:+13038027272"
+      ],
+      "phone_numbers": [
+        "(303) 802-7272"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/acc694db-4726-4694-b3f7-de1f102dbb72",
+      "raw_card_text": "Gracie Ahn\nBespoke Senior Services\nDenver, CO\nhttps://www.bespokeseniorservices.com/\n(303) 802-7272\ngracie@bespokeseniorservices.com\nSummary\nTailored Guidance to Thrive in Senior Living. We walk alongside you to discover the right community. We guide you through the decisions, emotions, and complexities of senior living with clarity, compassion, and expertise.\nOperational Approach\nI am dedicated to person-centered care and guiding seniors and families through one of life’s most important transitions with compassion, clarity, and dignity. I combine industry expertise with heartfelt advocacy to support my clients.\nCertifications\nCertified Senior Advisor®\nCertified Dementia Practitioner®\nMember of NPRA",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "I am dedicated to person-centered care and guiding seniors and families through one of life’s most important transitions with compassion, clarity, and dignity. I combine industry expertise with heartfelt advocacy to support my clients.",
+        "summary": "Tailored Guidance to Thrive in Senior Living. We walk alongside you to discover the right community. We guide you through the decisions, emotions, and complexities of senior living with clarity, compassion, and expertise."
+      },
+      "source_record_index": 106,
+      "summary": "Tailored Guidance to Thrive in Senior Living. We walk alongside you to discover the right community. We guide you through the decisions, emotions, and complexities of senior living with clarity, compassion, and expertise.",
+      "website_urls": [
+        "https://www.bespokeseniorservices.com/"
+      ]
+    },
+    {
+      "agency": "Living Coastal Senior Resources",
+      "certifications": [
+        "Certified Senior Advisor (CSA)",
+        "Certified Placement & Referral Specialists (CPRS)",
+        "National Certification Board for Alzheimer's Care (NCBAC)",
+        "Certified Alzheimer's Association of San Diego as a Caregiver Support Facilitator"
+      ],
+      "email_hrefs": [
+        "mailto:jacqui@LivingCoastalSR.com"
+      ],
+      "emails": [
+        "jacqui@LivingCoastalSR.com"
+      ],
+      "locations": [
+        "San Diego County, CA 92129"
+      ],
+      "name": "Jacqui Clark, CSA, CPRS",
+      "operational_approach": "My approach is personal, ethical, and deeply compassionate. I tour with every client and visit all the communities I work with. I specialize in helping individuals with complex care needs and family dynamics and collaborate with trusted senior care professionals. I see this as soul work—rooted in integrity, patience, and genuine care. I’m a dedicated partner and treat your reputation with the same care and respect as my own.",
+      "phone_hrefs": [
+        "tel:+18587617551"
+      ],
+      "phone_numbers": [
+        "(858) 761-7551"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/f18315a0-3b22-4672-9633-eea4c64d979a",
+      "raw_card_text": "Jacqui Clark, CSA, CPRS\nLiving Coastal Senior Resources\nSan Diego County, CA 92129\nhttp://www.ThisIsLivingWell.com\n(858) 761-7551\njacqui@LivingCoastalSR.com\nSummary\nI provide personalized guidance for in-home care, assisted living, memory care, and residential care homes. With over 12 years of experience in senior care, I'm dedicated to helping older adults thrive. I'm also the host of the \"Get Ready for Better Aging\" podcast.\nOperational Approach\nMy approach is personal, ethical, and deeply compassionate. I tour with every client and visit all the communities I work with. I specialize in helping individuals with complex care needs and family dynamics and collaborate with trusted senior care professionals. I see this as soul work—rooted in integrity, patience, and genuine care. I’m a dedicated partner and treat your reputation with the same care and respect as my own.\nShow more\nCertifications\nCertified Senior Advisor (CSA)\nCertified Placement & Referral Specialists (CPRS)\nNational Certification Board for Alzheimer's Care (NCBAC)\nCertified Alzheimer's Association of San Diego as a Caregiver Support Facilitator",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "My approach is personal, ethical, and deeply compassionate. I tour with every client and visit all the communities I work with. I specialize in helping individuals with complex care needs and family dynamics and collaborate with trusted senior care professionals. I see this as soul work—rooted in integrity, patience, and genuine care. I’m a dedicated partner and treat your reputation with the same care and respect as my own.",
+        "summary": "I provide personalized guidance for in-home care, assisted living, memory care, and residential care homes. With over 12 years of experience in senior care, I'm dedicated to helping older adults thrive. I'm also the host of the \"Get Ready for Better Aging\" podcast."
+      },
+      "source_record_index": 109,
+      "summary": "I provide personalized guidance for in-home care, assisted living, memory care, and residential care homes. With over 12 years of experience in senior care, I'm dedicated to helping older adults thrive. I'm also the host of the \"Get Ready for Better Aging\" podcast.",
+      "website_urls": [
+        "http://www.thisislivingwell.com/"
+      ]
+    },
+    {
+      "agency": "Choice Connections",
+      "certifications": [
+        "Licensed Assisted Living Director",
+        "Certified Senior Advisor(R)"
+      ],
+      "email_hrefs": [
+        "mailto:janelle@choice-mn.com"
+      ],
+      "emails": [
+        "janelle@choice-mn.com"
+      ],
+      "locations": [
+        ", 55472"
+      ],
+      "name": "Janelle Meyers, CSA(R), LALD",
+      "operational_approach": "",
+      "phone_hrefs": [
+        "tel:+17633373370"
+      ],
+      "phone_numbers": [
+        "(763) 337-3370"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/3cb2caff-389d-4172-88b2-4ba378a76b6b",
+      "raw_card_text": "Janelle Meyers, CSA(R), LALD\nChoice Connections\n, 55472\nhttp://www.choiceconnectionsmn.com\n(763) 337-3370\njanelle@choice-mn.com\nSummary\nConnecting those we serve to their \"Best Choices\" in senior living. We help families in the Twin Cities area navigate the overwhelming process of finding the right senior community for a loved one.\nCertifications\nLicensed Assisted Living Director\nCertified Senior Advisor(R)",
+      "sections": {
+        "certifications": "[Circular]",
+        "summary": "Connecting those we serve to their \"Best Choices\" in senior living. We help families in the Twin Cities area navigate the overwhelming process of finding the right senior community for a loved one."
+      },
+      "source_record_index": 113,
+      "summary": "Connecting those we serve to their \"Best Choices\" in senior living. We help families in the Twin Cities area navigate the overwhelming process of finding the right senior community for a loved one.",
+      "website_urls": [
+        "http://www.choiceconnectionsmn.com/"
+      ]
+    },
+    {
+      "agency": "AgeWell Connections",
+      "certifications": [
+        "Certified Senior Advisor"
+      ],
+      "email_hrefs": [
+        "mailto:jason@agewellidaho.com"
+      ],
+      "emails": [
+        "jason@agewellidaho.com"
+      ],
+      "locations": [
+        "Chubbuck, ID 83202"
+      ],
+      "name": "Jason Atkinson, CSA",
+      "operational_approach": "",
+      "phone_hrefs": [
+        "tel:+12082400980"
+      ],
+      "phone_numbers": [
+        "(208) 240-0980"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/baa5cc41-d9e4-42c6-b016-87ffbc2caeab",
+      "raw_card_text": "Jason Atkinson, CSA\nAgeWell Connections\nChubbuck, ID 83202\nhttp://www.agewellconnections.com\n(208) 240-0980\njason@agewellidaho.com\nSummary\nCertified Senior Advisor (CSA) with more than 15 years of professional experience working in the senior services field. I have been dedicated to supporting seniors and their families as they navigate the complex and often emotional decisions that come with aging and long-term care\nCertifications\nCertified Senior Advisor",
+      "sections": {
+        "certifications": "[Circular]",
+        "summary": "Certified Senior Advisor (CSA) with more than 15 years of professional experience working in the senior services field. I have been dedicated to supporting seniors and their families as they navigate the complex and often emotional decisions that come with aging and long-term care"
+      },
+      "source_record_index": 115,
+      "summary": "Certified Senior Advisor (CSA) with more than 15 years of professional experience working in the senior services field. I have been dedicated to supporting seniors and their families as they navigate the complex and often emotional decisions that come with aging and long-term care",
+      "website_urls": [
+        "http://www.agewellconnections.com/"
+      ]
+    },
+    {
+      "agency": "Transitions For Senior Living",
+      "certifications": [
+        "Certified Dementia Practioner-CDP",
+        "Licensed residential care & assisted living administrator RCAL (Executive Director)",
+        "Certified Senior Advisor-CSA"
+      ],
+      "email_hrefs": [
+        "mailto:jeff@transitionsforseniorliving.com"
+      ],
+      "emails": [
+        "jeff@transitionsforseniorliving.com"
+      ],
+      "locations": [
+        "St. Louis, MO"
+      ],
+      "name": "Jeff Balleau",
+      "operational_approach": "We meet all our clients, to ensure understanding and transparency. We strongly focus on the social fit, personality, spiritual preferences, along with physical/cognitive care, financial impact, location, and planning for future needs. We place in independent, assisted living, and skilled nursing, private pay clients. We happily refer Medicaid clients to other resources. We consider it a privilege to educate and share with families, and we work hard to avoid the need for skilled care.",
+      "phone_hrefs": [
+        "tel:+13149600548"
+      ],
+      "phone_numbers": [
+        "(314) 960-0548"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/3415e856-42f9-4423-89f2-c916df6b23ad",
+      "raw_card_text": "Jeff Balleau\nTransitions For Senior Living\nSt. Louis, MO\nhttp://TransitionsforSeniorLiving.com\n(314) 960-0548\njeff@transitionsforseniorliving.com\nSummary\nWe were the 1st boots on the ground, concierge style referral placement in the St. Louis Metro area. We began in 2012, after great frustration and disappointment with the traditional model of placement with my own father. We take time to clearly understand our clients/families to guide them well.\nOperational Approach\nWe meet all our clients, to ensure understanding and transparency.\nWe strongly focus on the social fit, personality, spiritual preferences, along with physical/cognitive care, financial impact, location, and planning for future needs.\nWe place in independent, assisted living, and skilled nursing, private pay clients. We happily refer Medicaid clients to other resources.\nWe consider it a privilege to educate and share with families, and we work hard to avoid the need for skilled care.\nShow more\nCertifications\nCertified Dementia Practioner-CDP\nLicensed residential care & assisted living administrator RCAL (Executive Director)\nCertified Senior Advisor-CSA",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "We meet all our clients, to ensure understanding and transparency. We strongly focus on the social fit, personality, spiritual preferences, along with physical/cognitive care, financial impact, location, and planning for future needs. We place in independent, assisted living, and skilled nursing, private pay clients. We happily refer Medicaid clients to other resources. We consider it a privilege to educate and share with families, and we work hard to avoid the need for skilled care.",
+        "summary": "We were the 1st boots on the ground, concierge style referral placement in the St. Louis Metro area. We began in 2012, after great frustration and disappointment with the traditional model of placement with my own father. We take time to clearly understand our clients/families to guide them well."
+      },
+      "source_record_index": 119,
+      "summary": "We were the 1st boots on the ground, concierge style referral placement in the St. Louis Metro area. We began in 2012, after great frustration and disappointment with the traditional model of placement with my own father. We take time to clearly understand our clients/families to guide them well.",
+      "website_urls": [
+        "http://transitionsforseniorliving.com/"
+      ]
+    },
+    {
+      "agency": "Transitions With Care Concierge d/b/a/ Agewell Planning",
+      "certifications": [
+        "Certified Dementia Practitioner (CDP™),",
+        "Certified Senior Advisor (CSA™)",
+        "Registered Social Security Analyst RSSA™"
+      ],
+      "email_hrefs": [
+        "mailto:jenn@agewellplanning.com"
+      ],
+      "emails": [
+        "jenn@agewellplanning.com"
+      ],
+      "locations": [
+        "Ventura, CA 93001"
+      ],
+      "name": "Jenn Blood",
+      "operational_approach": "I focus on proactive planning — helping families map out care decisions before a crisis forces a rushed choice — while being just as equipped to guide families through urgent, time-sensitive placements. I maintain an active COI network across financial advisors, elder law attorneys, and healthcare partners in the region, connecting families to the right resources at the right time. Whether planning ahead or navigating a sudden need, I walk beside families through every step.",
+      "phone_hrefs": [
+        "tel:+18055000885"
+      ],
+      "phone_numbers": [
+        "(805) 500-0885"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/0b337abb-c3ca-42d7-8c6b-06c8ec896fb0",
+      "raw_card_text": "Jenn Blood\nTransitions With Care Concierge d/b/a/ Agewell Planning\nVentura, CA 93001\nhttp://www.agewellplanning.com\n(805) 500-0885\njenn@agewellplanning.com\nSummary\nMy path into senior care advisory began with my own father's transition into a care community. I founded AgeWell Planning, serving Ventura & Santa Barbara Counties. CSA™, CDP™ certified; Alzheimer's Association presenter/facilitator; Navy League Channel Islands board member.\nOperational Approach\nI focus on proactive planning — helping families map out care decisions before a crisis forces a rushed choice — while being just as equipped to guide families through urgent, time-sensitive placements. I maintain an active COI network across financial advisors, elder law attorneys, and healthcare partners in the region, connecting families to the right resources at the right time. Whether planning ahead or navigating a sudden need, I walk beside families through every step.\nShow more\nCertifications\nCertified Dementia Practitioner (CDP™),\nCertified Senior Advisor (CSA™)\nRegistered Social Security Analyst RSSA™",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "I focus on proactive planning — helping families map out care decisions before a crisis forces a rushed choice — while being just as equipped to guide families through urgent, time-sensitive placements. I maintain an active COI network across financial advisors, elder law attorneys, and healthcare partners in the region, connecting families to the right resources at the right time. Whether planning ahead or navigating a sudden need, I walk beside families through every step.",
+        "summary": "My path into senior care advisory began with my own father's transition into a care community. I founded AgeWell Planning, serving Ventura & Santa Barbara Counties. CSA™, CDP™ certified; Alzheimer's Association presenter/facilitator; Navy League Channel Islands board member."
+      },
+      "source_record_index": 126,
+      "summary": "My path into senior care advisory began with my own father's transition into a care community. I founded AgeWell Planning, serving Ventura & Santa Barbara Counties. CSA™, CDP™ certified; Alzheimer's Association presenter/facilitator; Navy League Channel Islands board member.",
+      "website_urls": [
+        "http://www.agewellplanning.com/"
+      ]
+    },
+    {
+      "agency": "Senior Care Referral Services of Colorado",
+      "certifications": [
+        "Certified Senior Advisor"
+      ],
+      "email_hrefs": [
+        "mailto:jennifer@seniorliving-co.com"
+      ],
+      "emails": [
+        "jennifer@seniorliving-co.com"
+      ],
+      "locations": [
+        "Denver, CO"
+      ],
+      "name": "Jennifer Forrester",
+      "operational_approach": "Jennifer provides a personalized, concierge-style approach, taking time to understand each client’s needs, preferences, and budget. She researches best-fit options, presents curated recommendations, coordinates tours, and supports families through decision-making and move-in, ensuring a smooth and informed process.",
+      "phone_hrefs": [
+        "tel:+14057606034"
+      ],
+      "phone_numbers": [
+        "(405) 760-6034"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/6891af48-76a4-4724-bd2c-50d08145cca1",
+      "raw_card_text": "Jennifer Forrester\nSenior Care Referral Services of Colorado\nDenver, CO\nhttp://www.seniorliving-co.com\n(405) 760-6034\njennifer@seniorliving-co.com\nSummary\nJennifer has a background in healthcare and hospice, bringing clinical insight and compassion to her work. As a Certified Senior Advisor, she guides families through senior living options including Independent Living, Assisted Living, and Memory Care.\nOperational Approach\nJennifer provides a personalized, concierge-style approach, taking time to understand each client’s needs, preferences, and budget. She researches best-fit options, presents curated recommendations, coordinates tours, and supports families through decision-making and move-in, ensuring a smooth and informed process.\nShow more\nCertifications\nCertified Senior Advisor",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "Jennifer provides a personalized, concierge-style approach, taking time to understand each client’s needs, preferences, and budget. She researches best-fit options, presents curated recommendations, coordinates tours, and supports families through decision-making and move-in, ensuring a smooth and informed process.",
+        "summary": "Jennifer has a background in healthcare and hospice, bringing clinical insight and compassion to her work. As a Certified Senior Advisor, she guides families through senior living options including Independent Living, Assisted Living, and Memory Care."
+      },
+      "source_record_index": 128,
+      "summary": "Jennifer has a background in healthcare and hospice, bringing clinical insight and compassion to her work. As a Certified Senior Advisor, she guides families through senior living options including Independent Living, Assisted Living, and Memory Care.",
+      "website_urls": [
+        "http://www.seniorliving-co.com/"
+      ]
+    },
+    {
+      "agency": "Ruby Care-Senior Living Advisors",
+      "certifications": [
+        "Certified Senior Advisor, Certified Dementia Practitioner"
+      ],
+      "email_hrefs": [
+        "mailto:jlogan@rubycaresenior.com"
+      ],
+      "emails": [
+        "jlogan@rubycaresenior.com"
+      ],
+      "locations": [
+        "Dallas, TX"
+      ],
+      "name": "Joyce Logan",
+      "operational_approach": "*Start with a phone call and personalized consultation *Match families with senior living options based on budget, care needs, and location *Offer to tour communities with families and answer all questions *Connect families to trusted, local resources—always at no cost *Follow-up after placement *For out-of-state referrals, we typically offer a 70/30 split Proud members of the National Placement & Referral Alliance (NPRA)",
+      "phone_hrefs": [
+        "tel:+12145362979"
+      ],
+      "phone_numbers": [
+        "(214) 536-2979"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/5c45caae-277c-4915-831e-decb6d2280d8",
+      "raw_card_text": "Joyce Logan\nRuby Care-Senior Living Advisors\nDallas, TX\nhttp://www.rubycaresenior.com\n(214) 536-2979\njlogan@rubycaresenior.com\nSummary\nI'm the founder of Ruby Care-Senior Living Advisors, founded in 2016, we are a compassionate team helping families across Dallas/Fort Worth Texas. With 10 dedicated advisors and 175+ years of combined senior living experience, we guide families personalized support every step of the way.\nOperational Approach\n*Start with a phone call and personalized consultation\n*Match families with senior living options based on budget, care needs, and location\n*Offer to tour communities with families and answer all questions\n*Connect families to trusted, local resources—always at no cost\n*Follow-up after placement\n*For out-of-state referrals, we typically offer a 70/30 split\nProud members of the National Placement & Referral Alliance (NPRA)\nShow more\nCertifications\nCertified Senior Advisor, Certified Dementia Practitioner",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "*Start with a phone call and personalized consultation *Match families with senior living options based on budget, care needs, and location *Offer to tour communities with families and answer all questions *Connect families to trusted, local resources—always at no cost *Follow-up after placement *For out-of-state referrals, we typically offer a 70/30 split Proud members of the National Placement & Referral Alliance (NPRA)",
+        "summary": "I'm the founder of Ruby Care-Senior Living Advisors, founded in 2016, we are a compassionate team helping families across Dallas/Fort Worth Texas. With 10 dedicated advisors and 175+ years of combined senior living experience, we guide families personalized support every step of the way."
+      },
+      "source_record_index": 148,
+      "summary": "I'm the founder of Ruby Care-Senior Living Advisors, founded in 2016, we are a compassionate team helping families across Dallas/Fort Worth Texas. With 10 dedicated advisors and 175+ years of combined senior living experience, we guide families personalized support every step of the way.",
+      "website_urls": [
+        "http://www.rubycaresenior.com/"
+      ]
+    },
+    {
+      "agency": "Aging123",
+      "certifications": [
+        "Certified Senior Advisor ™"
+      ],
+      "email_hrefs": [
+        "mailto:julie@aging123.com"
+      ],
+      "emails": [
+        "julie@aging123.com"
+      ],
+      "locations": [
+        "San Diego , 92103"
+      ],
+      "name": "Julie Derry, MBA, Certified Senior Advisor ™",
+      "operational_approach": "Aging123 is built on integrity, responsiveness, and results. As a highly reputable, trusted partner in the senior care placement industry, we have successfully collaborated with dozens of reputable agencies, fostering long-term relationships based on shared values and mutual respect. Our process includes a thorough intake conducted by experienced advisors who are trained to listen deeply, ask the right questions, and understand each clients medical, financial and emotional needs.",
+      "phone_hrefs": [
+        "tel:+16199873131"
+      ],
+      "phone_numbers": [
+        "(619) 987-3131"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/5818ad5c-260e-4c9f-bdc6-e77b6655cd41",
+      "raw_card_text": "Julie Derry, MBA, Certified Senior Advisor ™\nAging123\nSan Diego , 92103\nhttps://aging123.com/\n(619) 987-3131\njulie@aging123.com\nSummary\nJulie Derry, MBA is a Certified Senior Advisor™ and the founder of Aging123, an organization dedicated to offering personalized, no-cost support to older adults and their families in finding the best options for Independent Living, Assisted Living, Memory Care, and In-Home Care.\nOperational Approach\nAging123 is built on integrity, responsiveness, and results. As a highly reputable, trusted partner in the senior care placement industry, we have successfully collaborated with dozens of reputable agencies, fostering long-term relationships based on shared values and mutual respect.\nOur process includes a thorough intake conducted by experienced advisors who are trained to listen deeply, ask the right questions, and understand each clients medical, financial and emotional needs.\nShow more\nCertifications\nCertified Senior Advisor ™",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "Aging123 is built on integrity, responsiveness, and results. As a highly reputable, trusted partner in the senior care placement industry, we have successfully collaborated with dozens of reputable agencies, fostering long-term relationships based on shared values and mutual respect. Our process includes a thorough intake conducted by experienced advisors who are trained to listen deeply, ask the right questions, and understand each clients medical, financial and emotional needs.",
+        "summary": "Julie Derry, MBA is a Certified Senior Advisor™ and the founder of Aging123, an organization dedicated to offering personalized, no-cost support to older adults and their families in finding the best options for Independent Living, Assisted Living, Memory Care, and In-Home Care."
+      },
+      "source_record_index": 152,
+      "summary": "Julie Derry, MBA is a Certified Senior Advisor™ and the founder of Aging123, an organization dedicated to offering personalized, no-cost support to older adults and their families in finding the best options for Independent Living, Assisted Living, Memory Care, and In-Home Care.",
+      "website_urls": [
+        "https://aging123.com/"
+      ]
+    },
+    {
+      "agency": "1st CHOICE Advisory Services Inc.",
+      "certifications": [
+        "Julie Hart, CSA®, CDP®"
+      ],
+      "email_hrefs": [
+        "mailto:juliehart@choiceadvisory.com"
+      ],
+      "emails": [
+        "juliehart@choiceadvisory.com"
+      ],
+      "locations": [
+        "Bellevue, WA 98004"
+      ],
+      "name": "Julie Hart",
+      "operational_approach": "",
+      "phone_hrefs": [
+        "tel:+14252360848"
+      ],
+      "phone_numbers": [
+        "(425) 236-0848"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/79de1d48-5f89-4db8-8564-c81e9d4c1eb4",
+      "raw_card_text": "Julie Hart\n1st CHOICE Advisory Services Inc.\nBellevue, WA 98004\nhttp://www.choiceadvisory.com\n(425) 236-0848\njuliehart@choiceadvisory.com\nCertifications\nJulie Hart, CSA®, CDP®",
+      "sections": {
+        "certifications": "[Circular]"
+      },
+      "source_record_index": 153,
+      "summary": "",
+      "website_urls": [
+        "http://www.choiceadvisory.com/"
+      ]
+    },
+    {
+      "agency": "Hand n' Hand Senior Placement, LLC",
+      "certifications": [
+        "Certified Senior Advisor",
+        "Master's Marriage, Family, Child Counseling",
+        "MBA",
+        "Certified Dementia Practioner"
+      ],
+      "email_hrefs": [
+        "mailto:info@handnhandsp.com"
+      ],
+      "emails": [
+        "info@handnhandsp.com"
+      ],
+      "locations": [
+        "San Jose, CA 95125"
+      ],
+      "name": "Katie Cooney, CSA, CDP, MA, MBA",
+      "operational_approach": "",
+      "phone_hrefs": [
+        "tel:+14085137838"
+      ],
+      "phone_numbers": [
+        "(408) 513-7838"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/4bc5f851-0d9f-456a-93bc-e9336e449ffd",
+      "raw_card_text": "Katie Cooney, CSA, CDP, MA, MBA\nHand n' Hand Senior Placement, LLC\nSan Jose, CA 95125\nhttp://www.handnhandsp.com\n(408) 513-7838\ninfo@handnhandsp.com\nSummary\nWant concierge attention and privacy? Do you prefer a personal experience rather than Big Box's one-size-fits-all solutions? Hand n' Hand Senior Placement, LLC is for individuals and families who want concierge-style attention that large online placement services can't provide.\nCertifications\nCertified Senior Advisor\nMaster's Marriage, Family, Child Counseling\nMBA\nCertified Dementia Practioner",
+      "sections": {
+        "certifications": "[Circular]",
+        "summary": "Want concierge attention and privacy? Do you prefer a personal experience rather than Big Box's one-size-fits-all solutions? Hand n' Hand Senior Placement, LLC is for individuals and families who want concierge-style attention that large online placement services can't provide."
+      },
+      "source_record_index": 161,
+      "summary": "Want concierge attention and privacy? Do you prefer a personal experience rather than Big Box's one-size-fits-all solutions? Hand n' Hand Senior Placement, LLC is for individuals and families who want concierge-style attention that large online placement services can't provide.",
+      "website_urls": [
+        "http://www.handnhandsp.com/"
+      ]
+    },
+    {
+      "agency": "Aging with Grace",
+      "certifications": [
+        "Certified Senior Advisor",
+        "Certified Dementia Practitioner"
+      ],
+      "email_hrefs": [
+        "mailto:kayla@seniorsagingwithgrace.com"
+      ],
+      "emails": [
+        "kayla@seniorsagingwithgrace.com"
+      ],
+      "locations": [
+        ", LA"
+      ],
+      "name": "Kayla Baham",
+      "operational_approach": "Kayla Baham has dedicated her career to helping older adults and their families navigate senior living decisions while also partnering with senior living communities to improve operations, develop referral relationships, train healthcare professionals, and elevate the quality of resident experience.",
+      "phone_hrefs": [
+        "tel:+13378022950"
+      ],
+      "phone_numbers": [
+        "(337) 802-2950"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/85a9a469-d9ad-4979-9219-1068f1f81488",
+      "raw_card_text": "Kayla Baham\nAging with Grace\n, LA\nhttp://www.SeniorsAgingwithGrace.com\n(337) 802-2950\nkayla@seniorsagingwithgrace.com\nSummary\nKayla Baham is the co-founder of Aging with Grace Senior Living Advisors and a Certified Senior Advisor (CSA) with extensive experience in senior living, healthcare, and consulting. She is a Certified Dementia Practitioner (CDP) and particularly passionate about helping people with dementia.\nOperational Approach\nKayla Baham has dedicated her career to helping older adults and their families navigate senior living decisions while also partnering with senior living communities to improve operations, develop referral relationships, train healthcare professionals, and elevate the quality of resident experience.\nCertifications\nCertified Senior Advisor\nCertified Dementia Practitioner",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "Kayla Baham has dedicated her career to helping older adults and their families navigate senior living decisions while also partnering with senior living communities to improve operations, develop referral relationships, train healthcare professionals, and elevate the quality of resident experience.",
+        "summary": "Kayla Baham is the co-founder of Aging with Grace Senior Living Advisors and a Certified Senior Advisor (CSA) with extensive experience in senior living, healthcare, and consulting. She is a Certified Dementia Practitioner (CDP) and particularly passionate about helping people with dementia."
+      },
+      "source_record_index": 164,
+      "summary": "Kayla Baham is the co-founder of Aging with Grace Senior Living Advisors and a Certified Senior Advisor (CSA) with extensive experience in senior living, healthcare, and consulting. She is a Certified Dementia Practitioner (CDP) and particularly passionate about helping people with dementia.",
+      "website_urls": [
+        "http://www.seniorsagingwithgrace.com/"
+      ]
+    },
+    {
+      "agency": "",
+      "certifications": [
+        "Certified Senior Advisor (CSA)",
+        "Member of NPRA"
+      ],
+      "email_hrefs": [
+        "mailto:kit@seniorlivingkit.com"
+      ],
+      "emails": [
+        "kit@seniorlivingkit.com"
+      ],
+      "locations": [
+        "Cedar Park, TX 78613"
+      ],
+      "name": "Kit Baumann",
+      "operational_approach": "With over 14 years of experience in the senior living industry, our founder, Kit Baumann, offers trusted guidance, compassion, and local expertise to make the process less stressful and more informed. From comparing assisted living costs and amenities to coordinating tours and move-in support, we’re your dedicated partner in finding a community that feels like home. Your trusted guide to senior living solutions — because you don’t have to do it alone.",
+      "phone_hrefs": [
+        "tel:+19857783221"
+      ],
+      "phone_numbers": [
+        "(985) 778-3221"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/cb1b3520-20dc-4644-a2fe-53e864e30d21",
+      "raw_card_text": "Kit Baumann\nCedar Park, TX 78613\nhttp://www.SeniorLivingKit.com\n(985) 778-3221\nkit@seniorlivingkit.com\nSummary\nFounded in Austin, Texas by Kit Baumann, CSA®, a Certified Senior Advisor®, Senior Living Kit was created to make the transition to senior living simpler and more compassionate. We provide trusted placement and consulting services for families exploring senior care options.\nOperational Approach\nWith over 14 years of experience in the senior living industry, our founder, Kit Baumann, offers trusted guidance, compassion, and local expertise to make the process less stressful and more informed. From comparing assisted living costs and amenities to coordinating tours and move-in support, we’re your dedicated partner in finding a community that feels like home. Your trusted guide to senior living solutions — because you don’t have to do it alone.\nShow more\nCertifications\nCertified Senior Advisor (CSA)\nMember of NPRA",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "With over 14 years of experience in the senior living industry, our founder, Kit Baumann, offers trusted guidance, compassion, and local expertise to make the process less stressful and more informed. From comparing assisted living costs and amenities to coordinating tours and move-in support, we’re your dedicated partner in finding a community that feels like home. Your trusted guide to senior living solutions — because you don’t have to do it alone.",
+        "summary": "Founded in Austin, Texas by Kit Baumann, CSA®, a Certified Senior Advisor®, Senior Living Kit was created to make the transition to senior living simpler and more compassionate. We provide trusted placement and consulting services for families exploring senior care options."
+      },
+      "source_record_index": 171,
+      "summary": "Founded in Austin, Texas by Kit Baumann, CSA®, a Certified Senior Advisor®, Senior Living Kit was created to make the transition to senior living simpler and more compassionate. We provide trusted placement and consulting services for families exploring senior care options.",
+      "website_urls": [
+        "http://www.seniorlivingkit.com/"
+      ]
+    },
+    {
+      "agency": "Polaris Senior Solutions",
+      "certifications": [
+        "Certified Senior Advisor",
+        "Certified Dementia Practioner",
+        "Certified Placement & Referral Specialist"
+      ],
+      "email_hrefs": [
+        "mailto:Leah@PolarisSS.com"
+      ],
+      "emails": [
+        "Leah@PolarisSS.com"
+      ],
+      "locations": [
+        "Atlanta , GA"
+      ],
+      "name": "Leah Kruszka, CSA, CDP | Polaris Senior Solutions",
+      "operational_approach": "Polaris Senior Solutions provides expert senior placement with a calm, no-pressure approach. We listen first, then guide families to the right fit - without rushing decisions. With clear communication and compassion, we help families navigate next steps and advocate for loved ones like they’re our own. We offer expert guidance, helpful resources, and personalized support, including accompanying clients on tours and helping families obtain and submit necessary medical paperwork from physicians.",
+      "phone_hrefs": [
+        "tel:+16782964844"
+      ],
+      "phone_numbers": [
+        "(678) 296-4844"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/8f1b6a74-32c2-4037-9f21-a03488bd1e31",
+      "raw_card_text": "Leah Kruszka, CSA, CDP | Polaris Senior Solutions\nPolaris Senior Solutions\nAtlanta , GA\nhttp://www.PolarisSS.com\n(678) 296-4844\nLeah@PolarisSS.com\nSummary\nPolaris Senior Solutions, founded by Leah Kruszka, CSA, CPRS, CDP guides families through senior living options with empathy and expertise. Drawing on personal experience, we simplify transitions and help find the right fit - no pressure, just honest support tailored to our client’s needs.\nOperational Approach\nPolaris Senior Solutions provides expert senior placement with a calm, no-pressure approach. We listen first, then guide families to the right fit - without rushing decisions. With clear communication and compassion, we help families navigate next steps and advocate for loved ones like they’re our own. We offer expert guidance, helpful resources, and personalized support, including accompanying clients on tours and helping families obtain and submit necessary medical paperwork from physicians.\nShow more\nCertifications\nCertified Senior Advisor\nCertified Dementia Practioner\nCertified Placement & Referral Specialist",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "Polaris Senior Solutions provides expert senior placement with a calm, no-pressure approach. We listen first, then guide families to the right fit - without rushing decisions. With clear communication and compassion, we help families navigate next steps and advocate for loved ones like they’re our own. We offer expert guidance, helpful resources, and personalized support, including accompanying clients on tours and helping families obtain and submit necessary medical paperwork from physicians.",
+        "summary": "Polaris Senior Solutions, founded by Leah Kruszka, CSA, CPRS, CDP guides families through senior living options with empathy and expertise. Drawing on personal experience, we simplify transitions and help find the right fit - no pressure, just honest support tailored to our client’s needs."
+      },
+      "source_record_index": 180,
+      "summary": "Polaris Senior Solutions, founded by Leah Kruszka, CSA, CPRS, CDP guides families through senior living options with empathy and expertise. Drawing on personal experience, we simplify transitions and help find the right fit - no pressure, just honest support tailored to our client’s needs.",
+      "website_urls": [
+        "http://www.polarisss.com/"
+      ]
+    },
+    {
+      "agency": "Next Steps Senior Living Advisors, LLC",
+      "certifications": [
+        "Certified Senior Advisor",
+        "SoPRA - Southern Arizona Placement Referral Alliance"
+      ],
+      "email_hrefs": [
+        "mailto:lisa@nextstepsadvisor.com"
+      ],
+      "emails": [
+        "lisa@nextstepsadvisor.com"
+      ],
+      "locations": [
+        "Tucson, AZ 85750"
+      ],
+      "name": "Lisa Burns, CSA",
+      "operational_approach": "We listen and learn. We assess care needs, budget, and geographical desires. We explain the different options and help clients evaluate what’s best for them. We have up-to-date information and regularly visit communities and homes and check State surveys. We are happy to meet you. We coordinate appointments to visit the communities and homes, and accompany you. We follow-up. We maintain communication between you and the community/home through the process and follow-up after move-in.",
+      "phone_hrefs": [
+        "tel:+15209755590"
+      ],
+      "phone_numbers": [
+        "(520) 975-5590"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/7a8cbbf7-ec19-4684-bfdd-25702448686d",
+      "raw_card_text": "Lisa Burns, CSA\nNext Steps Senior Living Advisors, LLC\nTucson, AZ 85750\nhttp://NextStepsSeniorLiving.com\n(520) 975-5590\nlisa@nextstepsadvisor.com\nSummary\nLisa Burns, CSA, Certified Senior Advisor and owner of Next Steps, has more than 25 years of experience working with seniors and their families. This experience has provided Lisa with the knowledge, patience and empathy to ensure her clients are in good hands finding senior living placement.\nShow more\nOperational Approach\nWe listen and learn. We assess care needs, budget, and geographical desires. We explain the different options and help clients evaluate what’s best for them. We have up-to-date information and regularly visit communities and homes and check State surveys. We are happy to meet you. We coordinate appointments to visit the communities and homes, and accompany you. We follow-up. We maintain communication between you and the community/home through the process and follow-up after move-in.\nShow more\nCertifications\nCertified Senior Advisor\nSoPRA - Southern Arizona Placement Referral Alliance",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "We listen and learn. We assess care needs, budget, and geographical desires. We explain the different options and help clients evaluate what’s best for them. We have up-to-date information and regularly visit communities and homes and check State surveys. We are happy to meet you. We coordinate appointments to visit the communities and homes, and accompany you. We follow-up. We maintain communication between you and the community/home through the process and follow-up after move-in.",
+        "summary": "Lisa Burns, CSA, Certified Senior Advisor and owner of Next Steps, has more than 25 years of experience working with seniors and their families. This experience has provided Lisa with the knowledge, patience and empathy to ensure her clients are in good hands finding senior living placement."
+      },
+      "source_record_index": 184,
+      "summary": "Lisa Burns, CSA, Certified Senior Advisor and owner of Next Steps, has more than 25 years of experience working with seniors and their families. This experience has provided Lisa with the knowledge, patience and empathy to ensure her clients are in good hands finding senior living placement.",
+      "website_urls": [
+        "http://nextstepsseniorliving.com/"
+      ]
+    },
+    {
+      "agency": "Graceful Way Senior Services",
+      "certifications": [
+        "Certified Dementia Practitioner",
+        "Certified Senior Advisor",
+        "Certified Placement and Referral Specialist"
+      ],
+      "email_hrefs": [
+        "mailto:lori@gracefulway.org"
+      ],
+      "emails": [
+        "lori@gracefulway.org"
+      ],
+      "locations": [
+        "KIngwood , TX 77339"
+      ],
+      "name": "Lori Weber",
+      "operational_approach": "",
+      "phone_hrefs": [
+        "tel:+13467864798"
+      ],
+      "phone_numbers": [
+        "(346) 786-4798"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/fba94de2-793e-4af7-905e-358c0bc38100",
+      "raw_card_text": "Lori Weber\nGraceful Way Senior Services\nKIngwood , TX 77339\nhttp://Gracefulway.org\n(346) 786-4798\nlori@gracefulway.org\nCertifications\nCertified Dementia Practitioner\nCertified Senior Advisor\nCertified Placement and Referral Specialist",
+      "sections": {
+        "certifications": "[Circular]"
+      },
+      "source_record_index": 191,
+      "summary": "",
+      "website_urls": [
+        "http://gracefulway.org/"
+      ]
+    },
+    {
+      "agency": "Lori Williams - Senior Services, LLC",
+      "certifications": [
+        "Certified Senior Advisor",
+        "Certified Dementia Practitioner",
+        "Dementia Live Coach",
+        "tendercare Trusted Network member"
+      ],
+      "email_hrefs": [
+        "mailto:lori@loriwilliams-seniorservices.com"
+      ],
+      "emails": [
+        "lori@loriwilliams-seniorservices.com"
+      ],
+      "locations": [
+        "Flower Mound, TX 75028"
+      ],
+      "name": "Lori Williams",
+      "operational_approach": "With over twenty years of experience in senior living and the primary caregiver for my husband, Mark, a stroke survivor, I can deeply empathize and connect with the seniors I serve. My team and I spend a lot of time educating on the different options available in senior living and help each family form a plan - including (as needed) resources for VA, Medicare, Elder Law Attorneys, Realtors, Packers, Movers etc.",
+      "phone_hrefs": [
+        "tel:+12147831222"
+      ],
+      "phone_numbers": [
+        "(214) 783-1222"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/52b79b5d-50d0-4ca4-876f-08ea9da8d1fe",
+      "raw_card_text": "Lori Williams\nLori Williams - Senior Services, LLC\nFlower Mound, TX 75028\nhttp://loriwilliams-seniorservices.com\n(214) 783-1222\nlori@loriwilliams-seniorservices.com\nSummary\nOwner/Founder\n20+ years senior living experience\nEight years in business serving the Dallas/Fort Worth area.\nMulti-award-winning placement service.\nOur mission is to help seniors remain safe and independent—whether in their own home or in a senior living community.\nAuthor/Podcast Host\nShow more\nOperational Approach\nWith over twenty years of experience in senior living and the primary caregiver for my husband, Mark, a stroke survivor, I can deeply empathize and connect with the seniors I serve. My team and I spend a lot of time educating on the different options available in senior living and help each family form a plan - including (as needed) resources for VA, Medicare, Elder Law Attorneys, Realtors, Packers, Movers etc.\nShow more\nCertifications\nCertified Senior Advisor\nCertified Dementia Practitioner\nDementia Live Coach\ntendercare Trusted Network member",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "With over twenty years of experience in senior living and the primary caregiver for my husband, Mark, a stroke survivor, I can deeply empathize and connect with the seniors I serve. My team and I spend a lot of time educating on the different options available in senior living and help each family form a plan - including (as needed) resources for VA, Medicare, Elder Law Attorneys, Realtors, Packers, Movers etc.",
+        "summary": "Owner/Founder 20+ years senior living experience Eight years in business serving the Dallas/Fort Worth area. Multi-award-winning placement service. Our mission is to help seniors remain safe and independent—whether in their own home or in a senior living community. Author/Podcast Host"
+      },
+      "source_record_index": 192,
+      "summary": "Owner/Founder 20+ years senior living experience Eight years in business serving the Dallas/Fort Worth area. Multi-award-winning placement service. Our mission is to help seniors remain safe and independent—whether in their own home or in a senior living community. Author/Podcast Host",
+      "website_urls": [
+        "http://loriwilliams-seniorservices.com/"
+      ]
+    },
+    {
+      "agency": "Sonoran Senior Solutions",
+      "certifications": [
+        "CSA",
+        "CPRS",
+        "CDP",
+        "NPRA"
+      ],
+      "email_hrefs": [
+        "mailto:maggie@sonoranseniorsolutions.com"
+      ],
+      "emails": [
+        "maggie@sonoranseniorsolutions.com"
+      ],
+      "locations": [
+        "Tucson, AZ 85716"
+      ],
+      "name": "maggie@sonoranseniorsolutions.com",
+      "operational_approach": "We take a coordinated, case-based approach to complex senior living transitions. Our process includes thorough discovery, realistic care assessment, and thoughtful evaluation of communities based on care capability, staffing stability, culture, and fit. We work closely with families and collaborating professionals to ensure all moving pieces are aligned and placements remain sustainable over time. We accept in- and out-of-state referrals and offer a 30% referral fee.",
+      "phone_hrefs": [
+        "tel:+15204004524"
+      ],
+      "phone_numbers": [
+        "(520) 400-4524"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/e4b75e52-9ed5-4c9d-928b-3e1c19cd1b2a",
+      "raw_card_text": "maggie@sonoranseniorsolutions.com\nSonoran Senior Solutions\nTucson, AZ 85716\nhttp://www.SonoranSeniorSolutions.com\n(520) 400-4524\nmaggie@sonoranseniorsolutions.com\nSummary\nConcierge senior placement in Tucson and Southern Arizona. We manage complex senior living transitions across Independent, Assisted, and Memory Care with careful assessment, local care-market insight, and coordinated oversight that supports placements over time.\nOperational Approach\nWe take a coordinated, case-based approach to complex senior living transitions. Our process includes thorough discovery, realistic care assessment, and thoughtful evaluation of communities based on care capability, staffing stability, culture, and fit. We work closely with families and collaborating professionals to ensure all moving pieces are aligned and placements remain sustainable over time. We accept in- and out-of-state referrals and offer a 30% referral fee.\nShow more\nCertifications\nCSA\nCPRS\nCDP\nNPRA",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "We take a coordinated, case-based approach to complex senior living transitions. Our process includes thorough discovery, realistic care assessment, and thoughtful evaluation of communities based on care capability, staffing stability, culture, and fit. We work closely with families and collaborating professionals to ensure all moving pieces are aligned and placements remain sustainable over time. We accept in- and out-of-state referrals and offer a 30% referral fee.",
+        "summary": "Concierge senior placement in Tucson and Southern Arizona. We manage complex senior living transitions across Independent, Assisted, and Memory Care with careful assessment, local care-market insight, and coordinated oversight that supports placements over time."
+      },
+      "source_record_index": 197,
+      "summary": "Concierge senior placement in Tucson and Southern Arizona. We manage complex senior living transitions across Independent, Assisted, and Memory Care with careful assessment, local care-market insight, and coordinated oversight that supports placements over time.",
+      "website_urls": [
+        "http://www.sonoranseniorsolutions.com/"
+      ]
+    },
+    {
+      "agency": "Navacare",
+      "certifications": [
+        "CSA Certified Senior Advisor",
+        "CDP Certified Dementia Practitioner",
+        "ALF Core Trained"
+      ],
+      "email_hrefs": [
+        "mailto:mgilbert@navacare.org"
+      ],
+      "emails": [
+        "mgilbert@navacare.org"
+      ],
+      "locations": [
+        "Largo, FL 33771"
+      ],
+      "name": "Mary Ellen Gilbert",
+      "operational_approach": "If they want assisted living, memory care, or independent living in a senior community we schedule tours and meet them there and tour alongside them. If they aren't ready to make a move and just want help in the home, we make recommendations for in-home care. If they need any other professional resources, we make recommendations based on vetted companies and client feedback. We work with other placement agencies across the country for a 70/30 commission split.",
+      "phone_hrefs": [
+        "tel:+17272012289"
+      ],
+      "phone_numbers": [
+        "(727) 201-2289"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/6c08350f-5406-4377-b8f3-b145d3517298",
+      "raw_card_text": "Mary Ellen Gilbert\nNavacare\nLargo, FL 33771\nhttp://www.navacare.org\n(727) 201-2289\nmgilbert@navacare.org\nSummary\nI've been in the industry for more than 13 years, doing placements for 9 years. We help with all kinds of resources not just placement.\nOperational Approach\nIf they want assisted living, memory care, or independent living in a senior community we schedule tours and meet them there and tour alongside them. If they aren't ready to make a move and just want help in the home, we make recommendations for in-home care. If they need any other professional resources, we make recommendations based on vetted companies and client feedback. We work with other placement agencies across the country for a 70/30 commission split.\nShow more\nCertifications\nCSA Certified Senior Advisor\nCDP Certified Dementia Practitioner\nALF Core Trained",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "If they want assisted living, memory care, or independent living in a senior community we schedule tours and meet them there and tour alongside them. If they aren't ready to make a move and just want help in the home, we make recommendations for in-home care. If they need any other professional resources, we make recommendations based on vetted companies and client feedback. We work with other placement agencies across the country for a 70/30 commission split.",
+        "summary": "I've been in the industry for more than 13 years, doing placements for 9 years. We help with all kinds of resources not just placement."
+      },
+      "source_record_index": 201,
+      "summary": "I've been in the industry for more than 13 years, doing placements for 9 years. We help with all kinds of resources not just placement.",
+      "website_urls": [
+        "http://www.navacare.org/"
+      ]
+    },
+    {
+      "agency": "Olympic Senior Advisors",
+      "certifications": [
+        "CSA",
+        "NPRA"
+      ],
+      "email_hrefs": [
+        "mailto:info@olympicsenioradvisors.com"
+      ],
+      "emails": [
+        "info@olympicsenioradvisors.com"
+      ],
+      "locations": [
+        "Edmonds, WA 98103"
+      ],
+      "name": "Mary Lang",
+      "operational_approach": "",
+      "phone_hrefs": [
+        "tel:+12067138314"
+      ],
+      "phone_numbers": [
+        "(206) 713-8314"
+      ],
+      "profile_image_url": "",
+      "raw_card_text": "Mary Lang\nOlympic Senior Advisors\nEdmonds, WA 98103\n(206) 713-8314\ninfo@olympicsenioradvisors.com\nSummary\nOlympic Senior Advisors is locally owned and operated in the Greater Puget Sound region and we work as a team to help find the best fit for our clients.  We value the work that you put in and are happy to pay a 30 percent revenue share for your efforts.\nCertifications\nCSA\nNPRA",
+      "sections": {
+        "certifications": "[Circular]",
+        "summary": "Olympic Senior Advisors is locally owned and operated in the Greater Puget Sound region and we work as a team to help find the best fit for our clients. We value the work that you put in and are happy to pay a 30 percent revenue share for your efforts."
+      },
+      "source_record_index": 203,
+      "summary": "Olympic Senior Advisors is locally owned and operated in the Greater Puget Sound region and we work as a team to help find the best fit for our clients. We value the work that you put in and are happy to pay a 30 percent revenue share for your efforts.",
+      "website_urls": []
+    },
+    {
+      "agency": "Next Level Senior Advisors",
+      "certifications": [
+        "Certified Senior Advisor (CSA)",
+        "Certified Dementia Practitioner (CDP)",
+        "Certified Aging Services Professional (CASP)",
+        "Past Board Member of the Alzheimers Association of Oklahoma and Arkansas"
+      ],
+      "email_hrefs": [
+        "mailto:matt@nextlevelsenior.com"
+      ],
+      "emails": [
+        "matt@nextlevelsenior.com"
+      ],
+      "locations": [
+        "Oklahoma City, OK 73116"
+      ],
+      "name": "Matt Wilson",
+      "operational_approach": "Matt's approach is simple: listen, guide, advocate. Every family receives a consultation, drawing on firsthand knowledge of Oklahoma's senior living communities. He assesses care needs, budget, geographic preferences and lifestyle, then hand-selects options, coordinates tours, and supports the family through move-in. Relationship-first service is at the core of every placement.",
+      "phone_hrefs": [
+        "tel:+14053882343"
+      ],
+      "phone_numbers": [
+        "(405) 388-2343"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/161f171b-ab96-40a5-a050-d37a519f5c80",
+      "raw_card_text": "Matt Wilson\nNext Level Senior Advisors\nOklahoma City, OK 73116\nhttp://www.nextlevelsenior.com\n(405) 388-2343\nmatt@nextlevelsenior.com\nSummary\nMatt Wilson founded Next Level Senior Advisors to ease the stress families face when navigating senior care. With more hands-on senior living experience than any advisor in Oklahoma, he guides families through Assisted Living, Memory Care, and home care at no cost — every step of the way.\nOperational Approach\nMatt's approach is simple: listen, guide, advocate. Every family receives a consultation, drawing on firsthand knowledge of Oklahoma's senior living communities. He assesses care needs, budget, geographic preferences and lifestyle, then hand-selects options, coordinates tours, and supports the family through move-in. Relationship-first service is at the core of every placement.\nShow more\nCertifications\nCertified Senior Advisor (CSA)\nCertified Dementia Practitioner (CDP)\nCertified Aging Services Professional (CASP)\nPast Board Member of the Alzheimers Association of Oklahoma and Arkansas",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "Matt's approach is simple: listen, guide, advocate. Every family receives a consultation, drawing on firsthand knowledge of Oklahoma's senior living communities. He assesses care needs, budget, geographic preferences and lifestyle, then hand-selects options, coordinates tours, and supports the family through move-in. Relationship-first service is at the core of every placement.",
+        "summary": "Matt Wilson founded Next Level Senior Advisors to ease the stress families face when navigating senior care. With more hands-on senior living experience than any advisor in Oklahoma, he guides families through Assisted Living, Memory Care, and home care at no cost — every step of the way."
+      },
+      "source_record_index": 205,
+      "summary": "Matt Wilson founded Next Level Senior Advisors to ease the stress families face when navigating senior care. With more hands-on senior living experience than any advisor in Oklahoma, he guides families through Assisted Living, Memory Care, and home care at no cost — every step of the way.",
+      "website_urls": [
+        "http://www.nextlevelsenior.com/"
+      ]
+    },
+    {
+      "agency": "",
+      "certifications": [
+        "Certified Senior Advisor (CSA)®"
+      ],
+      "email_hrefs": [
+        "mailto:michael@seniorlca.com"
+      ],
+      "emails": [
+        "michael@seniorlca.com"
+      ],
+      "locations": [
+        "Green Bay , WI 54311"
+      ],
+      "name": "Michael Fredrickson, CSA",
+      "operational_approach": "At Senior Life Care Advisors, we make navigating the senior care process simple and stress-free. As a family-owned, local business in NE Wisconsin, we’re your trusted experts in senior care. Our dedicated team offers personalized advice and tailored solutions to help you find the best senior care option for your loved one—all at no cost to you. Discover how our no-cost service can support you and your family today!",
+      "phone_hrefs": [
+        "tel:+19205628898"
+      ],
+      "phone_numbers": [
+        "(920) 562-8898"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/79e38e5c-447b-4426-9e6f-7102cb720cfd",
+      "raw_card_text": "Michael Fredrickson, CSA\nGreen Bay , WI 54311\n(920) 562-8898\nmichael@seniorlca.com\nSummary\nHi, I’m Michael Fredrickson, founder of Senior Life Care Advisors and a Certified Senior Advisor®. With 10+ years of experience, I help families navigate their senior care options clearly and confidently—no pressure, no cost, just the guidance they need to make the best choice possible.\nOperational Approach\nAt Senior Life Care Advisors, we make navigating the senior care process simple and stress-free. As a family-owned, local business in NE Wisconsin, we’re your trusted experts in senior care. Our dedicated team offers personalized advice and tailored solutions to help you find the best senior care option for your loved one—all at no cost to you. Discover how our no-cost service can support you and your family today!\nShow more\nCertifications\nCertified Senior Advisor (CSA)®",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "At Senior Life Care Advisors, we make navigating the senior care process simple and stress-free. As a family-owned, local business in NE Wisconsin, we’re your trusted experts in senior care. Our dedicated team offers personalized advice and tailored solutions to help you find the best senior care option for your loved one—all at no cost to you. Discover how our no-cost service can support you and your family today!",
+        "summary": "Hi, I’m Michael Fredrickson, founder of Senior Life Care Advisors and a Certified Senior Advisor®. With 10+ years of experience, I help families navigate their senior care options clearly and confidently—no pressure, no cost, just the guidance they need to make the best choice possible."
+      },
+      "source_record_index": 209,
+      "summary": "Hi, I’m Michael Fredrickson, founder of Senior Life Care Advisors and a Certified Senior Advisor®. With 10+ years of experience, I help families navigate their senior care options clearly and confidently—no pressure, no cost, just the guidance they need to make the best choice possible.",
+      "website_urls": []
+    },
+    {
+      "agency": "Senior Living Specialists Philly",
+      "certifications": [
+        "CSA Certified Senior Advisor",
+        "CDP Certified Dementia Practitioner"
+      ],
+      "email_hrefs": [
+        "mailto:mindy@seniorlivingphilly.com"
+      ],
+      "emails": [
+        "mindy@seniorlivingphilly.com"
+      ],
+      "locations": [
+        "Ardmore, 19003"
+      ],
+      "name": "Mindy Mozenter",
+      "operational_approach": "At Senior Living Specialists, we begin with a 20–30 minute phone-based needs assessment to identify the top two or three senior communities that best match your personal needs. We guide families through the entire process - providing expert touring tips, a proven list of questions, and insights into each community’s unique “vibe.” We also help with rate negotiations and connect you with trusted partners to make the transition easier.",
+      "phone_hrefs": [
+        "tel:+16102569983"
+      ],
+      "phone_numbers": [
+        "(610) 256-9983"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/1ee97953-c4f7-4652-ba63-eedab3aef6e2",
+      "raw_card_text": "Mindy Mozenter\nSenior Living Specialists Philly\nArdmore, 19003\nhttp://WWW.seniorlivingspecialistsphilly.com\n(610) 256-9983\nmindy@seniorlivingphilly.com\nSummary\nSenior Living Specialists has had the opportunity to tour many communities throughout Chicago and Philly areas which offer various levels of care, types of living arrangements and cost options. Along the way we have accumulated many partners that help to facilitate and support our families.\nOperational Approach\nAt Senior Living Specialists, we begin with a 20–30 minute phone-based needs assessment to identify the top two or three senior communities that best match your personal needs. We guide families through the entire process - providing expert touring tips, a proven list of questions, and insights into each community’s unique “vibe.” We also help with rate negotiations and connect you with trusted partners to make the transition easier.\nShow more\nCertifications\nCSA Certified Senior Advisor\nCDP Certified Dementia Practitioner",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "At Senior Living Specialists, we begin with a 20–30 minute phone-based needs assessment to identify the top two or three senior communities that best match your personal needs. We guide families through the entire process - providing expert touring tips, a proven list of questions, and insights into each community’s unique “vibe.” We also help with rate negotiations and connect you with trusted partners to make the transition easier.",
+        "summary": "Senior Living Specialists has had the opportunity to tour many communities throughout Chicago and Philly areas which offer various levels of care, types of living arrangements and cost options. Along the way we have accumulated many partners that help to facilitate and support our families."
+      },
+      "source_record_index": 213,
+      "summary": "Senior Living Specialists has had the opportunity to tour many communities throughout Chicago and Philly areas which offer various levels of care, types of living arrangements and cost options. Along the way we have accumulated many partners that help to facilitate and support our families.",
+      "website_urls": [
+        "http://www.seniorlivingspecialistsphilly.com/"
+      ]
+    },
+    {
+      "agency": "Clarity Senior Solutions",
+      "certifications": [
+        "Certified Senior Advisor",
+        "Certified Dementia Practitioner",
+        "Board Certified Patient Advocate"
+      ],
+      "email_hrefs": [
+        "mailto:clarityforseniors@outlook.com"
+      ],
+      "emails": [
+        "clarityforseniors@outlook.com"
+      ],
+      "locations": [
+        "Ventura, 93065"
+      ],
+      "name": "Monica Smith",
+      "operational_approach": "High Tech, High touch concierge level experience",
+      "phone_hrefs": [
+        "tel:+18053936553"
+      ],
+      "phone_numbers": [
+        "(805) 393-6553"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/dee1d707-1c7e-4614-90fc-bb5fe0ec0915",
+      "raw_card_text": "Monica Smith\nClarity Senior Solutions\nVentura, 93065\nhttp://www.clarityforseniors.com\n(805) 393-6553\nclarityforseniors@outlook.com\nSummary\nMonica is a Certified Senior Advisor, a Certified Dementia Practitioner, and Board Certified Patient Advocate with more than 25 years of healthcare experience, including clinical work as a nurse. She helps families navigate the senior care landscape specializing in placement & concierge services.\nOperational Approach\nHigh Tech, High touch concierge level experience\nCertifications\nCertified Senior Advisor\nCertified Dementia Practitioner\nBoard Certified Patient Advocate",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "High Tech, High touch concierge level experience",
+        "summary": "Monica is a Certified Senior Advisor, a Certified Dementia Practitioner, and Board Certified Patient Advocate with more than 25 years of healthcare experience, including clinical work as a nurse. She helps families navigate the senior care landscape specializing in placement & concierge services."
+      },
+      "source_record_index": 218,
+      "summary": "Monica is a Certified Senior Advisor, a Certified Dementia Practitioner, and Board Certified Patient Advocate with more than 25 years of healthcare experience, including clinical work as a nurse. She helps families navigate the senior care landscape specializing in placement & concierge services.",
+      "website_urls": [
+        "http://www.clarityforseniors.com/"
+      ]
+    },
+    {
+      "agency": "Stacy's Helping Hand",
+      "certifications": [
+        "CSA",
+        "NPRS"
+      ],
+      "email_hrefs": [
+        "mailto:pam@stacyshelpinghand.com"
+      ],
+      "emails": [
+        "pam@stacyshelpinghand.com"
+      ],
+      "locations": [
+        "Denver, CO"
+      ],
+      "name": "Pam Silverberg",
+      "operational_approach": "Stacy's Helping Hand provides a hands-on service to families and seniors. -Meeting with the family and client to do a detailed intake -Pre-touring communities/homes for each client (even if we were there a month ago for another client), -Coordinating and touring with families as a neutral party and discussing the Pro's and Con's of each option -Providing needed resources for the move. -Actively following up with the family & the community/home for 3 months after the move in.",
+      "phone_hrefs": [
+        "tel:+17206203754"
+      ],
+      "phone_numbers": [
+        "(720) 620-3754"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/8b1dc669-4281-4f4d-a51d-a664de86f193",
+      "raw_card_text": "Pam Silverberg\nStacy's Helping Hand\nDenver, CO\nhttp://stacyshelpinghand.com\n(720) 620-3754\npam@stacyshelpinghand.com\nSummary\nPam has over 15 years of experience working with seniors and families to find the best care and housing options. She is Past President of CoPRA, a chapter of the NPRA.\nOperational Approach\nStacy's Helping Hand provides a hands-on service to families and seniors.\n-Meeting with the family and client to do a detailed intake\n-Pre-touring communities/homes for each client (even if we were there a month ago for another client),\n-Coordinating and touring with families as a neutral party and discussing the Pro's and Con's of each option\n-Providing needed resources for the move.\n-Actively following up with the family & the community/home for 3 months after the move in.\nShow more\nCertifications\nCSA\nNPRS",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "Stacy's Helping Hand provides a hands-on service to families and seniors. -Meeting with the family and client to do a detailed intake -Pre-touring communities/homes for each client (even if we were there a month ago for another client), -Coordinating and touring with families as a neutral party and discussing the Pro's and Con's of each option -Providing needed resources for the move. -Actively following up with the family & the community/home for 3 months after the move in.",
+        "summary": "Pam has over 15 years of experience working with seniors and families to find the best care and housing options. She is Past President of CoPRA, a chapter of the NPRA."
+      },
+      "source_record_index": 231,
+      "summary": "Pam has over 15 years of experience working with seniors and families to find the best care and housing options. She is Past President of CoPRA, a chapter of the NPRA.",
+      "website_urls": [
+        "http://stacyshelpinghand.com/"
+      ]
+    },
+    {
+      "agency": "Eldercare Connections",
+      "certifications": [],
+      "email_hrefs": [
+        "mailto:terri@eldercareconnections.org"
+      ],
+      "emails": [
+        "terri@eldercareconnections.org"
+      ],
+      "locations": [
+        "Maineville, OH 45039"
+      ],
+      "name": "Terri Houston",
+      "operational_approach": "As Certified Senior Advisors, we take pride in creating personalized care plans that focus on the well-being and dignity of your loved ones. With same-day response times and completely free services, we’re here to make the process less stressful and more accessible—because your family deserves nothing less. Proudly serving the Cincinnati metropolitan area, Eldercare Connections is your trusted partner in navigating the journey of senior care.",
+      "phone_hrefs": [
+        "tel:+15136858998"
+      ],
+      "phone_numbers": [
+        "(513) 685-8998"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/8b405adf-e3e8-41f6-919d-23ea19e0b7d1",
+      "raw_card_text": "Terri Houston\nEldercare Connections\nMaineville, OH 45039\n(513) 685-8998\nterri@eldercareconnections.org\nSummary\nEldercare Connections provides geriatric care management, personalized assistance, emotional support, and referrals for care and housing options for seniors. We are a FREE community resource to the seniors and families we serve.\nOperational Approach\nAs Certified Senior Advisors, we take pride in creating personalized care plans that focus on the well-being and dignity of your loved ones. With same-day response times and completely free services, we’re here to make the process less stressful and more accessible—because your family deserves nothing less.\nProudly serving the Cincinnati metropolitan area, Eldercare Connections is your trusted partner in navigating the journey of senior care.\nShow more",
+      "sections": {
+        "operational_approach": "As Certified Senior Advisors, we take pride in creating personalized care plans that focus on the well-being and dignity of your loved ones. With same-day response times and completely free services, we’re here to make the process less stressful and more accessible—because your family deserves nothing less. Proudly serving the Cincinnati metropolitan area, Eldercare Connections is your trusted partner in navigating the journey of senior care.",
+        "summary": "Eldercare Connections provides geriatric care management, personalized assistance, emotional support, and referrals for care and housing options for seniors. We are a FREE community resource to the seniors and families we serve."
+      },
+      "source_record_index": 286,
+      "summary": "Eldercare Connections provides geriatric care management, personalized assistance, emotional support, and referrals for care and housing options for seniors. We are a FREE community resource to the seniors and families we serve.",
+      "website_urls": []
+    },
+    {
+      "agency": "Eldercare Connections",
+      "certifications": [
+        "CSA"
+      ],
+      "email_hrefs": [
+        "mailto:tess@eldercareconnections.org"
+      ],
+      "emails": [
+        "tess@eldercareconnections.org"
+      ],
+      "locations": [
+        "Cincinnati, OH"
+      ],
+      "name": "Tess McHenry, Owner/President",
+      "operational_approach": "Eldercare Connections operates through a collaborative, relationship-based approach focused on education, guidance, and trusted referrals for seniors and families. By partnering with senior-focused professionals and care communities, we provide personalized support, resource navigation, and informed care solutions throughout the aging journey.",
+      "phone_hrefs": [
+        "tel:+15132255099"
+      ],
+      "phone_numbers": [
+        "(513) 225-5099"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/a28d9526-03fe-444b-b20d-bd42bf841d76",
+      "raw_card_text": "Tess McHenry, Owner/President\nEldercare Connections\nCincinnati, OH\nhttp://www.eldercareconnections.org\n(513) 225-5099\ntess@eldercareconnections.org\nSummary\nWith extensive experience as a Senior Living Advisor, I have helped thousands of families navigate complex senior care and housing decisions with compassion and guidance.\nOperational Approach\nEldercare Connections operates through a collaborative, relationship-based approach focused on education, guidance, and trusted referrals for seniors and families. By partnering with senior-focused professionals and care communities, we provide personalized support, resource navigation, and informed care solutions throughout the aging journey.\nShow more\nCertifications\nCSA",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "Eldercare Connections operates through a collaborative, relationship-based approach focused on education, guidance, and trusted referrals for seniors and families. By partnering with senior-focused professionals and care communities, we provide personalized support, resource navigation, and informed care solutions throughout the aging journey.",
+        "summary": "With extensive experience as a Senior Living Advisor, I have helped thousands of families navigate complex senior care and housing decisions with compassion and guidance."
+      },
+      "source_record_index": 288,
+      "summary": "With extensive experience as a Senior Living Advisor, I have helped thousands of families navigate complex senior care and housing decisions with compassion and guidance.",
+      "website_urls": [
+        "http://www.eldercareconnections.org/"
+      ]
+    },
+    {
+      "agency": "The Care Concierge Senior Living Advisors",
+      "certifications": [
+        "Certified Senior Advisor"
+      ],
+      "email_hrefs": [
+        "mailto:paul@thecareconcierges.com"
+      ],
+      "emails": [
+        "paul@thecareconcierges.com"
+      ],
+      "locations": [
+        "North Smithfield, RI 02896"
+      ],
+      "name": "The Care Concierge - Paul Jones",
+      "operational_approach": "We start with an initial consultation; then, we develop a list of properties which we are happy to tour with the family to serve as their in-the-moment advocate and guide. We will negotiate prices on a family's behalf, review the leases with them, and help coordinate additional resources they may need (movers; attorneys; supplemental home care; etc.). We do NOT charge families for our Assisted Living or Memory Care placement services, and encourage families to reach out to us anytime!",
+      "phone_hrefs": [
+        "tel:+14014884935"
+      ],
+      "phone_numbers": [
+        "(401) 488-4935"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/e03bd28d-4f54-4662-bd92-ad5ed32efb42",
+      "raw_card_text": "The Care Concierge - Paul Jones\nThe Care Concierge Senior Living Advisors\nNorth Smithfield, RI 02896\nhttp://www.TheCareConcierges.com\n(401) 488-4935\npaul@thecareconcierges.com\nSummary\nThe Care Concierge is a Senior Referral & Placement agency focused on helping seniors find the best Assisted Living or Dementia Support fit. We help seniors and their families navigate the world of senior care with knowledge, experience, and a personal touch.\nOperational Approach\nWe start with an initial consultation; then, we develop a list of properties which we are happy to tour with the family to serve as their in-the-moment advocate and guide. We will negotiate prices on a family's behalf, review the leases with them, and help coordinate additional resources they may need (movers; attorneys; supplemental home care; etc.). We do NOT charge families for our Assisted Living or Memory Care placement services, and encourage families to reach out to us anytime!\nShow more\nCertifications\nCertified Senior Advisor",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "We start with an initial consultation; then, we develop a list of properties which we are happy to tour with the family to serve as their in-the-moment advocate and guide. We will negotiate prices on a family's behalf, review the leases with them, and help coordinate additional resources they may need (movers; attorneys; supplemental home care; etc.). We do NOT charge families for our Assisted Living or Memory Care placement services, and encourage families to reach out to us anytime!",
+        "summary": "The Care Concierge is a Senior Referral & Placement agency focused on helping seniors find the best Assisted Living or Dementia Support fit. We help seniors and their families navigate the world of senior care with knowledge, experience, and a personal touch."
+      },
+      "source_record_index": 289,
+      "summary": "The Care Concierge is a Senior Referral & Placement agency focused on helping seniors find the best Assisted Living or Dementia Support fit. We help seniors and their families navigate the world of senior care with knowledge, experience, and a personal touch.",
+      "website_urls": [
+        "http://www.thecareconcierges.com/"
+      ]
+    },
+    {
+      "agency": "Olympic Senior Advisors",
+      "certifications": [],
+      "email_hrefs": [
+        "mailto:tina@olympiclivingsolutions.com"
+      ],
+      "emails": [
+        "tina@olympiclivingsolutions.com"
+      ],
+      "locations": [
+        ", 98058"
+      ],
+      "name": "tina@olympicsenioradvisors.com",
+      "operational_approach": "1) Clarify: needs, budget, desired lifestyle 2) Identify: a range of suitable options 3) Coordinate: tours, questions, and answers 4) Facilitate: evaluation and confirmation of fit 5) Assist: engagement between client and providers Under Certifications-CSA, NPRA",
+      "phone_hrefs": [
+        "tel:+12063590940"
+      ],
+      "phone_numbers": [
+        "(206) 359-0940"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/6511f294-1d47-4749-92c1-c97c91dd1d32",
+      "raw_card_text": "tina@olympicsenioradvisors.com\nOlympic Senior Advisors\n, 98058\nhttps://olympicsenioradvisors.com/\n(206) 359-0940\ntina@olympiclivingsolutions.com\nSummary\nOlympic Senior Advisors is based in Washington State and works to provide senior living advisory services that maximizes a variety of options and independence. We pay a 30% referral fee\nOperational Approach\n1) Clarify: needs, budget, desired lifestyle\n2) Identify: a range of suitable options\n3) Coordinate: tours, questions, and answers\n4) Facilitate: evaluation and confirmation of fit\n5) Assist: engagement between client and providers\nUnder Certifications-CSA, NPRA\nShow more",
+      "sections": {
+        "operational_approach": "1) Clarify: needs, budget, desired lifestyle 2) Identify: a range of suitable options 3) Coordinate: tours, questions, and answers 4) Facilitate: evaluation and confirmation of fit 5) Assist: engagement between client and providers Under Certifications-CSA, NPRA",
+        "summary": "Olympic Senior Advisors is based in Washington State and works to provide senior living advisory services that maximizes a variety of options and independence. We pay a 30% referral fee"
+      },
+      "source_record_index": 295,
+      "summary": "Olympic Senior Advisors is based in Washington State and works to provide senior living advisory services that maximizes a variety of options and independence. We pay a 30% referral fee",
+      "website_urls": [
+        "https://olympicsenioradvisors.com/"
+      ]
+    },
+    {
+      "agency": "Residential Options for Seniors and the Elderly - ROSE",
+      "certifications": [
+        "Certified Senior Advisor"
+      ],
+      "email_hrefs": [
+        "mailto:renkerv@gmail.com"
+      ],
+      "emails": [
+        "renkerv@gmail.com"
+      ],
+      "locations": [
+        "San Diego, CA 91942"
+      ],
+      "name": "Virginia Renker",
+      "operational_approach": "I am hands on with my clients, gathering information from them on what would suit their preferences, their care needs and their budget. We tour together and I assist with information they may not think to ask. I follow up with visits once they have made their move. With twelve years in my business, I am familiar with the communities/smaller homes that are the most desirable, and provide the best care.",
+      "phone_hrefs": [
+        "tel:+16198850420"
+      ],
+      "phone_numbers": [
+        "(619) 885-0420"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/fafa6f63-ae9f-4b51-9f9a-d51b15ee8fd9",
+      "raw_card_text": "Virginia Renker\nResidential Options for Seniors and the Elderly - ROSE\nSan Diego, CA 91942\nhttp://www.rosecares.com\n(619) 885-0420\nrenkerv@gmail.com\nSummary\nROSE is a free placement and referral service providing families and/or their loved ones with personalized service in determining the best fit for transition into the most optimal senior living environment to suit their budget, and their individual needs and desires.\nOperational Approach\nI am hands on with my clients, gathering information from them on what would suit their preferences, their care needs and their budget. We tour together and I assist with information they may not think to ask. I follow up with visits once they have made their move. With twelve years in my business, I am familiar with the communities/smaller homes that are the most desirable, and provide the best care.\nShow more\nCertifications\nCertified Senior Advisor",
+      "sections": {
+        "certifications": "[Circular]",
+        "operational_approach": "I am hands on with my clients, gathering information from them on what would suit their preferences, their care needs and their budget. We tour together and I assist with information they may not think to ask. I follow up with visits once they have made their move. With twelve years in my business, I am familiar with the communities/smaller homes that are the most desirable, and provide the best care.",
+        "summary": "ROSE is a free placement and referral service providing families and/or their loved ones with personalized service in determining the best fit for transition into the most optimal senior living environment to suit their budget, and their individual needs and desires."
+      },
+      "source_record_index": 301,
+      "summary": "ROSE is a free placement and referral service providing families and/or their loved ones with personalized service in determining the best fit for transition into the most optimal senior living environment to suit their budget, and their individual needs and desires.",
+      "website_urls": [
+        "http://www.rosecares.com/"
+      ]
+    },
+    {
+      "agency": "Hometown Senior Care Solutions",
+      "certifications": [
+        "Certified Alzheimers Disease and Dementia Care Trainer -CADDCT, Certified Dementia Practioner - CDP, Certified Montessori Dementia Care Professtional - CMDCP, Certified Senior Advisor - CSA, Certified Transitional Care Fellow - CTCF, Certified Aging in Place Specialist - CAPS, Senior Home Safety Specialist - SHSS, Certified Dementia Support Group Facilitator -CDSGF"
+      ],
+      "email_hrefs": [
+        "mailto:wendy@hometownseniorcaresolutions.net"
+      ],
+      "emails": [
+        "wendy@hometownseniorcaresolutions.net"
+      ],
+      "locations": [
+        "Sarasota, FL"
+      ],
+      "name": "Wendy Rickenbach",
+      "operational_approach": "",
+      "phone_hrefs": [
+        "tel:+19412165227"
+      ],
+      "phone_numbers": [
+        "(941) 216-5227"
+      ],
+      "profile_image_url": "https://app.seniorplace.com/api/files/public/89068c7b-9f97-4917-8ade-a856735c212a",
+      "raw_card_text": "Wendy Rickenbach\nHometown Senior Care Solutions\nSarasota, FL\nhttp://www.hometownseniorcaresolutions.net\n(941) 216-5227\nwendy@hometownseniorcaresolutions.net\nCertifications\nCertified Alzheimers Disease and Dementia Care Trainer -CADDCT, Certified Dementia Practioner - CDP, Certified Montessori Dementia Care Professtional - CMDCP, Certified Senior Advisor - CSA, Certified Transitional Care Fellow - CTCF, Certified Aging in Place Specialist - CAPS, Senior Home Safety Specialist - SHSS, Certified Dementia Support Group Facilitator -CDSGF",
+      "sections": {
+        "certifications": "[Circular]"
+      },
+      "source_record_index": 305,
+      "summary": "",
+      "website_urls": [
+        "http://www.hometownseniorcaresolutions.net/"
+      ]
+    }
+  ]
+}

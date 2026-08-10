@@ -1,0 +1,100 @@
+{
+  "source": {
+    "id": "hud-section-202-properties",
+    "name": "HUD Section 202 Properties",
+    "jurisdiction": "US",
+    "careCategory": "age_55_plus",
+    "sourceOwner": "U.S. Department of Housing and Urban Development",
+    "sourceSystem": "ArcGIS FeatureServer",
+    "sourceUrl": "https://catalog.data.gov/dataset/section-202-properties-5a638",
+    "endpointUrl": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/HUD_Section_202_Properties/FeatureServer/0/query",
+    "sourceDescription": "HUD assisted multifamily properties that primarily serve elderly residents.",
+    "exportNamePrefix": "hud-section-202-properties",
+    "activeStatuses": [],
+    "defaultCenter": {
+      "id": "united-states",
+      "label": "United States",
+      "latitude": null,
+      "longitude": null
+    },
+    "fields": [
+      "PROPERTY_ID",
+      "PROPERTY_NAME_TEXT",
+      "ADDRESS_LINE1_TEXT",
+      "ADDRESS_LINE2_TEXT",
+      "PLACED_BASE_CITY_NAME_TEXT",
+      "STD_ADDR",
+      "STD_CITY",
+      "STD_ST",
+      "STD_ZIP5",
+      "CURCNTY_NM",
+      "TOTAL_ASSISTED_UNIT_COUNT",
+      "TOTAL_UNIT_COUNT",
+      "PROPERTY_ON_SITE_PHONE_NUMBER",
+      "PROPERTY_CATEGORY_NAME",
+      "CLIENT_GROUP_NAME",
+      "CLIENT_GROUP_TYPE",
+      "HAS_ACTIVE_ASSISTANCE_IND",
+      "HAS_ACTIVE_FINANCING_IND",
+      "PRIMARY_FINANCING_TYPE",
+      "IS_ASSISTED_LIVING_IND",
+      "IS_NURSING_HOME_IND",
+      "PROGRAM_TYPE1",
+      "PROGRAM_TYPE2",
+      "MGMT_AGENT_ORG_NAME",
+      "MGMT_CONTACT_FULL_NAME",
+      "MGMT_CONTACT_INDV_TITLE_TEXT",
+      "MGMT_CONTACT_MAIN_PHN_NBR",
+      "MGMT_CONTACT_EMAIL_TEXT",
+      "LAT",
+      "LON",
+      "LAST_UPDT_DTTM"
+    ],
+    "parsingNotes": [
+      "ArcGIS records are paginated with resultOffset/resultRecordCount and ordered by OBJECTID.",
+      "HUD Section 202 properties are normalized as age_55_plus because this source identifies elderly-serving assisted multifamily housing, not licensed care services.",
+      "PROPERTY_ID is preserved as source_facility_id and used for stable facility_key generation.",
+      "TOTAL_UNIT_COUNT is mapped to capacity; TOTAL_ASSISTED_UNIT_COUNT is preserved in source_detail.",
+      "LAT/LON are HUD source-supplied geocoded coordinates.",
+      "Management organization, manager contact name, phone, and email are preserved in source_detail as source-supplied contact metadata."
+    ]
+  },
+  "center": {
+    "id": "united-states",
+    "label": "United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "retrievedAt": "2026-08-03T15:51:54.935Z",
+  "totalSourceRecords": 11012,
+  "normalizedRecords": 11012,
+  "selectedRecords": 11012,
+  "summary": {
+    "active_records": 11012,
+    "inactive_records": 0,
+    "status_counts": {
+      "ACTIVE ASSISTANCE": 9938,
+      "SOURCE LISTED": 1074
+    }
+  },
+  "validation": {
+    "warnings": [
+      "28 records are missing phone numbers."
+    ],
+    "missing_source_facility_id": 0,
+    "missing_address": 0,
+    "missing_phone": 28,
+    "missing_capacity": 0,
+    "missing_coordinates": 0,
+    "duplicate_facility_keys": {}
+  },
+  "geocoding": null,
+  "parsingNotes": [
+    "ArcGIS records are paginated with resultOffset/resultRecordCount and ordered by OBJECTID.",
+    "HUD Section 202 properties are normalized as age_55_plus because this source identifies elderly-serving assisted multifamily housing, not licensed care services.",
+    "PROPERTY_ID is preserved as source_facility_id and used for stable facility_key generation.",
+    "TOTAL_UNIT_COUNT is mapped to capacity; TOTAL_ASSISTED_UNIT_COUNT is preserved in source_detail.",
+    "LAT/LON are HUD source-supplied geocoded coordinates.",
+    "Management organization, manager contact name, phone, and email are preserved in source_detail as source-supplied contact metadata."
+  ]
+}
