@@ -77,6 +77,8 @@ Core migrations:
 - `005_screen_driven_product_model.sql`: screenshot-driven model additions for
   assessments, forms, files, facility profiles, comparison packages,
   communication threads, and calendar events
+- `006_facility_user_preferences.sql`: tenant/user facility preferences for
+  priority, exclusion, favorites, and notes
 
 ## Screenshot Review
 
@@ -152,8 +154,10 @@ It falls back to:
 data/facilities/combined-facilities-active.json
 ```
 
-The CRM view loads and saves through `/api/crm/state`. Browser storage is now a
-fallback draft, not the intended source of truth.
+The directory view loads and saves priority/exclude/favorite facility
+preferences through `/api/facility-preferences`. The CRM view loads and saves
+through `/api/crm/state`. Browser storage is now a fallback draft, not the
+intended source of truth.
 
 ## Collector Commands
 

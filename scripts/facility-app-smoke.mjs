@@ -58,6 +58,8 @@ try {
   assert.match(script, /id: "costMaxFilter"/);
   assert.match(script, /\/api\/geocode\/address/);
   assert.match(script, /facility-directory-preferences-v3/);
+  assert.match(script, /\/api\/facility-preferences/);
+  assert.match(script, /id: "facilityPreferenceStatus"/);
   assert.match(script, /facility-directory-crm-state-v3/);
   assert.match(script, /\/api\/crm\/state/);
   assert.match(script, /id: "crmSaveStatus"/);
@@ -112,6 +114,42 @@ try {
   assert.ok(facilitySearch.records.length > 0);
   assert.ok(facilitySearch.records.every((record) => record.state === "TX"));
   assert.ok(facilitySearch.states.includes("TX"));
+  const preferenceFacilityKey = facilitySearch.records[0].facility_key;
+
+  const facilityPreferencesResponse = await fetch(`http://127.0.0.1:${port}/api/facility-preferences`);
+  const facilityPreferences = await facilityPreferencesResponse.json();
+  assert.equal(facilityPreferencesResponse.status, 200);
+  assert.ok(facilityPreferences.priority);
+  assert.ok(facilityPreferences.excluded);
+  assert.ok(facilityPreferences.favorite);
+
+  const savePreferenceResponse = await fetch(`http://127.0.0.1:${port}/api/facility-preferences`, {
+    method: "PUT",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      facilityKey: preferenceFacilityKey,
+      priority: 3,
+      isExcluded: true,
+      isFavorite: true,
+      notes: "Smoke test preference"
+    })
+  });
+  const savedPreference = await savePreferenceResponse.json();
+  assert.equal(savePreferenceResponse.status, 200);
+  assert.equal(savedPreference.priority[preferenceFacilityKey], 3);
+  assert.equal(savedPreference.excluded[preferenceFacilityKey], true);
+  assert.equal(savedPreference.favorite[preferenceFacilityKey], true);
+
+  const clearPreferenceResponse = await fetch(`http://127.0.0.1:${port}/api/facility-preferences`, {
+    method: "PUT",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ facilityKey: preferenceFacilityKey, priority: 0, isExcluded: false, isFavorite: false, notes: "" })
+  });
+  const clearedPreference = await clearPreferenceResponse.json();
+  assert.equal(clearPreferenceResponse.status, 200);
+  assert.equal(clearedPreference.priority[preferenceFacilityKey], undefined);
+  assert.equal(clearedPreference.excluded[preferenceFacilityKey], undefined);
+  assert.equal(clearedPreference.favorite[preferenceFacilityKey], undefined);
 
   const ocrResponse = await fetch(`http://127.0.0.1:${port}/api/business-card/ocr`, {
     method: "POST",

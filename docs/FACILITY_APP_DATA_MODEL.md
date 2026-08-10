@@ -68,10 +68,12 @@ for the screenshot-driven screen inventory and the migration 005 model additions
 
 `facility_user_preferences`
 
+- `tenant_id`
 - `user_id`
 - `facility_key`
 - `priority`
 - `is_excluded`
+- `is_favorite`
 - `notes`
 - `updated_at`
 

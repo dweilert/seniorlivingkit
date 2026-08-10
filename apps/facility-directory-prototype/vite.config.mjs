@@ -127,6 +127,128 @@ async function queryJson(sql) {
   return JSON.parse(output.trim() || "null");
 }
 
+function preferencesFromRows(rows = []) {
+  const priority = {};
+  const excluded = {};
+  const favorite = {};
+  const notes = {};
+  for (const row of rows) {
+    if (row.priority > 0) priority[row.facility_key] = row.priority;
+    if (row.is_excluded) excluded[row.facility_key] = true;
+    if (row.is_favorite) favorite[row.facility_key] = true;
+    if (row.notes) notes[row.facility_key] = row.notes;
+  }
+  return { priority, excluded, favorite, notes, records: rows };
+}
+
+async function facilityPreferences() {
+  const result = await queryJson(`
+    WITH context AS (
+      SELECT tenant.tenant_id, app_user.user_id
+      FROM tenants tenant
+      JOIN tenant_users tenant_user ON tenant_user.tenant_id = tenant.tenant_id
+      JOIN app_users app_user ON app_user.user_id = tenant_user.user_id
+      WHERE tenant.slug = 'local-demo'
+        AND app_user.email = 'local-demo-user@example.com'
+      LIMIT 1
+    )
+    SELECT coalesce(jsonb_agg(jsonb_build_object(
+      'facility_key', preference.facility_key,
+      'priority', preference.priority,
+      'is_excluded', preference.is_excluded,
+      'is_favorite', preference.is_favorite,
+      'notes', preference.notes,
+      'updated_at', preference.updated_at
+    ) ORDER BY preference.updated_at DESC), '[]'::jsonb)
+    FROM facility_user_preferences preference
+    JOIN context ON context.tenant_id = preference.tenant_id
+      AND context.user_id = preference.user_id
+  `);
+  return preferencesFromRows(result);
+}
+
+async function saveFacilityPreference(body) {
+  const facilityKey = String(body.facilityKey || "").trim();
+  if (!facilityKey) throw new Error("facilityKey is required");
+  const priority = clampNumber(Number(body.priority || 0), 0, 9);
+  const isExcluded = Boolean(body.isExcluded);
+  const isFavorite = Boolean(body.isFavorite);
+  const notes = String(body.notes || "").trim();
+
+  if (!priority && !isExcluded && !isFavorite && !notes) {
+    await queryJson(`
+      WITH context AS (
+        SELECT tenant.tenant_id, app_user.user_id
+        FROM tenants tenant
+        JOIN tenant_users tenant_user ON tenant_user.tenant_id = tenant.tenant_id
+        JOIN app_users app_user ON app_user.user_id = tenant_user.user_id
+        WHERE tenant.slug = 'local-demo'
+          AND app_user.email = 'local-demo-user@example.com'
+        LIMIT 1
+      ),
+      deleted AS (
+        DELETE FROM facility_user_preferences preference
+        USING context
+        WHERE preference.tenant_id = context.tenant_id
+          AND preference.user_id = context.user_id
+          AND preference.facility_key = ${sqlLiteral(facilityKey)}
+        RETURNING preference.facility_key
+      )
+      SELECT jsonb_build_object('deleted', (SELECT count(*) FROM deleted))
+    `);
+    return facilityPreferences();
+  }
+
+  await queryJson(`
+    WITH context AS (
+      SELECT tenant.tenant_id, app_user.user_id
+      FROM tenants tenant
+      JOIN tenant_users tenant_user ON tenant_user.tenant_id = tenant.tenant_id
+      JOIN app_users app_user ON app_user.user_id = tenant_user.user_id
+      WHERE tenant.slug = 'local-demo'
+        AND app_user.email = 'local-demo-user@example.com'
+      LIMIT 1
+    ),
+    upserted AS (
+      INSERT INTO facility_user_preferences (
+        tenant_id,
+        user_id,
+        facility_key,
+        priority,
+        is_excluded,
+        is_favorite,
+        notes,
+        updated_at
+      )
+      SELECT
+        context.tenant_id,
+        context.user_id,
+        ${sqlLiteral(facilityKey)},
+        ${priority},
+        ${isExcluded},
+        ${isFavorite},
+        ${sqlLiteral(notes)},
+        now()
+      FROM context
+      JOIN facilities facility ON facility.facility_key = ${sqlLiteral(facilityKey)}
+      ON CONFLICT (tenant_id, user_id, facility_key) DO UPDATE SET
+        priority = excluded.priority,
+        is_excluded = excluded.is_excluded,
+        is_favorite = excluded.is_favorite,
+        notes = excluded.notes,
+        updated_at = now()
+      RETURNING facility_key
+    )
+    SELECT jsonb_build_object('saved', (SELECT count(*) FROM upserted))
+  `);
+  return facilityPreferences();
+}
+
+function clampNumber(value, min, max) {
+  if (!Number.isFinite(value)) return min;
+  return Math.max(min, Math.min(max, Math.trunc(value)));
+}
+
 async function facilitySearch(params) {
   const query = String(params.get("q") || "").trim();
   const state = String(params.get("state") || "").trim();
@@ -535,6 +657,36 @@ function facilityPrototypeApi() {
             res.end(JSON.stringify(result));
           } catch (error) {
             res.writeHead(500, { "content-type": "application/json; charset=utf-8" });
+            res.end(JSON.stringify({ error: error.message }));
+          }
+          return;
+        }
+
+        if (req.method === "GET" && url.pathname === "/api/facility-preferences") {
+          try {
+            const result = await facilityPreferences();
+            res.writeHead(200, {
+              "cache-control": "no-store",
+              "content-type": "application/json; charset=utf-8"
+            });
+            res.end(JSON.stringify(result));
+          } catch (error) {
+            res.writeHead(500, { "content-type": "application/json; charset=utf-8" });
+            res.end(JSON.stringify({ error: error.message }));
+          }
+          return;
+        }
+
+        if (req.method === "PUT" && url.pathname === "/api/facility-preferences") {
+          try {
+            const result = await saveFacilityPreference(await readJsonBody(req));
+            res.writeHead(200, {
+              "cache-control": "no-store",
+              "content-type": "application/json; charset=utf-8"
+            });
+            res.end(JSON.stringify(result));
+          } catch (error) {
+            res.writeHead(400, { "content-type": "application/json; charset=utf-8" });
             res.end(JSON.stringify({ error: error.message }));
           }
           return;

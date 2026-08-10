@@ -24,6 +24,7 @@ const requiredFiles = [
   "db/migrations/003_advisor_directory_schema.sql",
   "db/migrations/004_crm_prototype_persistence.sql",
   "db/migrations/005_screen_driven_product_model.sql",
+  "db/migrations/006_facility_user_preferences.sql",
   "scripts/facility-collector.mjs",
   "scripts/facility-exporter.mjs",
   "scripts/csa-locator-collector.mjs",

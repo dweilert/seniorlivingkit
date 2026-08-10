@@ -164,6 +164,10 @@ function usePersistentState(key, fallback) {
   return [value, setValue];
 }
 
+function defaultPreferences() {
+  return { priority: {}, excluded: {}, favorite: {}, notes: {} };
+}
+
 function defaultCrmState() {
   return {
     leads: structuredClone(SAMPLE_LEADS),
@@ -447,6 +451,7 @@ function DirectoryFilters({ filters, setFilters, stateOptions, careOptions, geoc
             <option value="visible">Visible</option>
             <option value="all">All</option>
             <option value="excluded">Excluded</option>
+            <option value="favorite">Favorites</option>
           </select>
         </label>
       </div>
@@ -633,7 +638,7 @@ function FacilityMap({ records, selectedKey, onPinSelect, priority, zoomOffset, 
   );
 }
 
-function FacilityRow({ record, selected, priority, excluded, onSelect, changePriority, toggleExcluded }) {
+function FacilityRow({ record, selected, priority, excluded, favorite, onSelect, changePriority, toggleExcluded, toggleFavorite }) {
   return (
     <article
       className={["facility-row", selected ? "is-selected" : "", excluded ? "is-excluded" : ""].filter(Boolean).join(" ")}
@@ -658,19 +663,21 @@ function FacilityRow({ record, selected, priority, excluded, onSelect, changePri
         <span className="pill">{categoryLabel(record.care_category)}</span>
         <span className="pill">{clean(record.program_type, "Source type")}</span>
         {priority > 0 && <span className="pill priority">Priority {priority}</span>}
+        {favorite && <span className="pill priority">Favorite</span>}
         {excluded && <span className="pill excluded">Excluded</span>}
         {!hasCoordinates(record) && <span className="pill warn">No coordinates</span>}
       </div>
       <div className="row-actions" onClick={(event) => event.stopPropagation()}>
         <button type="button" className="is-priority" onClick={() => changePriority(1)}>Priority +</button>
         <button type="button" onClick={() => changePriority(-1)}>Priority -</button>
+        <button type="button" onClick={toggleFavorite}>{favorite ? "Unfavorite" : "Favorite"}</button>
         <button type="button" className="is-excluded" onClick={toggleExcluded}>{excluded ? "Restore" : "Exclude"}</button>
       </div>
     </article>
   );
 }
 
-function FacilityDetail({ record, priority, excluded, changePriority, toggleExcluded, websiteContact, setWebsiteContacts }) {
+function FacilityDetail({ record, priority, excluded, favorite, changePriority, toggleExcluded, toggleFavorite, websiteContact, setWebsiteContacts }) {
   const [websiteDraft, setWebsiteDraft] = useState("");
   const [contactStatus, setContactStatus] = useState("");
 
@@ -740,6 +747,7 @@ function FacilityDetail({ record, priority, excluded, changePriority, toggleExcl
       <div className="detail-actions">
         <button type="button" onClick={() => changePriority(1)}>Priority +</button>
         <button type="button" onClick={() => changePriority(-1)}>Priority -</button>
+        <button type="button" onClick={toggleFavorite}>{favorite ? "Unfavorite" : "Favorite"}</button>
         <button type="button" onClick={toggleExcluded}>{excluded ? "Restore" : "Exclude"}</button>
       </div>
       <div className="detail-grid">
@@ -749,6 +757,7 @@ function FacilityDetail({ record, priority, excluded, changePriority, toggleExcl
         {fact("Source type", record.program_type)}
         {fact("Status", record.facility_status || "Active")}
         {fact("Priority", priority)}
+        {fact("Favorite", favorite ? "Yes" : "No")}
         {fact("Map", hasCoordinates(record) ? "Mapped" : "Needs geocoding")}
         {fact("Licensee", record.licensee)}
         {fact("Administrator", record.administrator)}
@@ -824,7 +833,7 @@ function FacilityDetail({ record, priority, excluded, changePriority, toggleExcl
   );
 }
 
-function DirectoryView({ records, filters, setFilters, preferences, setPreferences, selectedKey, setSelectedKey }) {
+function DirectoryView({ records, filters, setFilters, preferences, setPreferences, preferenceStatus, setPreferenceStatus, selectedKey, setSelectedKey }) {
   const [zoomOffset, setZoomOffset] = useState(0);
   const [geocodeStatus, setGeocodeStatus] = useState("Address distance filter inactive.");
   const [websiteContacts, setWebsiteContacts] = usePersistentState(WEBSITE_CONTACTS_KEY, {});
@@ -840,6 +849,7 @@ function DirectoryView({ records, filters, setFilters, preferences, setPreferenc
     const pinCenter = filters.distanceCenter;
     return records.filter((record) => {
       const excluded = Boolean(preferences.excluded[record.facility_key]);
+      const favorite = Boolean(preferences.favorite?.[record.facility_key]);
       const searchText = [record.facility_name, record.address, record.city, record.county, record.state, record.zip, record.phone, record.program_type, record.care_category, categoryLabel(record.care_category)].join(" ").toLowerCase();
       const capacity = Number(record.capacity);
       const capacityMatches = !filters.capacity
@@ -850,7 +860,9 @@ function DirectoryView({ records, filters, setFilters, preferences, setPreferenc
       const zipMatch = !filters.zip.trim() || String(record.zip || "").startsWith(filters.zip.trim());
       const distance = pinCenter && distanceMiles != null ? haversineMiles(pinCenter, record) : null;
       const distanceMatch = !pinCenter || distanceMiles == null || (distance != null && distance <= distanceMiles);
-      return (filters.visibility === "all" || (filters.visibility === "excluded" ? excluded : !excluded))
+      const visibilityMatches = filters.visibility === "all"
+        || (filters.visibility === "excluded" ? excluded : filters.visibility === "favorite" ? favorite : !excluded);
+      return visibilityMatches
         && (!query || searchText.includes(query))
         && (!filters.category || record.care_category === filters.category)
         && (!filters.state || record.state === filters.state)
@@ -864,7 +876,7 @@ function DirectoryView({ records, filters, setFilters, preferences, setPreferenc
       || a.state.localeCompare(b.state)
       || a.city.localeCompare(b.city)
       || a.facility_name.localeCompare(b.facility_name));
-  }, [filters, preferences.excluded, preferences.priority, records]);
+  }, [filters, preferences.excluded, preferences.favorite, preferences.priority, records]);
 
   const pinLimit = filters.pinLimit === "all" ? filtered.length : Number(filters.pinLimit || DEFAULT_PIN_LIMIT);
 
@@ -909,18 +921,73 @@ function DirectoryView({ records, filters, setFilters, preferences, setPreferenc
   }, [filtered, selectedKey, setSelectedKey]);
 
   const selectedRecord = records.find((record) => record.facility_key === selectedKey);
+  const savePreference = (key, nextPreferences) => {
+    setPreferenceStatus("Saving preferences");
+    fetch("/api/facility-preferences", {
+      method: "PUT",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        facilityKey: key,
+        priority: nextPreferences.priority?.[key] || 0,
+        isExcluded: Boolean(nextPreferences.excluded?.[key]),
+        isFavorite: Boolean(nextPreferences.favorite?.[key]),
+        notes: nextPreferences.notes?.[key] || ""
+      })
+    })
+      .then((response) => {
+        if (!response.ok) throw new Error(`Preference save failed: ${response.status}`);
+        return response.json();
+      })
+      .then((payload) => {
+        setPreferences({
+          priority: payload.priority || {},
+          excluded: payload.excluded || {},
+          favorite: payload.favorite || {},
+          notes: payload.notes || {}
+        });
+        setPreferenceStatus("Preferences saved to Postgres");
+      })
+      .catch((error) => setPreferenceStatus(`${error.message}; browser draft retained`));
+  };
   const changePriority = (key, delta) => setPreferences((current) => {
-    const nextPriority = { ...current.priority };
+    const nextPriority = { ...(current.priority || {}) };
+    const nextPreferences = {
+      priority: nextPriority,
+      excluded: { ...(current.excluded || {}) },
+      favorite: { ...(current.favorite || {}) },
+      notes: { ...(current.notes || {}) }
+    };
     const next = clamp((nextPriority[key] || 0) + delta, 0, 9);
     if (next) nextPriority[key] = next;
     else delete nextPriority[key];
-    return { ...current, priority: nextPriority };
+    savePreference(key, nextPreferences);
+    return nextPreferences;
   });
   const toggleExcluded = (key) => setPreferences((current) => {
-    const excluded = { ...current.excluded };
+    const excluded = { ...(current.excluded || {}) };
+    const nextPreferences = {
+      priority: { ...(current.priority || {}) },
+      excluded,
+      favorite: { ...(current.favorite || {}) },
+      notes: { ...(current.notes || {}) }
+    };
     if (excluded[key]) delete excluded[key];
     else excluded[key] = true;
-    return { ...current, excluded };
+    savePreference(key, nextPreferences);
+    return nextPreferences;
+  });
+  const toggleFavorite = (key) => setPreferences((current) => {
+    const favorite = { ...(current.favorite || {}) };
+    const nextPreferences = {
+      priority: { ...(current.priority || {}) },
+      excluded: { ...(current.excluded || {}) },
+      favorite,
+      notes: { ...(current.notes || {}) }
+    };
+    if (favorite[key]) delete favorite[key];
+    else favorite[key] = true;
+    savePreference(key, nextPreferences);
+    return nextPreferences;
   });
   const scrollFacilityRowIntoView = (key) => {
     window.requestAnimationFrame(() => {
@@ -943,7 +1010,7 @@ function DirectoryView({ records, filters, setFilters, preferences, setPreferenc
     <main className="workspace" id="directoryView">
       <DirectoryFilters filters={filters} setFilters={setFilters} stateOptions={stateOptions} careOptions={careOptions} geocodeStatus={geocodeStatus} geocodeAddress={geocodeAddress} />
       <section className="results-panel" aria-label="Facility results">
-        <div className="result-summary"><strong id="resultCount">{formatNumber(filtered.length)}</strong><span id="resultMeta">facilities ({Math.min(filtered.length, MAX_RENDERED_ROWS)} rows · {Math.min(filtered.filter(hasCoordinates).length, pinLimit)} pins)</span></div>
+        <div className="result-summary"><strong id="resultCount">{formatNumber(filtered.length)}</strong><span id="resultMeta">facilities ({Math.min(filtered.length, MAX_RENDERED_ROWS)} rows · {Math.min(filtered.filter(hasCoordinates).length, pinLimit)} pins · <span id="facilityPreferenceStatus">{preferenceStatus}</span>)</span></div>
         <FacilityMap records={filtered} selectedKey={selectedKey} onPinSelect={selectFromMap} priority={preferences.priority} zoomOffset={zoomOffset} setZoomOffset={setZoomOffset} pinLimit={pinLimit} />
         <div className="result-list" id="resultList" ref={resultListRef}>
           {filtered.slice(0, MAX_RENDERED_ROWS).map((record) => (
@@ -953,9 +1020,11 @@ function DirectoryView({ records, filters, setFilters, preferences, setPreferenc
                 selected={selectedKey === record.facility_key}
                 priority={preferences.priority[record.facility_key] || 0}
                 excluded={Boolean(preferences.excluded[record.facility_key])}
+                favorite={Boolean(preferences.favorite?.[record.facility_key])}
                 onSelect={() => setSelectedKey(record.facility_key)}
                 changePriority={(delta = 1) => changePriority(record.facility_key, delta)}
                 toggleExcluded={() => toggleExcluded(record.facility_key)}
+                toggleFavorite={() => toggleFavorite(record.facility_key)}
               />
             </div>
           ))}
@@ -966,8 +1035,10 @@ function DirectoryView({ records, filters, setFilters, preferences, setPreferenc
           record={selectedRecord}
           priority={selectedRecord ? preferences.priority[selectedRecord.facility_key] || 0 : 0}
           excluded={selectedRecord ? Boolean(preferences.excluded[selectedRecord.facility_key]) : false}
+          favorite={selectedRecord ? Boolean(preferences.favorite?.[selectedRecord.facility_key]) : false}
           changePriority={(delta) => selectedRecord && changePriority(selectedRecord.facility_key, delta)}
           toggleExcluded={() => selectedRecord && toggleExcluded(selectedRecord.facility_key)}
+          toggleFavorite={() => selectedRecord && toggleFavorite(selectedRecord.facility_key)}
           websiteContact={selectedRecord ? websiteContacts[selectedRecord.facility_key] : null}
           setWebsiteContacts={setWebsiteContacts}
         />
@@ -1724,7 +1795,8 @@ export default function App() {
     costMin: "",
     costMax: ""
   });
-  const [preferences, setPreferences] = usePersistentState(PREFERENCES_KEY, { priority: {}, excluded: {} });
+  const [preferences, setPreferences] = usePersistentState(PREFERENCES_KEY, defaultPreferences());
+  const [preferenceStatus, setPreferenceStatus] = useState("Loading preferences");
 
   useEffect(() => {
     let ignore = false;
@@ -1763,6 +1835,31 @@ export default function App() {
     };
   }, []);
 
+  useEffect(() => {
+    let ignore = false;
+    fetch("/api/facility-preferences")
+      .then((response) => {
+        if (!response.ok) throw new Error(`Preference load failed: ${response.status}`);
+        return response.json();
+      })
+      .then((payload) => {
+        if (ignore) return;
+        setPreferences({
+          priority: payload.priority || {},
+          excluded: payload.excluded || {},
+          favorite: payload.favorite || {},
+          notes: payload.notes || {}
+        });
+        setPreferenceStatus(`Loaded ${formatNumber(payload.records?.length || 0)} saved preferences`);
+      })
+      .catch((error) => {
+        if (!ignore) setPreferenceStatus(`${error.message}; using browser draft`);
+      });
+    return () => {
+      ignore = true;
+    };
+  }, [setPreferences]);
+
   return (
     <div className="app-shell">
       <Header view={view} setView={setView} recordCount={records.length} dataStatus={dataStatus} />
@@ -1773,6 +1870,8 @@ export default function App() {
           setFilters={setFilters}
           preferences={preferences}
           setPreferences={setPreferences}
+          preferenceStatus={preferenceStatus}
+          setPreferenceStatus={setPreferenceStatus}
           selectedKey={selectedKey}
           setSelectedKey={setSelectedKey}
         />

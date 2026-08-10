@@ -53,7 +53,7 @@ GitHub/Jira later.
 | REF-001 | P1 | Referrals | Add referral source directory. | User can create and search referral sources by name, type, organization, phone, email, and notes. |
 | BIL-001 | P2 | Billing | Add invoices and payments list. | User can view invoice status, due date, facility/client links, amount, payments, and external accounting URL. |
 | SIG-001 | P2 | Signatures | Add signature template/request list. | User can manage signature templates, recipients, request status, sent/completed dates, and signed document URI. |
-| DAT-001 | P0 | Data | Persist tenant/user facility preferences. | Priority, exclusion, notes, and favorites are stored in Postgres instead of browser storage. |
+| DAT-001 | P0 | Data | Persist tenant/user facility preferences. | Priority, exclusion, notes, and favorites are stored in Postgres instead of browser storage. Prototype implementation complete with local-demo tenant/user; production auth enforcement remains under `SEC-001`. |
 | DAT-002 | P0 | Data | Move facility search pagination and map bounds server-side. | API supports page, page size, sort, filters, radius, and map bounding box without loading 50k records to the browser. |
 | DAT-003 | P1 | Data | Add website discovery job planning. | Data model and collector plan define website search source, confidence, source URL, parser evidence, and refresh cadence. |
 | SEC-001 | P0 | Security | Add tenant scoping and auth plan before external access. | Every API route has tenant/user context and rejects unauthenticated access in non-local mode. |

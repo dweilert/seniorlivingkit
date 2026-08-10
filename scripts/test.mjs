@@ -25,6 +25,7 @@ const seniorAppScreenReview = await readFile(resolve(root, "docs", "SENIOR_APP_S
 const screenAndDataBacklog = await readFile(resolve(root, "docs", "SCREEN_AND_DATA_BACKLOG.md"), "utf8");
 const productIssueRegister = await readFile(resolve(root, "docs", "PRODUCT_ISSUE_REGISTER.md"), "utf8");
 const screenDrivenMigration = await readFile(resolve(root, "db", "migrations", "005_screen_driven_product_model.sql"), "utf8");
+const facilityPreferenceMigration = await readFile(resolve(root, "db", "migrations", "006_facility_user_preferences.sql"), "utf8");
 const healthScript = await readFile(resolve(root, "scripts", "project-health.mjs"), "utf8");
 const csaLocatorFixture = await readFile(resolve(root, "test", "fixtures", "csa-locator-search-page-sample.html"), "utf8");
 
@@ -93,6 +94,9 @@ assert.match(prototypeApp, /id="costMinFilter"/);
 assert.match(prototypeApp, /id="costMaxFilter"/);
 assert.match(prototypeApp, /\/api\/geocode\/address/);
 assert.match(prototypeApp, /facility-directory-preferences-v3/);
+assert.match(prototypeApp, /\/api\/facility-preferences/);
+assert.match(prototypeApp, /id="facilityPreferenceStatus"/);
+assert.match(prototypeApp, /Favorites/);
 assert.match(prototypeApp, /facility-directory-crm-state-v3/);
 assert.match(prototypeApp, /\/api\/crm\/state/);
 assert.match(prototypeApp, /id="crmSaveStatus"/);
@@ -149,6 +153,8 @@ assert.match(prototypeViteConfig, /\/api\/business-card\/ocr/);
 assert.match(prototypeViteConfig, /\/api\/geocode\/address/);
 assert.match(prototypeViteConfig, /\/api\/facility\/contact-info/);
 assert.match(prototypeViteConfig, /\/api\/facilities\/search/);
+assert.match(prototypeViteConfig, /\/api\/facility-preferences/);
+assert.match(prototypeViteConfig, /facilityPreferences/);
 assert.match(prototypeViteConfig, /facilitySearch/);
 assert.match(prototypeViteConfig, /\/api\/advisors\/summary/);
 assert.match(prototypeViteConfig, /\/api\/advisors\/search/);
@@ -169,8 +175,10 @@ assert.match(projectLedger, /40,240 records/);
 assert.match(projectLedger, /35,680 active records/);
 assert.match(projectLedger, /\/api\/facilities\/search/);
 assert.match(projectLedger, /\/api\/crm\/state/);
+assert.match(projectLedger, /\/api\/facility-preferences/);
 assert.match(projectLedger, /npm run health:db/);
 assert.match(projectLedger, /005_screen_driven_product_model/);
+assert.match(projectLedger, /006_facility_user_preferences/);
 assert.match(seniorAppScreenReview, /\/Users\/bob\/@senior/);
 assert.match(seniorAppScreenReview, /Client Workspace/);
 assert.match(seniorAppScreenReview, /Community Comparison/);
@@ -185,6 +193,8 @@ assert.match(screenDrivenMigration, /CREATE TABLE IF NOT EXISTS assessment_templ
 assert.match(screenDrivenMigration, /CREATE TABLE IF NOT EXISTS entity_files/);
 assert.match(screenDrivenMigration, /CREATE TABLE IF NOT EXISTS community_report_packages/);
 assert.match(screenDrivenMigration, /CREATE TABLE IF NOT EXISTS communication_threads/);
+assert.match(facilityPreferenceMigration, /CREATE TABLE IF NOT EXISTS facility_user_preferences/);
+assert.match(facilityPreferenceMigration, /is_favorite/);
 assert.match(healthScript, /combined-facilities-all\.json/);
 assert.match(healthScript, /Unexpected DB facility count/);
 
