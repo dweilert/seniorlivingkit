@@ -21,6 +21,9 @@ const prototypeEntry = await readFile(resolve(prototypeDir, "src", "main.jsx"), 
 const prototypeViteConfig = await readFile(resolve(prototypeDir, "vite.config.mjs"), "utf8");
 const prototypeCrmData = await readFile(resolve(prototypeDir, "crm-data.js"), "utf8");
 const projectLedger = await readFile(resolve(root, "docs", "PROJECT_LEDGER.md"), "utf8");
+const seniorAppScreenReview = await readFile(resolve(root, "docs", "SENIOR_APP_SCREEN_REVIEW.md"), "utf8");
+const screenAndDataBacklog = await readFile(resolve(root, "docs", "SCREEN_AND_DATA_BACKLOG.md"), "utf8");
+const screenDrivenMigration = await readFile(resolve(root, "db", "migrations", "005_screen_driven_product_model.sql"), "utf8");
 const healthScript = await readFile(resolve(root, "scripts", "project-health.mjs"), "utf8");
 const csaLocatorFixture = await readFile(resolve(root, "test", "fixtures", "csa-locator-search-page-sample.html"), "utf8");
 
@@ -166,6 +169,16 @@ assert.match(projectLedger, /35,680 active records/);
 assert.match(projectLedger, /\/api\/facilities\/search/);
 assert.match(projectLedger, /\/api\/crm\/state/);
 assert.match(projectLedger, /npm run health:db/);
+assert.match(projectLedger, /005_screen_driven_product_model/);
+assert.match(seniorAppScreenReview, /\/Users\/bob\/@senior/);
+assert.match(seniorAppScreenReview, /Client Workspace/);
+assert.match(seniorAppScreenReview, /Community Comparison/);
+assert.match(screenAndDataBacklog, /Client Workspace/);
+assert.match(screenAndDataBacklog, /assessment_templates/);
+assert.match(screenDrivenMigration, /CREATE TABLE IF NOT EXISTS assessment_templates/);
+assert.match(screenDrivenMigration, /CREATE TABLE IF NOT EXISTS entity_files/);
+assert.match(screenDrivenMigration, /CREATE TABLE IF NOT EXISTS community_report_packages/);
+assert.match(screenDrivenMigration, /CREATE TABLE IF NOT EXISTS communication_threads/);
 assert.match(healthScript, /combined-facilities-all\.json/);
 assert.match(healthScript, /Unexpected DB facility count/);
 

@@ -1,6 +1,6 @@
 # Senior Living Data CRM Project Ledger
 
-Last updated: 2026-08-04
+Last updated: 2026-08-09
 
 This file is the durable checkpoint for the senior living facility intelligence
 and CRM prototype. It exists so the current state can be recovered without
@@ -74,6 +74,21 @@ Core migrations:
 - `003_advisor_directory_schema.sql`: advisor sources, runs, records, matches
 - `004_crm_prototype_persistence.sql`: prototype CRM external keys and fields
   needed for idempotent UI round-trips
+- `005_screen_driven_product_model.sql`: screenshot-driven model additions for
+  assessments, forms, files, facility profiles, comparison packages,
+  communication threads, and calendar events
+
+## Screenshot Review
+
+Reference screenshots from `/Users/bob/@senior` were reviewed and summarized in:
+
+- `docs/SENIOR_APP_SCREEN_REVIEW.md`
+- `docs/SCREEN_AND_DATA_BACKLOG.md`
+
+Those notes should drive the next frontend/data-model work. The key finding is
+that the target app should center on a client workspace with tabs for overview,
+people, assessment, communities, activity, tasks, and files, backed by a richer
+community option and assessment model.
 
 ## Current Data Inventory
 

@@ -11,6 +11,9 @@ integration direction.
 See `docs/SENIORPLACE_DOCS_REVIEW.md` for the saved competitive/workflow review
 that drove the placement workflow schema additions.
 
+See `docs/SENIOR_APP_SCREEN_REVIEW.md` and `docs/SCREEN_AND_DATA_BACKLOG.md`
+for the screenshot-driven screen inventory and the migration 005 model additions.
+
 ## Core Tables
 
 `facility_sources`
@@ -217,6 +220,140 @@ workflow.
 - `body`
 - `occurred_at`
 - `created_by`
+
+`communication_threads`
+
+- `tenant_id`
+- `lead_id`
+- `person_id`
+- `facility_key`
+- `subject`
+- `channel`
+- `status`
+- `last_activity_at`
+
+`assessment_templates`
+
+- `tenant_id`
+- `name`
+- `assessment_type`
+- `version`
+- `is_active`
+
+`assessment_template_sections`
+
+- `assessment_template_id`
+- `section_key`
+- `title`
+- `display_order`
+
+`assessment_questions`
+
+- `assessment_template_section_id`
+- `question_key`
+- `label`
+- `response_type`
+- `options`
+- `scoring`
+- `is_required`
+
+`lead_assessments`
+
+- `tenant_id`
+- `lead_id`
+- `assessment_template_id`
+- `status`
+- `score`
+- `summary`
+- `completed_at`
+
+`assessment_answers`
+
+- `lead_assessment_id`
+- `question_key`
+- `value`
+- `notes`
+
+`form_templates`
+
+- `tenant_id`
+- `name`
+- `form_type`
+- `schema`
+- `is_printable`
+
+`form_submissions`
+
+- `form_template_id`
+- `lead_id`
+- `facility_key`
+- `person_id`
+- `status`
+- `submitted_values`
+- `submitted_at`
+
+`entity_files`
+
+- `tenant_id`
+- `entity_type`
+- `entity_id`
+- `file_name`
+- `content_type`
+- `byte_size`
+- `storage_uri`
+- `source_type`
+- `extracted_text`
+- `metadata`
+
+`facility_profiles`
+
+- `facility_key`
+- `profile_status`
+- `care_levels`
+- `amenities`
+- `services`
+- `room_types`
+- `accepted_payment_types`
+- `admission_requirements`
+- `photos`
+- `profile_source`
+- `confidence`
+
+`community_report_packages`
+
+- `tenant_id`
+- `lead_id`
+- `name`
+- `report_type`
+- `status`
+- `cover_note`
+- `generated_uri`
+- `sent_at`
+
+`community_report_items`
+
+- `report_package_id`
+- `facility_key`
+- `display_order`
+- `recommendation_label`
+- `strengths`
+- `concerns`
+- `fit_score`
+- `notes`
+
+`calendar_events`
+
+- `tenant_id`
+- `title`
+- `event_type`
+- `lead_id`
+- `person_id`
+- `facility_key`
+- `task_id`
+- `tour_id`
+- `starts_at`
+- `ends_at`
+- `status`
 
 `business_card_scans`
 
